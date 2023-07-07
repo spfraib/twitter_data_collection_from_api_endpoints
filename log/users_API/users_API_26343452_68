@@ -1,0 +1,25 @@
+WARNING: Could not find any nv files on this host!
+today: 27102022
+cutoff: 100000
+path_to_data: /scratch/spf248/twitter_data_collection/data
+id_type: user_id
+max_users_per_app: 60
+key files: 73
+SLURM_JOB_ID : 26343452
+SLURM_ARRAY_TASK_COUNT : 73
+SLURM_ARRAY_TASK_ID : 68
+Load users:
+# users_batch: 1137203
+Computing Time: 1 sec
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-sana.json
+Traceback (most recent call last):
+  File "./code/users_API.py", line 125, in <module>
+    api = get_API_auth(key_file)
+  File "./code/users_API.py", line 113, in get_API_auth
+    api_auth = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+TypeError: __init__() got an unexpected keyword argument 'wait_on_rate_limit_notify'
+
+real	0m1.644s
+user	0m0.778s
+sys	0m0.345s

@@ -1,0 +1,91 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['US']
+pull_type: full
+drop_seeds: True
+max_timestamp: None
+min_timestamp: None
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 01122022
+id_type: user_id
+Max auth of 20 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+key files: 40
+SLURM_JOB_ID : 27549519
+SLURM_ARRAY_TASK_ID : 8
+SLURM_ARRAY_TASK_COUNT : 40
+Load and select users:
+# users: 934230
+keep full timelines...
+# users: 180187
+drop_seeds...
+# users: 105109
+drop duplicates...
+# users: 105109
+Computing Time: 4 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 105109 entries, 0 to 105108
+Data columns (total 5 columns):
+ #   Column           Non-Null Count   Dtype         
+---  ------           --------------   -----         
+ 0   user_id          105109 non-null  object        
+ 1   country_short    105109 non-null  object        
+ 2   tweet_id         0 non-null       object        
+ 3   tweet_timestamp  0 non-null       datetime64[ns]
+ 4   is_seed          105109 non-null  int32         
+dtypes: datetime64[ns](1), int32(1), object(3)
+memory usage: 3.6+ MB
+# keys: 40
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-carolina2.json
+Country: US
+# users: 105109
+
+# queried users: 100
+# pulled users: 60
+# pulled missed: 40
+# pulled users in window: 60
+# pulled requests in window: 112
+# pulled tweets in window: 13735
+# queried users: 200
+# pulled users: 115
+# pulled missed: 85
+# pulled users in window: 115
+# pulled requests in window: 220
+# pulled tweets in window: 27224
+# queried users: 300
+# pulled users: 170
+# pulled missed: 130
+# pulled users in window: 170
+# pulled requests in window: 366
+# pulled tweets in window: 47908
+# queried users: 400
+# pulled users: 223
+# pulled missed: 177
+# pulled users in window: 223
+# pulled requests in window: 502
+# pulled tweets in window: 67027
+# queried users: 500
+# pulled users: 282
+# pulled missed: 218
+# pulled users in window: 282
+# pulled requests in window: 650
+# pulled tweets in window: 87177
+# queried users: 600
+# pulled users: 344
+# pulled missed: 256
+# pulled users in window: 344
+# pulled requests in window: 801
+# pulled tweets in window: 107710
+Traceback (most recent call last):
+  File "./code/timeline_API.py", line 291, in <module>
+    pull_and_store(country_short)
+  File "./code/timeline_API.py", line 265, in pull_and_store
+    filename = 'user_timeline_'+str(n_users_window)+'_users_'+str(n_requests_window)+'_requests_'+str(n_tweets_window)+'_tweets_'+country_short+'_'+start_pull+'_'+pull_type+'_'+'is_neighbor='+str(is_neighbor)+'_min_neighbors='+str(min_neighbors)+'_min_timestamp='+str(min_timestamp)+'_max_timestamp='+str(max_timestamp)+str(SLURM_JOB_ID)+'_'+str(SLURM_ARRAY_TASK_ID)+'_'+output_id+'.json.bz2'
+NameError: name 'is_neighbor' is not defined
+
+real	14m35.597s
+user	2m24.710s
+sys	0m5.867s

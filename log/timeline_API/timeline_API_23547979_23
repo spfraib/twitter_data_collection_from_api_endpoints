@@ -1,0 +1,52 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+app: spfraib_sentiments
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 30 sec to replenish rate limits
+SLURM_JOB_ID : 23547979
+SLURM_ARRAY_TASK_ID : 23
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1373274
+Computing Time: 15 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1373274 entries, 0 to 1373273
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1373274 non-null  object
+ 1   country_short  1373274 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 31.4+ MB
+# keys: 73
+CHECK JOBARRAY
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-bot_NG_S3Suleiman.json
+Country: US
+Pull: full
+# users: 1208726
+
+# queried users: 100
+# pulled users: 82
+# pulled missed: 18
+# pulled users in window: 82
+# pulled requests in window: 303
+# pulled tweets in window: 50462
+# queried users: 200
+# pulled users: 168
+# pulled missed: 32
+# pulled users in window: 168
+# pulled requests in window: 636
+# pulled tweets in window: 105285
+/bin/bash: line 2: 3857130 Killed                  python -u ./code/timeline_API.py
+
+real	7m45.559s
+user	1m53.331s
+sys	0m15.697s

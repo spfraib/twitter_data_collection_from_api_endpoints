@@ -1,0 +1,55 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['CD']
+Store after {'full': 500, 'update': 2000} timelines
+/scratch/spf248/twitter_data_collection/data
+id_type: user_id
+SLURM_JOB_ID : 18100991
+SLURM_ARRAY_TASK_ID : 1
+SLURM_ARRAY_TASK_COUNT : 77
+Load users:
+# users: 4209
+Computing Time: 4 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4209 entries, 131 to 8501719
+Data columns (total 2 columns):
+ #   Column    Non-Null Count  Dtype 
+---  ------    --------------  ----- 
+ 0   user_id   4209 non-null   object
+ 1   tweet_id  91 non-null     object
+dtypes: object(2)
+memory usage: 98.6+ KB
+# keys: 77
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-alex.json
+Country: CD
+Pull type: full
+# users: 4118
+
+# users queried: 50
+# users pulled: 33
+# users queried: 100
+# users pulled: 71
+# users queried: 150
+# users pulled: 111
+# users queried: 200
+# users pulled: 152
+# users queried: 250
+# users pulled: 201
+# users queried: 300
+# users pulled: 243
+# users queried: 350
+# users pulled: 284
+# users queried: 400
+# users pulled: 326
+# users queried: 450
+# users pulled: 368
+# users queried: 500
+# users pulled: 408
+# users queried: 550
+# users pulled: 447
+# users queried: 600
+# users pulled: 484
+/bin/bash: line 2: 3887305 Killed                  python -u ./code/timeline_API.py
+
+real	52m11.277s
+user	13m25.125s
+sys	1m18.440s

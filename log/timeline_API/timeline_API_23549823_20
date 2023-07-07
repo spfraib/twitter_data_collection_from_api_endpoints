@@ -1,0 +1,56 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+Max auth of 15 users per app
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 23549823
+SLURM_ARRAY_TASK_ID : 20
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1373496
+Computing Time: 14 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1373496 entries, 0 to 1373495
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1373496 non-null  object
+ 1   country_short  1373496 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 31.4+ MB
+key files: 30
+# keys: 30
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-letouze.json
+Country: US
+Pull: full
+# users: 1209547
+
+# queried users: 100
+# pulled users: 77
+# pulled missed: 23
+# pulled users in window: 77
+# pulled requests in window: 181
+# pulled tweets in window: 26185
+# queried users: 200
+# pulled users: 146
+# pulled missed: 54
+# pulled users in window: 146
+# pulled requests in window: 477
+# pulled tweets in window: 77368
+# queried users: 300
+# pulled users: 226
+# pulled missed: 74
+# pulled users in window: 226
+# pulled requests in window: 789
+# pulled tweets in window: 129726
+Saved in user_timeline_245_users_881_requests_145539_tweets_US_14082022_no_updates_no_neighbors_full_23549823_20_056ae41e-40fd-4008-8c08-79a40504afeb.json.bz2
+Computing Time: 533 sec
+

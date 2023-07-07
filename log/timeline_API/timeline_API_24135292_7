@@ -1,0 +1,135 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['US', 'MX', 'NG']
+pull_types: ['update']
+neighbors: False
+max_timestamp: 07/01/2022
+min_timestamp: 07/01/2019
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 26082022
+id_type: user_id
+Max auth of 10 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 24135292
+SLURM_ARRAY_TASK_ID : 7
+SLURM_ARRAY_TASK_COUNT : 20
+Load and select users:
+# users: 730911
+Computing Time: 24 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 730911 entries, 0 to 730910
+Data columns (total 4 columns):
+ #   Column           Non-Null Count   Dtype         
+---  ------           --------------   -----         
+ 0   user_id          730911 non-null  object        
+ 1   country_short    730911 non-null  object        
+ 2   tweet_id         730911 non-null  object        
+ 3   tweet_timestamp  730911 non-null  datetime64[ns]
+dtypes: datetime64[ns](1), object(3)
+memory usage: 22.3+ MB
+key files: 20
+# keys: 20
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-carolina1.json
+Country: US
+Pull: update
+# users: 594838
+
+# queried users: 100
+# pulled users: 86
+# pulled missed: 14
+# pulled users in window: 86
+# pulled requests in window: 130
+# pulled tweets in window: 9986
+# queried users: 200
+# pulled users: 170
+# pulled missed: 30
+# pulled users in window: 170
+# pulled requests in window: 242
+# pulled tweets in window: 16541
+# queried users: 300
+# pulled users: 259
+# pulled missed: 41
+# pulled users in window: 259
+# pulled requests in window: 363
+# pulled tweets in window: 24121
+# queried users: 400
+# pulled users: 339
+# pulled missed: 61
+# pulled users in window: 339
+# pulled requests in window: 470
+# pulled tweets in window: 30532
+# queried users: 500
+# pulled users: 420
+# pulled missed: 80
+# pulled users in window: 420
+# pulled requests in window: 568
+# pulled tweets in window: 34888
+# queried users: 600
+# pulled users: 508
+# pulled missed: 92
+# pulled users in window: 508
+# pulled requests in window: 673
+# pulled tweets in window: 39055
+# queried users: 700
+# pulled users: 592
+# pulled missed: 108
+# pulled users in window: 592
+# pulled requests in window: 759
+# pulled tweets in window: 40327
+# queried users: 800
+# pulled users: 675
+# pulled missed: 125
+# pulled users in window: 675
+# pulled requests in window: 863
+# pulled tweets in window: 45856
+Saved in user_timeline_693_users_881_requests_45942_tweets_US_26082022_update_24135292_7_08f396a7-07e6-4bc2-80ef-838694f6e6ab.json.bz2
+Computing Time: 431 sec
+
+# queried users: 900
+# pulled users: 762
+# pulled missed: 138
+# pulled users in window: 69
+# pulled requests in window: 77
+# pulled tweets in window: 2258
+# queried users: 1000
+# pulled users: 848
+# pulled missed: 152
+# pulled users in window: 155
+# pulled requests in window: 201
+# pulled tweets in window: 11083
+# queried users: 1100
+# pulled users: 938
+# pulled missed: 162
+# pulled users in window: 245
+# pulled requests in window: 355
+# pulled tweets in window: 25321
+# queried users: 1200
+# pulled users: 1028
+# pulled missed: 172
+# pulled users in window: 335
+# pulled requests in window: 481
+# pulled tweets in window: 33818
+# queried users: 1300
+# pulled users: 1116
+# pulled missed: 184
+# pulled users in window: 423
+# pulled requests in window: 596
+# pulled tweets in window: 40374
+# queried users: 1400
+# pulled users: 1201
+# pulled missed: 199
+# pulled users in window: 508
+# pulled requests in window: 702
+# pulled tweets in window: 45376
+# queried users: 1500
+# pulled users: 1290
+# pulled missed: 210
+# pulled users in window: 597
+# pulled requests in window: 807
+# pulled tweets in window: 49413
+Saved in user_timeline_656_users_881_requests_53368_tweets_US_26082022_update_24135292_7_58414164-54f7-4d5e-8d59-144361db4e79.json.bz2
+Computing Time: 466 sec
+

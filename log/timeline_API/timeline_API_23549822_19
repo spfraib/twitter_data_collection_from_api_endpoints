@@ -1,0 +1,50 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+Max auth of 15 users per app
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 23549822
+SLURM_ARRAY_TASK_ID : 19
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1395663
+Computing Time: 15 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1395663 entries, 0 to 1395662
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1395663 non-null  object
+ 1   country_short  1395663 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 31.9+ MB
+key files: 30
+# keys: 30
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-john.json
+Country: US
+Pull: full
+# users: 1229443
+
+# queried users: 100
+# pulled users: 79
+# pulled missed: 21
+# pulled users in window: 79
+# pulled requests in window: 349
+# pulled tweets in window: 59999
+# queried users: 200
+# pulled users: 156
+# pulled missed: 44
+# pulled users in window: 156
+# pulled requests in window: 703
+# pulled tweets in window: 121855
+Saved in user_timeline_200_users_895_requests_154474_tweets_US_14082022_no_updates_no_neighbors_full_23549822_19_226f3ae3-8d9a-41a6-a0f9-b87407117718.json.bz2
+Computing Time: 545 sec
+

@@ -1,0 +1,141 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['US', 'MX', 'NG']
+pull_types: ['update']
+neighbors: False
+max_timestamp: 07/01/2022
+min_timestamp: 07/01/2019
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 26082022
+id_type: user_id
+Max auth of 10 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 24135300
+SLURM_ARRAY_TASK_ID : 15
+SLURM_ARRAY_TASK_COUNT : 20
+Load and select users:
+# users: 718207
+Computing Time: 26 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 718207 entries, 0 to 718206
+Data columns (total 4 columns):
+ #   Column           Non-Null Count   Dtype         
+---  ------           --------------   -----         
+ 0   user_id          718207 non-null  object        
+ 1   country_short    718207 non-null  object        
+ 2   tweet_id         718207 non-null  object        
+ 3   tweet_timestamp  718207 non-null  datetime64[ns]
+dtypes: datetime64[ns](1), object(3)
+memory usage: 21.9+ MB
+key files: 20
+# keys: 20
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-fab.json
+Country: US
+Pull: update
+# users: 582982
+
+# queried users: 100
+# pulled users: 86
+# pulled missed: 14
+# pulled users in window: 86
+# pulled requests in window: 105
+# pulled tweets in window: 4289
+# queried users: 200
+# pulled users: 175
+# pulled missed: 25
+# pulled users in window: 175
+# pulled requests in window: 203
+# pulled tweets in window: 6506
+# queried users: 300
+# pulled users: 264
+# pulled missed: 36
+# pulled users in window: 264
+# pulled requests in window: 315
+# pulled tweets in window: 11601
+# queried users: 400
+# pulled users: 347
+# pulled missed: 53
+# pulled users in window: 347
+# pulled requests in window: 428
+# pulled tweets in window: 18158
+# queried users: 500
+# pulled users: 434
+# pulled missed: 66
+# pulled users in window: 434
+# pulled requests in window: 516
+# pulled tweets in window: 19351
+# queried users: 600
+# pulled users: 518
+# pulled missed: 82
+# pulled users in window: 518
+# pulled requests in window: 645
+# pulled tweets in window: 29524
+# queried users: 700
+# pulled users: 605
+# pulled missed: 95
+# pulled users in window: 605
+# pulled requests in window: 760
+# pulled tweets in window: 35727
+# queried users: 800
+# pulled users: 685
+# pulled missed: 115
+# pulled users in window: 685
+# pulled requests in window: 841
+# pulled tweets in window: 36207
+Saved in user_timeline_723_users_881_requests_37069_tweets_US_26082022_update_24135300_15_e8f5d8c0-83a6-4b5c-bae5-ffa547057e64.json.bz2
+Computing Time: 387 sec
+
+# queried users: 900
+# pulled users: 773
+# pulled missed: 127
+# pulled users in window: 50
+# pulled requests in window: 50
+# pulled tweets in window: 445
+# queried users: 1000
+# pulled users: 856
+# pulled missed: 144
+# pulled users in window: 133
+# pulled requests in window: 143
+# pulled tweets in window: 3316
+# queried users: 1100
+# pulled users: 943
+# pulled missed: 157
+# pulled users in window: 220
+# pulled requests in window: 268
+# pulled tweets in window: 11831
+# queried users: 1200
+# pulled users: 1029
+# pulled missed: 171
+# pulled users in window: 306
+# pulled requests in window: 380
+# pulled tweets in window: 17582
+# queried users: 1300
+# pulled users: 1118
+# pulled missed: 182
+# pulled users in window: 395
+# pulled requests in window: 490
+# pulled tweets in window: 22330
+# queried users: 1400
+# pulled users: 1204
+# pulled missed: 196
+# pulled users in window: 481
+# pulled requests in window: 593
+# pulled tweets in window: 26824
+# queried users: 1500
+# pulled users: 1299
+# pulled missed: 201
+# pulled users in window: 576
+# pulled requests in window: 706
+# pulled tweets in window: 31333
+# queried users: 1600
+# pulled users: 1388
+# pulled missed: 212
+# pulled users in window: 665
+# pulled requests in window: 849
+# pulled tweets in window: 43148
+Saved in user_timeline_695_users_881_requests_43639_tweets_US_26082022_update_24135300_15_f9933004-f430-4b0c-8056-8f1eed939f87.json.bz2
+Computing Time: 399 sec
+

@@ -1,0 +1,69 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+Store after 100000 records
+Compression ratio: 18
+id_type: user_id
+app: spfraib_sentiments
+wait_in_sec: 10
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+13082022_no_updates_no_neighbors
+SLURM_JOB_ID : 23535383
+SLURM_ARRAY_TASK_ID : 19
+SLURM_ARRAY_TASK_COUNT : 73
+Load and select users:
+# users: 583087
+Computing Time: 8 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 583087 entries, 4519702 to 3873446
+Data columns (total 3 columns):
+ #   Column         Non-Null Count   Dtype 
+---  ------         --------------   ----- 
+ 0   user_id        583087 non-null  object
+ 1   country_short  583087 non-null  object
+ 2   tweet_id       0 non-null       object
+dtypes: object(3)
+memory usage: 17.8+ MB
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-bot_NG_Musasadiya2.json
+Country: US
+Pull: full
+# users: 513504
+
+# users queried: 2442
+# users pulled: 472
+# users pulled in current file: 472
+# records pulled in current file: 100351
+Saved in user_timeline_472_users_100351_tweets_US_13082022_no_updates_no_neighbors_full_23535383_19_19b3c8c4-2303-401b-9d0f-a58e91fd363e.json.bz2
+Computing Time: 1548 sec
+
+# users queried: 5809
+# users pulled: 905
+# users pulled in current file: 433
+# records pulled in current file: 102910
+Saved in user_timeline_433_users_102910_tweets_US_13082022_no_updates_no_neighbors_full_23535383_19_0c70c5dc-efd3-40df-a947-4e5501b4724e.json.bz2
+Computing Time: 1441 sec
+
+# users queried: 8175
+# users pulled: 1280
+# users pulled in current file: 375
+# records pulled in current file: 100256
+Saved in user_timeline_375_users_100256_tweets_US_13082022_no_updates_no_neighbors_full_23535383_19_29ed7ab9-9670-42a2-a980-08dd049cdc95.json.bz2
+Computing Time: 1204 sec
+
+# users queried: 57572
+# users pulled: 1870
+# users pulled in current file: 590
+# records pulled in current file: 100004
+Saved in user_timeline_590_users_100004_tweets_US_13082022_no_updates_no_neighbors_full_23535383_19_d9a013bc-1096-4bf6-8772-909d6c7ef1f0.json.bz2
+Computing Time: 9210 sec
+
+# users queried: 65303
+# users pulled: 2444
+# users pulled in current file: 574
+# records pulled in current file: 100549
+Saved in user_timeline_574_users_100549_tweets_US_13082022_no_updates_no_neighbors_full_23535383_19_8109ae6e-1324-41cc-a9d0-b1bdc4b03e5d.json.bz2
+Computing Time: 2971 sec
+

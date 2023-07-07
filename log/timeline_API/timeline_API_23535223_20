@@ -1,0 +1,39 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+Store after 200000 records
+Compression ratio: 18
+id_type: user_id
+app: spfraib_sentiments
+wait_in_sec: 10
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+13082022_no_updates_no_neighbors
+SLURM_JOB_ID : 23535223
+SLURM_ARRAY_TASK_ID : 20
+SLURM_ARRAY_TASK_COUNT : 73
+Load and select users:
+# users: 583444
+Computing Time: 8 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 583444 entries, 3872886 to 3567470
+Data columns (total 3 columns):
+ #   Column         Non-Null Count   Dtype 
+---  ------         --------------   ----- 
+ 0   user_id        583444 non-null  object
+ 1   country_short  583444 non-null  object
+ 2   tweet_id       0 non-null       object
+dtypes: object(3)
+memory usage: 17.8+ MB
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-bot_NG_OOlatubora.json
+Country: US
+Pull: full
+# users: 513913
+
+/bin/bash: line 2: 211551 Killed                  python -u ./code/timeline_API.py
+
+real	26m29.034s
+user	4m13.636s
+sys	0m30.068s

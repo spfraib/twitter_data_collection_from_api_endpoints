@@ -1,0 +1,135 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['US', 'MX', 'NG']
+pull_types: ['update']
+neighbors: False
+max_timestamp: 07/01/2022
+min_timestamp: 07/01/2019
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 26082022
+id_type: user_id
+Max auth of 10 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 24135298
+SLURM_ARRAY_TASK_ID : 13
+SLURM_ARRAY_TASK_COUNT : 20
+Load and select users:
+# users: 737180
+Computing Time: 27 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 737180 entries, 0 to 737179
+Data columns (total 4 columns):
+ #   Column           Non-Null Count   Dtype         
+---  ------           --------------   -----         
+ 0   user_id          737180 non-null  object        
+ 1   country_short    737180 non-null  object        
+ 2   tweet_id         737180 non-null  object        
+ 3   tweet_timestamp  737180 non-null  datetime64[ns]
+dtypes: datetime64[ns](1), object(3)
+memory usage: 22.5+ MB
+key files: 20
+# keys: 20
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-dunstan.json
+Country: US
+Pull: update
+# users: 589984
+
+# queried users: 100
+# pulled users: 88
+# pulled missed: 12
+# pulled users in window: 88
+# pulled requests in window: 114
+# pulled tweets in window: 5952
+# queried users: 200
+# pulled users: 169
+# pulled missed: 31
+# pulled users in window: 169
+# pulled requests in window: 211
+# pulled tweets in window: 9795
+# queried users: 300
+# pulled users: 255
+# pulled missed: 45
+# pulled users in window: 255
+# pulled requests in window: 346
+# pulled tweets in window: 20657
+# queried users: 400
+# pulled users: 337
+# pulled missed: 63
+# pulled users in window: 337
+# pulled requests in window: 451
+# pulled tweets in window: 25929
+# queried users: 500
+# pulled users: 420
+# pulled missed: 80
+# pulled users in window: 420
+# pulled requests in window: 576
+# pulled tweets in window: 35729
+# queried users: 600
+# pulled users: 510
+# pulled missed: 90
+# pulled users in window: 510
+# pulled requests in window: 682
+# pulled tweets in window: 39619
+# queried users: 700
+# pulled users: 599
+# pulled missed: 101
+# pulled users in window: 599
+# pulled requests in window: 808
+# pulled tweets in window: 47933
+Saved in user_timeline_652_users_881_requests_52350_tweets_US_26082022_update_24135298_13_1624f686-0a9a-4097-9386-c784a2273d78.json.bz2
+Computing Time: 558 sec
+
+# queried users: 800
+# pulled users: 691
+# pulled missed: 109
+# pulled users in window: 39
+# pulled requests in window: 58
+# pulled tweets in window: 4327
+# queried users: 900
+# pulled users: 780
+# pulled missed: 120
+# pulled users in window: 128
+# pulled requests in window: 166
+# pulled tweets in window: 9188
+# queried users: 1000
+# pulled users: 867
+# pulled missed: 133
+# pulled users in window: 215
+# pulled requests in window: 280
+# pulled tweets in window: 15240
+# queried users: 1100
+# pulled users: 952
+# pulled missed: 148
+# pulled users in window: 300
+# pulled requests in window: 399
+# pulled tweets in window: 22960
+# queried users: 1200
+# pulled users: 1044
+# pulled missed: 156
+# pulled users in window: 392
+# pulled requests in window: 492
+# pulled tweets in window: 23740
+# queried users: 1300
+# pulled users: 1124
+# pulled missed: 176
+# pulled users in window: 472
+# pulled requests in window: 578
+# pulled tweets in window: 25271
+# queried users: 1400
+# pulled users: 1208
+# pulled missed: 192
+# pulled users in window: 556
+# pulled requests in window: 706
+# pulled tweets in window: 35074
+# queried users: 1500
+# pulled users: 1300
+# pulled missed: 200
+# pulled users in window: 648
+# pulled requests in window: 816
+# pulled tweets in window: 39897
+Saved in user_timeline_712_users_883_requests_41083_tweets_US_26082022_update_24135298_13_425ee070-72f2-463c-be69-580835bcc38c.json.bz2
+Computing Time: 421 sec
+

@@ -1,0 +1,3307 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['NG']
+pull_type: full
+is_neighbor: True
+min_neighbors: 10
+max_timestamp: None
+min_timestamp: None
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 10102022
+id_type: user_id
+Max auth of 20 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+key files: 40
+SLURM_JOB_ID : 25802403
+SLURM_ARRAY_TASK_ID : 14
+SLURM_ARRAY_TASK_COUNT : 40
+Load and select users:
+# users: 425360
+keep full timelines...
+# users: 213883
+keep users with more than 10 neighbors
+# users: 39780
+drop duplicates...
+# users: 39780
+Computing Time: 12 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 39780 entries, 0 to 39779
+Data columns (total 4 columns):
+ #   Column           Non-Null Count  Dtype         
+---  ------           --------------  -----         
+ 0   user_id          39780 non-null  object        
+ 1   country_short    39780 non-null  object        
+ 2   tweet_id         0 non-null      object        
+ 3   tweet_timestamp  0 non-null      datetime64[ns]
+dtypes: datetime64[ns](1), object(3)
+memory usage: 1.2+ MB
+# keys: 40
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-henry.json
+Country: NG
+# users: 39780
+
+# queried users: 100
+# pulled users: 77
+# pulled missed: 23
+# pulled users in window: 77
+# pulled requests in window: 670
+# pulled tweets in window: 124931
+Saved in user_timeline_99_users_888_requests_165972_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9060dde0-db92-4f5c-bebb-0c1d9da61b0a.json.bz2
+Computing Time: 777 sec
+
+# queried users: 200
+# pulled users: 150
+# pulled missed: 50
+# pulled users in window: 51
+# pulled requests in window: 426
+# pulled tweets in window: 79177
+Saved in user_timeline_96_users_884_requests_165853_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e4e28b64-7cf8-4679-996c-1fd450cc14b7.json.bz2
+Computing Time: 803 sec
+
+# queried users: 300
+# pulled users: 215
+# pulled missed: 85
+# pulled users in window: 20
+# pulled requests in window: 195
+# pulled tweets in window: 36948
+# queried users: 400
+# pulled users: 292
+# pulled missed: 108
+# pulled users in window: 97
+# pulled requests in window: 852
+# pulled tweets in window: 160310
+Saved in user_timeline_102_users_885_requests_166346_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_79eadd1a-94ea-4f64-aa31-69b7da0f11da.json.bz2
+Computing Time: 798 sec
+
+# queried users: 500
+# pulled users: 363
+# pulled missed: 137
+# pulled users in window: 66
+# pulled requests in window: 609
+# pulled tweets in window: 115192
+Saved in user_timeline_99_users_892_requests_168286_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_31af88de-593d-4c72-9c10-b2b0503c8633.json.bz2
+Computing Time: 829 sec
+
+# queried users: 600
+# pulled users: 434
+# pulled missed: 166
+# pulled users in window: 38
+# pulled requests in window: 304
+# pulled tweets in window: 57156
+# queried users: 700
+# pulled users: 506
+# pulled missed: 194
+# pulled users in window: 110
+# pulled requests in window: 876
+# pulled tweets in window: 163903
+Saved in user_timeline_111_users_893_requests_167153_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9c71d7b0-d7f3-4332-880b-640ce8f5ee24.json.bz2
+Computing Time: 808 sec
+
+# queried users: 800
+# pulled users: 574
+# pulled missed: 226
+# pulled users in window: 67
+# pulled requests in window: 576
+# pulled tweets in window: 107981
+Saved in user_timeline_100_users_888_requests_167149_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_94321ed2-26a3-4bd0-aa06-2b98db41a0c0.json.bz2
+Computing Time: 797 sec
+
+# queried users: 900
+# pulled users: 654
+# pulled missed: 246
+# pulled users in window: 47
+# pulled requests in window: 414
+# pulled tweets in window: 78069
+Saved in user_timeline_101_users_885_requests_167151_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_82c417e3-3c44-4698-bba1-a27928004025.json.bz2
+Computing Time: 809 sec
+
+# queried users: 1000
+# pulled users: 729
+# pulled missed: 271
+# pulled users in window: 21
+# pulled requests in window: 194
+# pulled tweets in window: 36715
+# queried users: 1100
+# pulled users: 798
+# pulled missed: 302
+# pulled users in window: 90
+# pulled requests in window: 723
+# pulled tweets in window: 135251
+Saved in user_timeline_109_users_891_requests_166460_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_8adcf889-66e6-47aa-b8dd-1c02f3080556.json.bz2
+Computing Time: 784 sec
+
+# queried users: 1200
+# pulled users: 870
+# pulled missed: 330
+# pulled users in window: 53
+# pulled requests in window: 500
+# pulled tweets in window: 94163
+Saved in user_timeline_88_users_891_requests_169022_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_555b05bc-2235-4ab1-aa12-ce360130da23.json.bz2
+Computing Time: 763 sec
+
+# queried users: 1300
+# pulled users: 942
+# pulled missed: 358
+# pulled users in window: 37
+# pulled requests in window: 309
+# pulled tweets in window: 57734
+Saved in user_timeline_108_users_889_requests_166012_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7f23d615-0275-4ada-af41-1c75c54019d6.json.bz2
+Computing Time: 797 sec
+
+# queried users: 1400
+# pulled users: 1024
+# pulled missed: 376
+# pulled users in window: 11
+# pulled requests in window: 67
+# pulled tweets in window: 12061
+# queried users: 1500
+# pulled users: 1100
+# pulled missed: 400
+# pulled users in window: 87
+# pulled requests in window: 681
+# pulled tweets in window: 125323
+Saved in user_timeline_108_users_885_requests_163994_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_fdd7393e-16dd-446c-b0d2-37c2c06ebe6d.json.bz2
+Computing Time: 785 sec
+
+# queried users: 1600
+# pulled users: 1169
+# pulled missed: 431
+# pulled users in window: 48
+# pulled requests in window: 370
+# pulled tweets in window: 67757
+Saved in user_timeline_98_users_887_requests_164611_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_20b3d2ce-2e63-460c-8a1e-c5b0647c5344.json.bz2
+Computing Time: 772 sec
+
+# queried users: 1700
+# pulled users: 1241
+# pulled missed: 459
+# pulled users in window: 22
+# pulled requests in window: 165
+# pulled tweets in window: 30472
+# queried users: 1800
+# pulled users: 1315
+# pulled missed: 485
+# pulled users in window: 96
+# pulled requests in window: 828
+# pulled tweets in window: 155369
+Saved in user_timeline_102_users_896_requests_168286_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7a272dda-006e-44fc-a6cd-5762b117ec69.json.bz2
+Computing Time: 978 sec
+
+# queried users: 1900
+# pulled users: 1393
+# pulled missed: 507
+# pulled users in window: 72
+# pulled requests in window: 682
+# pulled tweets in window: 128123
+Saved in user_timeline_90_users_881_requests_165824_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_52709954-1c1a-4d4a-9ece-e4106f47546b.json.bz2
+Computing Time: 813 sec
+
+# queried users: 2000
+# pulled users: 1472
+# pulled missed: 528
+# pulled users in window: 61
+# pulled requests in window: 488
+# pulled tweets in window: 90440
+Saved in user_timeline_108_users_886_requests_164782_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b0135309-8a19-4554-95d9-f4772dc977ba.json.bz2
+Computing Time: 889 sec
+
+# queried users: 2100
+# pulled users: 1550
+# pulled missed: 550
+# pulled users in window: 31
+# pulled requests in window: 271
+# pulled tweets in window: 50728
+Saved in user_timeline_103_users_895_requests_168112_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_689bc34e-ea82-4b2b-a28b-fa00e9ecd0de.json.bz2
+Computing Time: 918 sec
+
+# queried users: 2200
+# pulled users: 1630
+# pulled missed: 570
+# pulled users in window: 8
+# pulled requests in window: 61
+# pulled tweets in window: 11222
+# queried users: 2300
+# pulled users: 1703
+# pulled missed: 597
+# pulled users in window: 81
+# pulled requests in window: 650
+# pulled tweets in window: 122013
+Saved in user_timeline_112_users_887_requests_165531_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7a66447c-2f47-4b3c-959e-52be2b9777de.json.bz2
+Computing Time: 829 sec
+
+# queried users: 2400
+# pulled users: 1780
+# pulled missed: 620
+# pulled users in window: 46
+# pulled requests in window: 426
+# pulled tweets in window: 79120
+Saved in user_timeline_98_users_887_requests_165024_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_80ccc59b-6c7f-42d9-b598-226476454d1b.json.bz2
+Computing Time: 753 sec
+
+# queried users: 2500
+# pulled users: 1853
+# pulled missed: 647
+# pulled users in window: 21
+# pulled requests in window: 135
+# pulled tweets in window: 24429
+# queried users: 2600
+# pulled users: 1926
+# pulled missed: 674
+# pulled users in window: 94
+# pulled requests in window: 830
+# pulled tweets in window: 155803
+Saved in user_timeline_100_users_884_requests_165681_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_29d2a8fb-c281-4a7b-a7ff-a0981174dc8d.json.bz2
+Computing Time: 804 sec
+
+# queried users: 2700
+# pulled users: 1990
+# pulled missed: 710
+# pulled users in window: 58
+# pulled requests in window: 474
+# pulled tweets in window: 87596
+Saved in user_timeline_99_users_881_requests_164822_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_aa548fda-3bfe-4e67-a0a5-9564a437bfee.json.bz2
+Computing Time: 777 sec
+
+# queried users: 2800
+# pulled users: 2060
+# pulled missed: 740
+# pulled users in window: 29
+# pulled requests in window: 237
+# pulled tweets in window: 43532
+# queried users: 2900
+# pulled users: 2126
+# pulled missed: 774
+# pulled users in window: 95
+# pulled requests in window: 782
+# pulled tweets in window: 144350
+Saved in user_timeline_104_users_881_requests_163152_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_2e9816e5-c532-47b2-b860-89e37a6a9c5b.json.bz2
+Computing Time: 862 sec
+
+# queried users: 3000
+# pulled users: 2196
+# pulled missed: 804
+# pulled users in window: 61
+# pulled requests in window: 558
+# pulled tweets in window: 105041
+Saved in user_timeline_94_users_882_requests_166499_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_42f00d2a-7a54-4d36-a965-7329d10cd8e9.json.bz2
+Computing Time: 850 sec
+
+# queried users: 3100
+# pulled users: 2273
+# pulled missed: 827
+# pulled users in window: 44
+# pulled requests in window: 349
+# pulled tweets in window: 64312
+Saved in user_timeline_103_users_882_requests_163875_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_1fa3181f-418b-4cc5-ae6f-b87f8d9efed4.json.bz2
+Computing Time: 799 sec
+
+# queried users: 3200
+# pulled users: 2350
+# pulled missed: 850
+# pulled users in window: 18
+# pulled requests in window: 177
+# pulled tweets in window: 33475
+Saved in user_timeline_90_users_893_requests_169406_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_677d7339-4891-4588-8bf1-8500f92cfccf.json.bz2
+Computing Time: 800 sec
+
+# queried users: 3300
+# pulled users: 2426
+# pulled missed: 874
+# pulled users in window: 4
+# pulled requests in window: 57
+# pulled tweets in window: 10961
+# queried users: 3400
+# pulled users: 2492
+# pulled missed: 908
+# pulled users in window: 70
+# pulled requests in window: 588
+# pulled tweets in window: 108859
+Saved in user_timeline_97_users_883_requests_165104_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_5911853f-62c8-4aaf-a230-aba49ef04e53.json.bz2
+Computing Time: 860 sec
+
+# queried users: 3500
+# pulled users: 2572
+# pulled missed: 928
+# pulled users in window: 53
+# pulled requests in window: 454
+# pulled tweets in window: 84440
+Saved in user_timeline_104_users_885_requests_164962_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cbc9c4d0-261e-412d-964e-34bf5e883ee7.json.bz2
+Computing Time: 787 sec
+
+# queried users: 3600
+# pulled users: 2643
+# pulled missed: 957
+# pulled users in window: 20
+# pulled requests in window: 192
+# pulled tweets in window: 36143
+# queried users: 3700
+# pulled users: 2713
+# pulled missed: 987
+# pulled users in window: 90
+# pulled requests in window: 766
+# pulled tweets in window: 143313
+Saved in user_timeline_106_users_888_requests_165788_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_dd1b9df2-3b5e-447e-9f78-8bdd4e93b003.json.bz2
+Computing Time: 840 sec
+
+# queried users: 3800
+# pulled users: 2792
+# pulled missed: 1008
+# pulled users in window: 63
+# pulled requests in window: 612
+# pulled tweets in window: 115294
+Saved in user_timeline_91_users_886_requests_167057_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_f03f1406-b979-492e-bb0e-fc439b819f24.json.bz2
+Computing Time: 835 sec
+
+# queried users: 3900
+# pulled users: 2870
+# pulled missed: 1030
+# pulled users in window: 50
+# pulled requests in window: 412
+# pulled tweets in window: 75885
+Saved in user_timeline_104_users_884_requests_165501_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3eb9f69a-47a2-4527-9017-63ec78f75d8c.json.bz2
+Computing Time: 812 sec
+
+# queried users: 4000
+# pulled users: 2954
+# pulled missed: 1046
+# pulled users in window: 30
+# pulled requests in window: 265
+# pulled tweets in window: 49906
+# queried users: 4100
+# pulled users: 3023
+# pulled missed: 1077
+# pulled users in window: 99
+# pulled requests in window: 877
+# pulled tweets in window: 164300
+Saved in user_timeline_101_users_897_requests_168007_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_68b2b489-66f8-4845-800c-a6049c97d066.json.bz2
+Computing Time: 926 sec
+
+# queried users: 4200
+# pulled users: 3100
+# pulled missed: 1100
+# pulled users in window: 75
+# pulled requests in window: 724
+# pulled tweets in window: 135846
+Saved in user_timeline_95_users_883_requests_165474_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e4a01d50-76bb-4336-bf93-38b6a065f2c3.json.bz2
+Computing Time: 821 sec
+
+# queried users: 4300
+# pulled users: 3171
+# pulled missed: 1129
+# pulled users in window: 51
+# pulled requests in window: 442
+# pulled tweets in window: 83458
+Saved in user_timeline_105_users_892_requests_167512_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9df941c3-959a-4e6a-832a-d36439b3d9db.json.bz2
+Computing Time: 832 sec
+
+# queried users: 4400
+# pulled users: 3244
+# pulled missed: 1156
+# pulled users in window: 19
+# pulled requests in window: 187
+# pulled tweets in window: 35717
+# queried users: 4500
+# pulled users: 3312
+# pulled missed: 1188
+# pulled users in window: 87
+# pulled requests in window: 670
+# pulled tweets in window: 124248
+Saved in user_timeline_109_users_883_requests_164514_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_044f671d-0031-4396-884f-117c7a5abfcd.json.bz2
+Computing Time: 801 sec
+
+# queried users: 4600
+# pulled users: 3388
+# pulled missed: 1212
+# pulled users in window: 54
+# pulled requests in window: 483
+# pulled tweets in window: 90727
+Saved in user_timeline_98_users_891_requests_167596_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_665c7f88-5b9d-4962-bfdd-ed89deeb19f0.json.bz2
+Computing Time: 846 sec
+
+# queried users: 4700
+# pulled users: 3464
+# pulled missed: 1236
+# pulled users in window: 32
+# pulled requests in window: 234
+# pulled tweets in window: 43194
+# queried users: 4800
+# pulled users: 3532
+# pulled missed: 1268
+# pulled users in window: 100
+# pulled requests in window: 843
+# pulled tweets in window: 157612
+Saved in user_timeline_105_users_883_requests_164978_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_2728c10f-d557-4eb5-b381-fc0dd45af503.json.bz2
+Computing Time: 843 sec
+
+# queried users: 4900
+# pulled users: 3608
+# pulled missed: 1292
+# pulled users in window: 71
+# pulled requests in window: 667
+# pulled tweets in window: 126092
+Saved in user_timeline_91_users_892_requests_169265_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c2166394-d752-4307-a511-6ac2e8e777b2.json.bz2
+Computing Time: 829 sec
+
+# queried users: 5000
+# pulled users: 3682
+# pulled missed: 1318
+# pulled users in window: 54
+# pulled requests in window: 527
+# pulled tweets in window: 99161
+Saved in user_timeline_97_users_881_requests_165397_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9f521d5f-dcfa-441f-b79b-06a9a90bce0b.json.bz2
+Computing Time: 861 sec
+
+# queried users: 5100
+# pulled users: 3752
+# pulled missed: 1348
+# pulled users in window: 27
+# pulled requests in window: 260
+# pulled tweets in window: 49575
+Saved in user_timeline_94_users_891_requests_168567_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_fe60df5b-1fa1-4098-b20e-57848a2b0ea4.json.bz2
+Computing Time: 919 sec
+
+# queried users: 5200
+# pulled users: 3825
+# pulled missed: 1375
+# pulled users in window: 6
+# pulled requests in window: 38
+# pulled tweets in window: 6983
+# queried users: 5300
+# pulled users: 3905
+# pulled missed: 1395
+# pulled users in window: 86
+# pulled requests in window: 666
+# pulled tweets in window: 124169
+Saved in user_timeline_107_users_883_requests_165369_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d4a7e00b-2db5-49e6-bed3-6d5fd3f4707f.json.bz2
+Computing Time: 865 sec
+
+# queried users: 5400
+# pulled users: 3982
+# pulled missed: 1418
+# pulled users in window: 56
+# pulled requests in window: 471
+# pulled tweets in window: 87983
+Saved in user_timeline_103_users_896_requests_167362_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_74a4e6ef-d88e-46a0-bc20-3e7d5fd6b8da.json.bz2
+Computing Time: 885 sec
+
+# queried users: 5500
+# pulled users: 4056
+# pulled missed: 1444
+# pulled users in window: 27
+# pulled requests in window: 179
+# pulled tweets in window: 32763
+# queried users: 5600
+# pulled users: 4133
+# pulled missed: 1467
+# pulled users in window: 104
+# pulled requests in window: 830
+# pulled tweets in window: 153579
+Saved in user_timeline_109_users_881_requests_163291_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6aad1439-2ecc-4fe9-90a1-172c375359d4.json.bz2
+Computing Time: 864 sec
+
+# queried users: 5700
+# pulled users: 4204
+# pulled missed: 1496
+# pulled users in window: 66
+# pulled requests in window: 601
+# pulled tweets in window: 112621
+Saved in user_timeline_97_users_883_requests_164958_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c589521c-e8cc-495d-8891-6f35f74386c0.json.bz2
+Computing Time: 853 sec
+
+# queried users: 5800
+# pulled users: 4286
+# pulled missed: 1514
+# pulled users in window: 51
+# pulled requests in window: 539
+# pulled tweets in window: 102491
+Saved in user_timeline_90_users_882_requests_166477_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_2b15d575-ebd6-406c-84be-7644ac344548.json.bz2
+Computing Time: 976 sec
+
+# queried users: 5900
+# pulled users: 4357
+# pulled missed: 1543
+# pulled users in window: 32
+# pulled requests in window: 286
+# pulled tweets in window: 54164
+Saved in user_timeline_100_users_888_requests_166943_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cdd61211-2e84-4673-b665-95225cfd57e6.json.bz2
+Computing Time: 843 sec
+
+# queried users: 6000
+# pulled users: 4438
+# pulled missed: 1562
+# pulled users in window: 13
+# pulled requests in window: 84
+# pulled tweets in window: 15323
+# queried users: 6100
+# pulled users: 4515
+# pulled missed: 1585
+# pulled users in window: 90
+# pulled requests in window: 666
+# pulled tweets in window: 122998
+Saved in user_timeline_117_users_896_requests_166158_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e69602d9-81b3-47f4-94cc-784163240ffe.json.bz2
+Computing Time: 865 sec
+
+# queried users: 6200
+# pulled users: 4587
+# pulled missed: 1613
+# pulled users in window: 45
+# pulled requests in window: 445
+# pulled tweets in window: 83923
+Saved in user_timeline_100_users_883_requests_166088_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_25f49c7e-9ddf-4538-ac55-51f99d6dbc0e.json.bz2
+Computing Time: 980 sec
+
+# queried users: 6300
+# pulled users: 4661
+# pulled missed: 1639
+# pulled users in window: 19
+# pulled requests in window: 134
+# pulled tweets in window: 24975
+# queried users: 6400
+# pulled users: 4730
+# pulled missed: 1670
+# pulled users in window: 88
+# pulled requests in window: 759
+# pulled tweets in window: 142743
+Saved in user_timeline_101_users_896_requests_168704_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0659da39-9eef-4ad3-8fc3-f2a6f9ffb87d.json.bz2
+Computing Time: 889 sec
+
+# queried users: 6500
+# pulled users: 4806
+# pulled missed: 1694
+# pulled users in window: 63
+# pulled requests in window: 532
+# pulled tweets in window: 99326
+Saved in user_timeline_113_users_882_requests_163780_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_f6710b7c-547f-46b1-9dec-37477ce8a89f.json.bz2
+Computing Time: 879 sec
+
+# queried users: 6600
+# pulled users: 4887
+# pulled missed: 1713
+# pulled users in window: 31
+# pulled requests in window: 293
+# pulled tweets in window: 55109
+Saved in user_timeline_93_users_889_requests_167561_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d5a62660-27fb-4e38-9c7e-9831c68663e4.json.bz2
+Computing Time: 858 sec
+
+# queried users: 6700
+# pulled users: 4959
+# pulled missed: 1741
+# pulled users in window: 10
+# pulled requests in window: 91
+# pulled tweets in window: 17541
+# queried users: 6800
+# pulled users: 5032
+# pulled missed: 1768
+# pulled users in window: 83
+# pulled requests in window: 772
+# pulled tweets in window: 145650
+Saved in user_timeline_96_users_891_requests_167868_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7dc66c6d-1e52-427e-854f-f88408bb7ebd.json.bz2
+Computing Time: 879 sec
+
+# queried users: 6900
+# pulled users: 5107
+# pulled missed: 1793
+# pulled users in window: 62
+# pulled requests in window: 597
+# pulled tweets in window: 112627
+Saved in user_timeline_91_users_883_requests_166452_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_199664c2-601e-41a2-b79b-617da5ed8b06.json.bz2
+Computing Time: 870 sec
+
+# queried users: 7000
+# pulled users: 5185
+# pulled missed: 1815
+# pulled users in window: 49
+# pulled requests in window: 459
+# pulled tweets in window: 85904
+Saved in user_timeline_95_users_881_requests_164385_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_96820c12-5156-4b21-93a8-9f023f0217fe.json.bz2
+Computing Time: 813 sec
+
+# queried users: 7100
+# pulled users: 5259
+# pulled missed: 1841
+# pulled users in window: 28
+# pulled requests in window: 221
+# pulled tweets in window: 40763
+# queried users: 7200
+# pulled users: 5330
+# pulled missed: 1870
+# pulled users in window: 99
+# pulled requests in window: 795
+# pulled tweets in window: 148197
+Saved in user_timeline_112_users_886_requests_164395_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b3cc5d35-e9f4-4207-8d09-985e2f423b08.json.bz2
+Computing Time: 863 sec
+
+# queried users: 7300
+# pulled users: 5398
+# pulled missed: 1902
+# pulled users in window: 55
+# pulled requests in window: 408
+# pulled tweets in window: 75672
+Saved in user_timeline_104_users_884_requests_165356_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b12d4134-0966-4869-8ff5-1a522f865f17.json.bz2
+Computing Time: 870 sec
+
+# queried users: 7400
+# pulled users: 5470
+# pulled missed: 1930
+# pulled users in window: 23
+# pulled requests in window: 156
+# pulled tweets in window: 28289
+# queried users: 7500
+# pulled users: 5541
+# pulled missed: 1959
+# pulled users in window: 94
+# pulled requests in window: 816
+# pulled tweets in window: 152395
+Saved in user_timeline_101_users_894_requests_167080_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_93c6c225-668d-4a2d-aa33-7a730e58c8e5.json.bz2
+Computing Time: 877 sec
+
+# queried users: 7600
+# pulled users: 5623
+# pulled missed: 1977
+# pulled users in window: 75
+# pulled requests in window: 627
+# pulled tweets in window: 116911
+Saved in user_timeline_99_users_889_requests_166336_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_1d682828-296f-4f11-9b7f-fad2dc642f98.json.bz2
+Computing Time: 873 sec
+
+# queried users: 7700
+# pulled users: 5703
+# pulled missed: 1997
+# pulled users in window: 56
+# pulled requests in window: 502
+# pulled tweets in window: 93872
+Saved in user_timeline_105_users_884_requests_164843_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_27458383-35cf-486d-8dd2-b56dc63f0579.json.bz2
+Computing Time: 893 sec
+
+# queried users: 7800
+# pulled users: 5768
+# pulled missed: 2032
+# pulled users in window: 16
+# pulled requests in window: 129
+# pulled tweets in window: 23652
+# queried users: 7900
+# pulled users: 5841
+# pulled missed: 2059
+# pulled users in window: 89
+# pulled requests in window: 776
+# pulled tweets in window: 144845
+Saved in user_timeline_98_users_892_requests_167062_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_41641dbe-d7aa-46aa-b646-6ad68dccff4f.json.bz2
+Computing Time: 920 sec
+
+# queried users: 8000
+# pulled users: 5914
+# pulled missed: 2086
+# pulled users in window: 64
+# pulled requests in window: 567
+# pulled tweets in window: 105700
+Saved in user_timeline_99_users_883_requests_164897_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_fbcf21b5-44f6-49f0-8a83-3b0d3c6c181f.json.bz2
+Computing Time: 829 sec
+
+# queried users: 8100
+# pulled users: 5988
+# pulled missed: 2112
+# pulled users in window: 39
+# pulled requests in window: 350
+# pulled tweets in window: 65666
+Saved in user_timeline_97_users_892_requests_167579_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4bf5c88c-ebf5-448a-81e2-87c113572849.json.bz2
+Computing Time: 834 sec
+
+# queried users: 8200
+# pulled users: 6068
+# pulled missed: 2132
+# pulled users in window: 22
+# pulled requests in window: 192
+# pulled tweets in window: 35782
+# queried users: 8300
+# pulled users: 6149
+# pulled missed: 2151
+# pulled users in window: 103
+# pulled requests in window: 895
+# pulled tweets in window: 166852
+Saved in user_timeline_103_users_895_requests_166852_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_bf17c3e8-b460-4ad9-a51a-cb0ffc36afb8.json.bz2
+Computing Time: 841 sec
+
+# queried users: 8400
+# pulled users: 6224
+# pulled missed: 2176
+# pulled users in window: 75
+# pulled requests in window: 719
+# pulled tweets in window: 136172
+Saved in user_timeline_92_users_894_requests_169405_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0ab70ebf-8fb8-411a-bee1-5f806385dee1.json.bz2
+Computing Time: 939 sec
+
+# queried users: 8500
+# pulled users: 6299
+# pulled missed: 2201
+# pulled users in window: 58
+# pulled requests in window: 504
+# pulled tweets in window: 94727
+Saved in user_timeline_100_users_884_requests_165848_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_322ef138-3d99-4b51-859b-2d347dd9bf6b.json.bz2
+Computing Time: 842 sec
+
+# queried users: 8600
+# pulled users: 6371
+# pulled missed: 2229
+# pulled users in window: 30
+# pulled requests in window: 229
+# pulled tweets in window: 41981
+Saved in user_timeline_94_users_882_requests_165247_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c45a71dc-6a3f-4e76-8967-5544abd1be07.json.bz2
+Computing Time: 832 sec
+
+# queried users: 8700
+# pulled users: 6448
+# pulled missed: 2252
+# pulled users in window: 13
+# pulled requests in window: 112
+# pulled tweets in window: 20945
+# queried users: 8800
+# pulled users: 6527
+# pulled missed: 2273
+# pulled users in window: 92
+# pulled requests in window: 791
+# pulled tweets in window: 147274
+Saved in user_timeline_105_users_888_requests_165140_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_906553cd-11b9-426b-81ad-a21770eec0fb.json.bz2
+Computing Time: 825 sec
+
+# queried users: 8900
+# pulled users: 6602
+# pulled missed: 2298
+# pulled users in window: 62
+# pulled requests in window: 547
+# pulled tweets in window: 102428
+Saved in user_timeline_95_users_882_requests_166290_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_448fdef4-77fe-4dea-b1ad-240560445d81.json.bz2
+Computing Time: 790 sec
+
+# queried users: 9000
+# pulled users: 6677
+# pulled missed: 2323
+# pulled users in window: 42
+# pulled requests in window: 393
+# pulled tweets in window: 74007
+Saved in user_timeline_99_users_883_requests_165406_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_f137b983-5b0a-4e6e-9b57-b6a95639104b.json.bz2
+Computing Time: 809 sec
+
+# queried users: 9100
+# pulled users: 6747
+# pulled missed: 2353
+# pulled users in window: 13
+# pulled requests in window: 141
+# pulled tweets in window: 26680
+# queried users: 9200
+# pulled users: 6825
+# pulled missed: 2375
+# pulled users in window: 91
+# pulled requests in window: 780
+# pulled tweets in window: 145247
+Saved in user_timeline_99_users_882_requests_164473_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_bd053235-0a00-47cb-9c36-3bfadbfe2baf.json.bz2
+Computing Time: 815 sec
+
+# queried users: 9300
+# pulled users: 6891
+# pulled missed: 2409
+# pulled users in window: 58
+# pulled requests in window: 453
+# pulled tweets in window: 84266
+Saved in user_timeline_105_users_893_requests_167665_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c2172476-55c9-49de-a984-d2b19298babe.json.bz2
+Computing Time: 837 sec
+
+# queried users: 9400
+# pulled users: 6963
+# pulled missed: 2437
+# pulled users in window: 25
+# pulled requests in window: 195
+# pulled tweets in window: 36216
+# queried users: 9500
+# pulled users: 7035
+# pulled missed: 2465
+# pulled users in window: 97
+# pulled requests in window: 734
+# pulled tweets in window: 135978
+Saved in user_timeline_112_users_895_requests_166297_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_62adeebe-cee2-4fed-9ed1-62ec4c588000.json.bz2
+Computing Time: 831 sec
+
+# queried users: 9600
+# pulled users: 7107
+# pulled missed: 2493
+# pulled users in window: 57
+# pulled requests in window: 420
+# pulled tweets in window: 77083
+Saved in user_timeline_119_users_893_requests_164973_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9688799a-5425-4209-94c0-3f55ef1fc222.json.bz2
+Computing Time: 829 sec
+
+# queried users: 9700
+# pulled users: 7174
+# pulled missed: 2526
+# pulled users in window: 5
+# pulled requests in window: 67
+# pulled tweets in window: 13092
+# queried users: 9800
+# pulled users: 7250
+# pulled missed: 2550
+# pulled users in window: 81
+# pulled requests in window: 737
+# pulled tweets in window: 138049
+Saved in user_timeline_100_users_886_requests_165931_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3116b4da-95e4-49d8-97c5-5bfe292c32c2.json.bz2
+Computing Time: 843 sec
+
+# queried users: 9900
+# pulled users: 7331
+# pulled missed: 2569
+# pulled users in window: 62
+# pulled requests in window: 529
+# pulled tweets in window: 97808
+Saved in user_timeline_102_users_892_requests_165682_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a67bf9c4-abf8-4d4e-abaf-6e615f8ab667.json.bz2
+Computing Time: 812 sec
+
+# queried users: 10000
+# pulled users: 7413
+# pulled missed: 2587
+# pulled users in window: 42
+# pulled requests in window: 367
+# pulled tweets in window: 69533
+Saved in user_timeline_102_users_886_requests_166139_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3c75e646-dcf6-4058-a23c-52167798a704.json.bz2
+Computing Time: 809 sec
+
+# queried users: 10100
+# pulled users: 7487
+# pulled missed: 2613
+# pulled users in window: 14
+# pulled requests in window: 96
+# pulled tweets in window: 17233
+# queried users: 10200
+# pulled users: 7557
+# pulled missed: 2643
+# pulled users in window: 84
+# pulled requests in window: 719
+# pulled tweets in window: 134305
+Saved in user_timeline_101_users_886_requests_165395_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_519162a4-40b6-4b2d-bc8c-a3901a24baa7.json.bz2
+Computing Time: 827 sec
+
+# queried users: 10300
+# pulled users: 7628
+# pulled missed: 2672
+# pulled users in window: 54
+# pulled requests in window: 525
+# pulled tweets in window: 98609
+Saved in user_timeline_99_users_895_requests_167351_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_417c4ea6-39e0-4d15-bc87-71c509924d03.json.bz2
+Computing Time: 907 sec
+
+# queried users: 10400
+# pulled users: 7702
+# pulled missed: 2698
+# pulled users in window: 29
+# pulled requests in window: 310
+# pulled tweets in window: 58604
+Saved in user_timeline_94_users_881_requests_165268_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_76d327ba-5b96-4cf3-bd97-1ca8e9841cd3.json.bz2
+Computing Time: 857 sec
+
+# queried users: 10500
+# pulled users: 7780
+# pulled missed: 2720
+# pulled users in window: 13
+# pulled requests in window: 138
+# pulled tweets in window: 26222
+# queried users: 10600
+# pulled users: 7859
+# pulled missed: 2741
+# pulled users in window: 92
+# pulled requests in window: 856
+# pulled tweets in window: 161424
+Saved in user_timeline_94_users_889_requests_167723_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e57b4223-c881-4e8b-8f76-6d253eba774b.json.bz2
+Computing Time: 812 sec
+
+# queried users: 10700
+# pulled users: 7927
+# pulled missed: 2773
+# pulled users in window: 66
+# pulled requests in window: 524
+# pulled tweets in window: 97340
+Saved in user_timeline_120_users_886_requests_163839_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_10fce89e-8d12-4633-9258-2990eb4dc570.json.bz2
+Computing Time: 840 sec
+
+# queried users: 10800
+# pulled users: 8010
+# pulled missed: 2790
+# pulled users in window: 29
+# pulled requests in window: 252
+# pulled tweets in window: 46867
+Saved in user_timeline_100_users_886_requests_165362_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_591367bc-609a-46dc-8356-b7d423042f47.json.bz2
+Computing Time: 860 sec
+
+# queried users: 10900
+# pulled users: 8090
+# pulled missed: 2810
+# pulled users in window: 9
+# pulled requests in window: 77
+# pulled tweets in window: 14180
+# queried users: 11000
+# pulled users: 8162
+# pulled missed: 2838
+# pulled users in window: 81
+# pulled requests in window: 738
+# pulled tweets in window: 138936
+Saved in user_timeline_95_users_886_requests_166663_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a5412243-b3cb-45df-b950-f970e1359f42.json.bz2
+Computing Time: 850 sec
+
+# queried users: 11100
+# pulled users: 8228
+# pulled missed: 2872
+# pulled users in window: 52
+# pulled requests in window: 415
+# pulled tweets in window: 77129
+Saved in user_timeline_106_users_892_requests_166824_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_50313224-9934-42a1-acc6-5fa45dde1d42.json.bz2
+Computing Time: 842 sec
+
+# queried users: 11200
+# pulled users: 8309
+# pulled missed: 2891
+# pulled users in window: 27
+# pulled requests in window: 218
+# pulled tweets in window: 39968
+# queried users: 11300
+# pulled users: 8379
+# pulled missed: 2921
+# pulled users in window: 97
+# pulled requests in window: 828
+# pulled tweets in window: 154312
+Saved in user_timeline_105_users_884_requests_164490_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cafadb6d-804f-47b3-b594-3ba461e74e76.json.bz2
+Computing Time: 810 sec
+
+# queried users: 11400
+# pulled users: 8449
+# pulled missed: 2951
+# pulled users in window: 62
+# pulled requests in window: 568
+# pulled tweets in window: 106370
+Saved in user_timeline_98_users_892_requests_167069_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7d0f3c03-96b1-403c-a10d-e9a5e8eca398.json.bz2
+Computing Time: 838 sec
+
+# queried users: 11500
+# pulled users: 8523
+# pulled missed: 2977
+# pulled users in window: 38
+# pulled requests in window: 384
+# pulled tweets in window: 72161
+Saved in user_timeline_96_users_886_requests_165348_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d0c8e56f-7233-40a8-964e-326f1c5dccdc.json.bz2
+Computing Time: 757 sec
+
+# queried users: 11600
+# pulled users: 8595
+# pulled missed: 3005
+# pulled users in window: 14
+# pulled requests in window: 114
+# pulled tweets in window: 21081
+# queried users: 11700
+# pulled users: 8664
+# pulled missed: 3036
+# pulled users in window: 83
+# pulled requests in window: 599
+# pulled tweets in window: 110038
+Saved in user_timeline_110_users_895_requests_166614_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_968238c4-b950-4f55-9bf2-64dd5c250eb1.json.bz2
+Computing Time: 855 sec
+
+# queried users: 11800
+# pulled users: 8732
+# pulled missed: 3068
+# pulled users in window: 41
+# pulled requests in window: 368
+# pulled tweets in window: 69162
+Saved in user_timeline_102_users_885_requests_165546_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d7ea17b8-8487-4c2e-904b-cb54f266a9d7.json.bz2
+Computing Time: 765 sec
+
+# queried users: 11900
+# pulled users: 8810
+# pulled missed: 3090
+# pulled users in window: 17
+# pulled requests in window: 170
+# pulled tweets in window: 32361
+# queried users: 12000
+# pulled users: 8871
+# pulled missed: 3129
+# pulled users in window: 78
+# pulled requests in window: 716
+# pulled tweets in window: 135370
+Saved in user_timeline_101_users_881_requests_165554_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6841d664-5898-4455-a993-a45c0195d1bb.json.bz2
+Computing Time: 753 sec
+
+# queried users: 12100
+# pulled users: 8944
+# pulled missed: 3156
+# pulled users in window: 50
+# pulled requests in window: 446
+# pulled tweets in window: 83580
+Saved in user_timeline_104_users_886_requests_164555_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a662dd0d-e8bf-49b2-9582-b9c7282ef17f.json.bz2
+Computing Time: 669 sec
+
+# queried users: 12200
+# pulled users: 9015
+# pulled missed: 3185
+# pulled users in window: 17
+# pulled requests in window: 137
+# pulled tweets in window: 25616
+# queried users: 12300
+# pulled users: 9094
+# pulled missed: 3206
+# pulled users in window: 96
+# pulled requests in window: 778
+# pulled tweets in window: 145515
+Saved in user_timeline_107_users_888_requests_166564_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_baf9acc0-635b-4199-a1b0-5159099a2bf7.json.bz2
+Computing Time: 607 sec
+
+# queried users: 12400
+# pulled users: 9163
+# pulled missed: 3237
+# pulled users in window: 58
+# pulled requests in window: 444
+# pulled tweets in window: 82407
+Saved in user_timeline_107_users_884_requests_165125_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_40379366-25c4-4bdf-91b1-78cf9ed0acf2.json.bz2
+Computing Time: 589 sec
+
+# queried users: 12500
+# pulled users: 9233
+# pulled missed: 3267
+# pulled users in window: 21
+# pulled requests in window: 186
+# pulled tweets in window: 35101
+# queried users: 12600
+# pulled users: 9307
+# pulled missed: 3293
+# pulled users in window: 95
+# pulled requests in window: 812
+# pulled tweets in window: 151184
+Saved in user_timeline_104_users_895_requests_166686_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4b2179a3-a871-4e6a-b0c7-3fb82e819f58.json.bz2
+Computing Time: 633 sec
+
+# queried users: 12700
+# pulled users: 9382
+# pulled missed: 3318
+# pulled users in window: 66
+# pulled requests in window: 650
+# pulled tweets in window: 122116
+Saved in user_timeline_92_users_891_requests_167391_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3eb56aa4-a46e-4968-9a2d-1e93bc354637.json.bz2
+Computing Time: 659 sec
+
+# queried users: 12800
+# pulled users: 9444
+# pulled missed: 3356
+# pulled users in window: 36
+# pulled requests in window: 262
+# pulled tweets in window: 48957
+# queried users: 12900
+# pulled users: 9511
+# pulled missed: 3389
+# pulled users in window: 103
+# pulled requests in window: 851
+# pulled tweets in window: 159061
+Saved in user_timeline_106_users_887_requests_165795_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_633a5e67-9d77-4474-928b-3aea03a2639f.json.bz2
+Computing Time: 666 sec
+
+# queried users: 13000
+# pulled users: 9577
+# pulled missed: 3423
+# pulled users in window: 63
+# pulled requests in window: 533
+# pulled tweets in window: 100164
+Saved in user_timeline_100_users_883_requests_165619_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_49eeb6cc-3e96-4eee-b34d-c8e0c6a64056.json.bz2
+Computing Time: 727 sec
+
+# queried users: 13100
+# pulled users: 9651
+# pulled missed: 3449
+# pulled users in window: 37
+# pulled requests in window: 335
+# pulled tweets in window: 62021
+Saved in user_timeline_94_users_884_requests_165275_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_104d3c87-4617-40c9-ae1c-9212bbb66345.json.bz2
+Computing Time: 764 sec
+
+# queried users: 13200
+# pulled users: 9730
+# pulled missed: 3470
+# pulled users in window: 22
+# pulled requests in window: 205
+# pulled tweets in window: 38236
+# queried users: 13300
+# pulled users: 9804
+# pulled missed: 3496
+# pulled users in window: 96
+# pulled requests in window: 765
+# pulled tweets in window: 142406
+Saved in user_timeline_107_users_885_requests_165042_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_35a89306-d0e8-4cd5-a03d-cb47636b7201.json.bz2
+Computing Time: 826 sec
+
+# queried users: 13400
+# pulled users: 9878
+# pulled missed: 3522
+# pulled users in window: 63
+# pulled requests in window: 529
+# pulled tweets in window: 99679
+Saved in user_timeline_102_users_882_requests_166126_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_aa7cfe9a-56ea-405d-9ba7-dbdba027756f.json.bz2
+Computing Time: 785 sec
+
+# queried users: 13500
+# pulled users: 9945
+# pulled missed: 3555
+# pulled users in window: 28
+# pulled requests in window: 260
+# pulled tweets in window: 48982
+Saved in user_timeline_99_users_881_requests_164692_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c6254001-f489-45d6-b38c-6d1701dc1a10.json.bz2
+Computing Time: 791 sec
+
+# queried users: 13600
+# pulled users: 10017
+# pulled missed: 3583
+# pulled users in window: 1
+# pulled requests in window: 2
+# pulled tweets in window: 359
+# queried users: 13700
+# pulled users: 10090
+# pulled missed: 3610
+# pulled users in window: 74
+# pulled requests in window: 567
+# pulled tweets in window: 105849
+Saved in user_timeline_99_users_884_requests_166867_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_631ab052-4782-46e0-b18c-8e64b3e345f4.json.bz2
+Computing Time: 832 sec
+
+# queried users: 13800
+# pulled users: 10168
+# pulled missed: 3632
+# pulled users in window: 53
+# pulled requests in window: 570
+# pulled tweets in window: 107748
+Saved in user_timeline_86_users_892_requests_168324_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_14378544-c940-4458-8ae1-b0160484bb29.json.bz2
+Computing Time: 763 sec
+
+# queried users: 13900
+# pulled users: 10242
+# pulled missed: 3658
+# pulled users in window: 41
+# pulled requests in window: 315
+# pulled tweets in window: 58683
+Saved in user_timeline_104_users_886_requests_165160_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_798e5905-1828-4741-98c4-381ef6f8961a.json.bz2
+Computing Time: 784 sec
+
+# queried users: 14000
+# pulled users: 10320
+# pulled missed: 3680
+# pulled users in window: 15
+# pulled requests in window: 140
+# pulled tweets in window: 26429
+# queried users: 14100
+# pulled users: 10397
+# pulled missed: 3703
+# pulled users in window: 92
+# pulled requests in window: 780
+# pulled tweets in window: 145647
+Saved in user_timeline_103_users_892_requests_167066_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d9d9ee32-cee6-4214-9fe6-dec650e9e9bf.json.bz2
+Computing Time: 724 sec
+
+# queried users: 14200
+# pulled users: 10469
+# pulled missed: 3731
+# pulled users in window: 61
+# pulled requests in window: 560
+# pulled tweets in window: 105618
+Saved in user_timeline_96_users_893_requests_167989_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_49069a18-aeb8-40e0-b6af-0180eff693c0.json.bz2
+Computing Time: 658 sec
+
+# queried users: 14300
+# pulled users: 10544
+# pulled missed: 3756
+# pulled users in window: 40
+# pulled requests in window: 351
+# pulled tweets in window: 65613
+Saved in user_timeline_102_users_884_requests_164204_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7478b00b-fc14-4011-8967-bd16e13132ce.json.bz2
+Computing Time: 774 sec
+
+# queried users: 14400
+# pulled users: 10624
+# pulled missed: 3776
+# pulled users in window: 18
+# pulled requests in window: 143
+# pulled tweets in window: 26513
+# queried users: 14500
+# pulled users: 10689
+# pulled missed: 3811
+# pulled users in window: 83
+# pulled requests in window: 675
+# pulled tweets in window: 125528
+Saved in user_timeline_106_users_891_requests_165811_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c2b768e3-c9b3-4132-a9d0-cde9d07c67a7.json.bz2
+Computing Time: 762 sec
+
+# queried users: 14600
+# pulled users: 10766
+# pulled missed: 3834
+# pulled users in window: 54
+# pulled requests in window: 527
+# pulled tweets in window: 99391
+Saved in user_timeline_96_users_895_requests_168565_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d64ba2e2-d30e-4159-982c-118270cc27f5.json.bz2
+Computing Time: 900 sec
+
+# queried users: 14700
+# pulled users: 10839
+# pulled missed: 3861
+# pulled users in window: 31
+# pulled requests in window: 295
+# pulled tweets in window: 55391
+# queried users: 14800
+# pulled users: 10904
+# pulled missed: 3896
+# pulled users in window: 96
+# pulled requests in window: 848
+# pulled tweets in window: 158220
+Saved in user_timeline_104_users_896_requests_166779_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0ea67234-a001-487d-9e30-4e23aad15b3a.json.bz2
+Computing Time: 797 sec
+
+# queried users: 14900
+# pulled users: 10975
+# pulled missed: 3925
+# pulled users in window: 63
+# pulled requests in window: 573
+# pulled tweets in window: 107564
+Saved in user_timeline_97_users_895_requests_168163_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_ad7ca1e9-0693-4ca3-9646-077d8561c175.json.bz2
+Computing Time: 790 sec
+
+# queried users: 15000
+# pulled users: 11048
+# pulled missed: 3952
+# pulled users in window: 39
+# pulled requests in window: 342
+# pulled tweets in window: 63570
+Saved in user_timeline_101_users_897_requests_168037_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0e1ccab9-f9e4-4933-9841-005afb7933c2.json.bz2
+Computing Time: 776 sec
+
+# queried users: 15100
+# pulled users: 11125
+# pulled missed: 3975
+# pulled users in window: 15
+# pulled requests in window: 87
+# pulled tweets in window: 15326
+# queried users: 15200
+# pulled users: 11197
+# pulled missed: 4003
+# pulled users in window: 87
+# pulled requests in window: 668
+# pulled tweets in window: 123401
+Saved in user_timeline_112_users_881_requests_163199_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_1a43a7a8-18d1-4cc1-8ff2-db7f20d51366.json.bz2
+Computing Time: 748 sec
+
+# queried users: 15300
+# pulled users: 11271
+# pulled missed: 4029
+# pulled users in window: 49
+# pulled requests in window: 454
+# pulled tweets in window: 85718
+Saved in user_timeline_93_users_883_requests_167140_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b20cec12-cdd0-4543-8749-e883e766da4d.json.bz2
+Computing Time: 780 sec
+
+# queried users: 15400
+# pulled users: 11352
+# pulled missed: 4048
+# pulled users in window: 37
+# pulled requests in window: 356
+# pulled tweets in window: 66952
+# queried users: 15500
+# pulled users: 11422
+# pulled missed: 4078
+# pulled users in window: 107
+# pulled requests in window: 892
+# pulled tweets in window: 167373
+Saved in user_timeline_107_users_892_requests_167373_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_060e8c59-8d0f-4395-aaca-701f8bb9db32.json.bz2
+Computing Time: 786 sec
+
+# queried users: 15600
+# pulled users: 11499
+# pulled missed: 4101
+# pulled users in window: 77
+# pulled requests in window: 655
+# pulled tweets in window: 121065
+Saved in user_timeline_105_users_896_requests_165732_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_aff278a6-6f86-42a3-92be-d8d1c51cbf15.json.bz2
+Computing Time: 786 sec
+
+# queried users: 15700
+# pulled users: 11570
+# pulled missed: 4130
+# pulled users in window: 43
+# pulled requests in window: 435
+# pulled tweets in window: 82805
+Saved in user_timeline_95_users_883_requests_166789_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d94b6720-4c1b-4fa4-ba6d-6c35b412ecd9.json.bz2
+Computing Time: 774 sec
+
+# queried users: 15800
+# pulled users: 11645
+# pulled missed: 4155
+# pulled users in window: 23
+# pulled requests in window: 246
+# pulled tweets in window: 47266
+Saved in user_timeline_85_users_885_requests_168008_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b2a73736-cc14-416e-8b24-920ba2252f7a.json.bz2
+Computing Time: 934 sec
+
+# queried users: 15900
+# pulled users: 11726
+# pulled missed: 4174
+# pulled users in window: 19
+# pulled requests in window: 149
+# pulled tweets in window: 27592
+# queried users: 16000
+# pulled users: 11802
+# pulled missed: 4198
+# pulled users in window: 95
+# pulled requests in window: 788
+# pulled tweets in window: 146391
+Saved in user_timeline_106_users_886_requests_164697_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_f54064c1-5654-4b4d-8d22-0c1d553fb65d.json.bz2
+Computing Time: 772 sec
+
+# queried users: 16100
+# pulled users: 11876
+# pulled missed: 4224
+# pulled users in window: 63
+# pulled requests in window: 535
+# pulled tweets in window: 100834
+Saved in user_timeline_103_users_881_requests_165385_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_8d5ebe14-3396-4c10-ba35-da2b2edaedce.json.bz2
+Computing Time: 812 sec
+
+# queried users: 16200
+# pulled users: 11958
+# pulled missed: 4242
+# pulled users in window: 42
+# pulled requests in window: 433
+# pulled tweets in window: 82592
+Saved in user_timeline_88_users_895_requests_168965_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d691181b-2877-4121-af8b-a864c3b20eb3.json.bz2
+Computing Time: 783 sec
+
+# queried users: 16300
+# pulled users: 12041
+# pulled missed: 4259
+# pulled users in window: 37
+# pulled requests in window: 326
+# pulled tweets in window: 61287
+Saved in user_timeline_105_users_885_requests_165211_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e558215a-cf94-4eef-a088-874819153467.json.bz2
+Computing Time: 778 sec
+
+# queried users: 16400
+# pulled users: 12122
+# pulled missed: 4278
+# pulled users in window: 13
+# pulled requests in window: 106
+# pulled tweets in window: 19691
+# queried users: 16500
+# pulled users: 12195
+# pulled missed: 4305
+# pulled users in window: 86
+# pulled requests in window: 840
+# pulled tweets in window: 158964
+Saved in user_timeline_91_users_891_requests_168625_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_ac3405c6-55c7-4a6f-aa28-2f8757694b2f.json.bz2
+Computing Time: 726 sec
+
+# queried users: 16600
+# pulled users: 12276
+# pulled missed: 4324
+# pulled users in window: 76
+# pulled requests in window: 769
+# pulled tweets in window: 145206
+Saved in user_timeline_87_users_888_requests_168163_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b1467338-1a0b-470e-a021-52bfd88262d8.json.bz2
+Computing Time: 736 sec
+
+# queried users: 16700
+# pulled users: 12353
+# pulled missed: 4347
+# pulled users in window: 66
+# pulled requests in window: 551
+# pulled tweets in window: 101822
+Saved in user_timeline_103_users_884_requests_165158_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_fafeeb5f-1095-4ff0-b7f2-568f1f6fe883.json.bz2
+Computing Time: 748 sec
+
+# queried users: 16800
+# pulled users: 12431
+# pulled missed: 4369
+# pulled users in window: 41
+# pulled requests in window: 326
+# pulled tweets in window: 60383
+Saved in user_timeline_102_users_881_requests_164562_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d6ed86f7-fe1e-40dc-9d27-3b6dc4a87d2e.json.bz2
+Computing Time: 746 sec
+
+# queried users: 16900
+# pulled users: 12505
+# pulled missed: 4395
+# pulled users in window: 13
+# pulled requests in window: 100
+# pulled tweets in window: 18497
+# queried users: 17000
+# pulled users: 12569
+# pulled missed: 4431
+# pulled users in window: 77
+# pulled requests in window: 704
+# pulled tweets in window: 132047
+Saved in user_timeline_100_users_892_requests_167033_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_5d725724-a367-4e11-ab06-aa50f57a5a37.json.bz2
+Computing Time: 775 sec
+
+# queried users: 17100
+# pulled users: 12641
+# pulled missed: 4459
+# pulled users in window: 49
+# pulled requests in window: 410
+# pulled tweets in window: 75625
+Saved in user_timeline_101_users_884_requests_165361_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_2318f036-7668-4235-9545-92af7eae656b.json.bz2
+Computing Time: 831 sec
+
+# queried users: 17200
+# pulled users: 12713
+# pulled missed: 4487
+# pulled users in window: 20
+# pulled requests in window: 147
+# pulled tweets in window: 26881
+# queried users: 17300
+# pulled users: 12785
+# pulled missed: 4515
+# pulled users in window: 92
+# pulled requests in window: 805
+# pulled tweets in window: 150223
+Saved in user_timeline_99_users_889_requests_166478_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4f6a5706-9d09-4377-93c3-067f6031fa83.json.bz2
+Computing Time: 774 sec
+
+# queried users: 17400
+# pulled users: 12856
+# pulled missed: 4544
+# pulled users in window: 64
+# pulled requests in window: 560
+# pulled tweets in window: 104569
+Saved in user_timeline_93_users_891_requests_168187_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d7157769-4caf-4bff-8628-8c7f19243221.json.bz2
+Computing Time: 767 sec
+
+# queried users: 17500
+# pulled users: 12934
+# pulled missed: 4566
+# pulled users in window: 49
+# pulled requests in window: 414
+# pulled tweets in window: 77647
+Saved in user_timeline_101_users_881_requests_164875_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_432e9fef-2472-4712-8770-23a2727b6779.json.bz2
+Computing Time: 830 sec
+
+# queried users: 17600
+# pulled users: 13004
+# pulled missed: 4596
+# pulled users in window: 18
+# pulled requests in window: 156
+# pulled tweets in window: 29595
+# queried users: 17700
+# pulled users: 13075
+# pulled missed: 4625
+# pulled users in window: 89
+# pulled requests in window: 797
+# pulled tweets in window: 149513
+Saved in user_timeline_99_users_885_requests_165800_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0ae59cc0-c670-4dd0-94ca-6530aa335f3a.json.bz2
+Computing Time: 791 sec
+
+# queried users: 17800
+# pulled users: 13156
+# pulled missed: 4644
+# pulled users in window: 71
+# pulled requests in window: 623
+# pulled tweets in window: 116961
+Saved in user_timeline_104_users_890_requests_166600_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c546dfa2-ace4-42e6-9477-fe485d8f206b.json.bz2
+Computing Time: 754 sec
+
+# queried users: 17900
+# pulled users: 13228
+# pulled missed: 4672
+# pulled users in window: 39
+# pulled requests in window: 387
+# pulled tweets in window: 73322
+Saved in user_timeline_89_users_883_requests_166731_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_746d2f6c-2ac4-4acd-9f4e-a8f38456213c.json.bz2
+Computing Time: 829 sec
+
+# queried users: 18000
+# pulled users: 13297
+# pulled missed: 4703
+# pulled users in window: 19
+# pulled requests in window: 199
+# pulled tweets in window: 37544
+# queried users: 18100
+# pulled users: 13371
+# pulled missed: 4729
+# pulled users in window: 93
+# pulled requests in window: 809
+# pulled tweets in window: 151825
+Saved in user_timeline_100_users_881_requests_165373_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_94309ea3-fa43-43d9-b4a2-4fffd830b654.json.bz2
+Computing Time: 882 sec
+
+# queried users: 18200
+# pulled users: 13451
+# pulled missed: 4749
+# pulled users in window: 73
+# pulled requests in window: 637
+# pulled tweets in window: 119047
+Saved in user_timeline_100_users_886_requests_166058_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_090f5284-bf02-406c-a901-779b0fdf1ff2.json.bz2
+Computing Time: 951 sec
+
+# queried users: 18300
+# pulled users: 13524
+# pulled missed: 4776
+# pulled users in window: 46
+# pulled requests in window: 402
+# pulled tweets in window: 75434
+Saved in user_timeline_105_users_886_requests_165729_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d974abc6-50c0-4498-87f0-1a4017daeba5.json.bz2
+Computing Time: 825 sec
+
+# queried users: 18400
+# pulled users: 13605
+# pulled missed: 4795
+# pulled users in window: 22
+# pulled requests in window: 175
+# pulled tweets in window: 32423
+# queried users: 18500
+# pulled users: 13685
+# pulled missed: 4815
+# pulled users in window: 102
+# pulled requests in window: 847
+# pulled tweets in window: 158356
+Saved in user_timeline_108_users_894_requests_167110_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_2027ebd8-2acd-4e82-ade8-eb57a5899379.json.bz2
+Computing Time: 819 sec
+
+# queried users: 18600
+# pulled users: 13760
+# pulled missed: 4840
+# pulled users in window: 69
+# pulled requests in window: 635
+# pulled tweets in window: 119604
+Saved in user_timeline_95_users_889_requests_167238_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0c9d003c-1247-4b85-b4e6-83442f3b0b37.json.bz2
+Computing Time: 786 sec
+
+# queried users: 18700
+# pulled users: 13835
+# pulled missed: 4865
+# pulled users in window: 49
+# pulled requests in window: 472
+# pulled tweets in window: 88583
+Saved in user_timeline_91_users_885_requests_166259_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_65d91181-2260-4671-b811-7d67167d965a.json.bz2
+Computing Time: 800 sec
+
+# queried users: 18800
+# pulled users: 13910
+# pulled missed: 4890
+# pulled users in window: 33
+# pulled requests in window: 208
+# pulled tweets in window: 37491
+# queried users: 18900
+# pulled users: 13983
+# pulled missed: 4917
+# pulled users in window: 106
+# pulled requests in window: 785
+# pulled tweets in window: 143856
+Saved in user_timeline_116_users_887_requests_163242_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e280a04f-2c2c-4ff1-9385-25b1dca41e26.json.bz2
+Computing Time: 785 sec
+
+# queried users: 19000
+# pulled users: 14058
+# pulled missed: 4942
+# pulled users in window: 65
+# pulled requests in window: 585
+# pulled tweets in window: 109924
+Saved in user_timeline_98_users_891_requests_167689_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7054a3a8-75f1-4bfb-a0a1-b317d1813c51.json.bz2
+Computing Time: 914 sec
+
+# queried users: 19100
+# pulled users: 14131
+# pulled missed: 4969
+# pulled users in window: 40
+# pulled requests in window: 338
+# pulled tweets in window: 62608
+Saved in user_timeline_101_users_894_requests_166846_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9542f04c-5bdc-4af5-9e9f-862789580490.json.bz2
+Computing Time: 805 sec
+
+# queried users: 19200
+# pulled users: 14208
+# pulled missed: 4992
+# pulled users in window: 16
+# pulled requests in window: 132
+# pulled tweets in window: 24523
+# queried users: 19300
+# pulled users: 14282
+# pulled missed: 5018
+# pulled users in window: 90
+# pulled requests in window: 845
+# pulled tweets in window: 157838
+Saved in user_timeline_95_users_897_requests_167738_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b78f7333-860e-4c14-bd96-e578078ca94a.json.bz2
+Computing Time: 808 sec
+
+# queried users: 19400
+# pulled users: 14354
+# pulled missed: 5046
+# pulled users in window: 67
+# pulled requests in window: 613
+# pulled tweets in window: 115466
+Saved in user_timeline_100_users_895_requests_168431_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4ee85f1b-bac1-4463-9317-035b2eafb073.json.bz2
+Computing Time: 829 sec
+
+# queried users: 19500
+# pulled users: 14433
+# pulled missed: 5067
+# pulled users in window: 46
+# pulled requests in window: 361
+# pulled tweets in window: 67113
+Saved in user_timeline_109_users_882_requests_164470_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_590fc411-22e9-400d-8bf7-44f21837a63e.json.bz2
+Computing Time: 799 sec
+
+# queried users: 19600
+# pulled users: 14514
+# pulled missed: 5086
+# pulled users in window: 18
+# pulled requests in window: 206
+# pulled tweets in window: 39034
+Saved in user_timeline_89_users_881_requests_166107_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7d5227e2-c53e-469c-8ef4-22daa9c921f3.json.bz2
+Computing Time: 792 sec
+
+# queried users: 19700
+# pulled users: 14590
+# pulled missed: 5110
+# pulled users in window: 5
+# pulled requests in window: 49
+# pulled tweets in window: 9362
+# queried users: 19800
+# pulled users: 14659
+# pulled missed: 5141
+# pulled users in window: 74
+# pulled requests in window: 741
+# pulled tweets in window: 139802
+Saved in user_timeline_93_users_885_requests_166815_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4f30c339-d93e-43eb-bd04-e61e834680fe.json.bz2
+Computing Time: 841 sec
+
+# queried users: 19900
+# pulled users: 14735
+# pulled missed: 5165
+# pulled users in window: 57
+# pulled requests in window: 544
+# pulled tweets in window: 101456
+Saved in user_timeline_105_users_895_requests_166851_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_39599ffa-26d0-45c3-8b90-e21ceb72ec01.json.bz2
+Computing Time: 823 sec
+
+# queried users: 20000
+# pulled users: 14815
+# pulled missed: 5185
+# pulled users in window: 32
+# pulled requests in window: 268
+# pulled tweets in window: 49827
+Saved in user_timeline_88_users_886_requests_167436_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_58cf5db3-a93b-4e99-a0f2-9d5f1743a932.json.bz2
+Computing Time: 801 sec
+
+# queried users: 20100
+# pulled users: 14893
+# pulled missed: 5207
+# pulled users in window: 22
+# pulled requests in window: 224
+# pulled tweets in window: 42567
+# queried users: 20200
+# pulled users: 14962
+# pulled missed: 5238
+# pulled users in window: 91
+# pulled requests in window: 829
+# pulled tweets in window: 155513
+Saved in user_timeline_99_users_882_requests_165144_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6377639c-bf42-4def-96ac-074612621262.json.bz2
+Computing Time: 792 sec
+
+# queried users: 20300
+# pulled users: 15037
+# pulled missed: 5263
+# pulled users in window: 67
+# pulled requests in window: 599
+# pulled tweets in window: 112029
+Saved in user_timeline_105_users_882_requests_164559_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6e831ad5-f928-47d0-93d7-c4f8b2f8318c.json.bz2
+Computing Time: 792 sec
+
+# queried users: 20400
+# pulled users: 15105
+# pulled missed: 5295
+# pulled users in window: 30
+# pulled requests in window: 237
+# pulled tweets in window: 43607
+Saved in user_timeline_95_users_891_requests_166989_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_62eb0612-f004-4136-83b7-f2012e17e114.json.bz2
+Computing Time: 825 sec
+
+# queried users: 20500
+# pulled users: 15182
+# pulled missed: 5318
+# pulled users in window: 12
+# pulled requests in window: 132
+# pulled tweets in window: 25629
+# queried users: 20600
+# pulled users: 15253
+# pulled missed: 5347
+# pulled users in window: 83
+# pulled requests in window: 720
+# pulled tweets in window: 136306
+Saved in user_timeline_102_users_883_requests_166700_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6f3cacf6-01d1-42fd-a546-92f4794a2b5f.json.bz2
+Computing Time: 864 sec
+
+# queried users: 20700
+# pulled users: 15326
+# pulled missed: 5374
+# pulled users in window: 54
+# pulled requests in window: 377
+# pulled tweets in window: 68781
+Saved in user_timeline_118_users_885_requests_163363_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a0ebde7f-3bcb-4b4a-a77a-6c22565c5fc7.json.bz2
+Computing Time: 779 sec
+
+# queried users: 20800
+# pulled users: 15401
+# pulled missed: 5399
+# pulled users in window: 11
+# pulled requests in window: 83
+# pulled tweets in window: 15062
+# queried users: 20900
+# pulled users: 15479
+# pulled missed: 5421
+# pulled users in window: 89
+# pulled requests in window: 774
+# pulled tweets in window: 145110
+Saved in user_timeline_103_users_885_requests_165739_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_425337e1-3736-4577-aad7-e1a659ba6ac8.json.bz2
+Computing Time: 788 sec
+
+# queried users: 21000
+# pulled users: 15551
+# pulled missed: 5449
+# pulled users in window: 58
+# pulled requests in window: 433
+# pulled tweets in window: 80685
+Saved in user_timeline_103_users_884_requests_165549_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cfd65498-1c4c-4e2f-8fbd-245749e6a1b2.json.bz2
+Computing Time: 776 sec
+
+# queried users: 21100
+# pulled users: 15615
+# pulled missed: 5485
+# pulled users in window: 19
+# pulled requests in window: 181
+# pulled tweets in window: 34194
+Saved in user_timeline_93_users_886_requests_166541_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6979b1e1-f253-4a9e-8bdf-43043c5d4493.json.bz2
+Computing Time: 757 sec
+
+# queried users: 21200
+# pulled users: 15691
+# pulled missed: 5509
+# pulled users in window: 2
+# pulled requests in window: 16
+# pulled tweets in window: 3027
+# queried users: 21300
+# pulled users: 15764
+# pulled missed: 5536
+# pulled users in window: 75
+# pulled requests in window: 626
+# pulled tweets in window: 117253
+Saved in user_timeline_101_users_881_requests_165158_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_656b3b85-f30f-4152-aceb-64c548c41937.json.bz2
+Computing Time: 801 sec
+
+# queried users: 21400
+# pulled users: 15831
+# pulled missed: 5569
+# pulled users in window: 41
+# pulled requests in window: 331
+# pulled tweets in window: 61824
+# queried users: 21500
+# pulled users: 15901
+# pulled missed: 5599
+# pulled users in window: 111
+# pulled requests in window: 896
+# pulled tweets in window: 166899
+Saved in user_timeline_111_users_896_requests_166899_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_796b6e88-653f-4245-8ada-f215c4dff6e2.json.bz2
+Computing Time: 779 sec
+
+# queried users: 21600
+# pulled users: 15976
+# pulled missed: 5624
+# pulled users in window: 75
+# pulled requests in window: 619
+# pulled tweets in window: 115222
+Saved in user_timeline_105_users_881_requests_163946_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3f48241c-99f7-4cdc-9f28-e022c2b3d9c8.json.bz2
+Computing Time: 755 sec
+
+# queried users: 21700
+# pulled users: 16048
+# pulled missed: 5652
+# pulled users in window: 42
+# pulled requests in window: 388
+# pulled tweets in window: 72929
+Saved in user_timeline_101_users_885_requests_164493_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e0f919e6-5e6d-4383-9d34-56e59156a91a.json.bz2
+Computing Time: 753 sec
+
+# queried users: 21800
+# pulled users: 16127
+# pulled missed: 5673
+# pulled users in window: 20
+# pulled requests in window: 185
+# pulled tweets in window: 34254
+# queried users: 21900
+# pulled users: 16207
+# pulled missed: 5693
+# pulled users in window: 100
+# pulled requests in window: 837
+# pulled tweets in window: 156276
+Saved in user_timeline_104_users_881_requests_164611_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_fdd451be-958e-4dd9-abce-050afb686da8.json.bz2
+Computing Time: 749 sec
+
+# queried users: 22000
+# pulled users: 16280
+# pulled missed: 5720
+# pulled users in window: 69
+# pulled requests in window: 610
+# pulled tweets in window: 115123
+Saved in user_timeline_104_users_887_requests_166664_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_5727757f-aba1-4084-83cf-dbe48dcd579b.json.bz2
+Computing Time: 757 sec
+
+# queried users: 22100
+# pulled users: 16350
+# pulled missed: 5750
+# pulled users in window: 35
+# pulled requests in window: 299
+# pulled tweets in window: 55052
+Saved in user_timeline_107_users_890_requests_165206_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_44be7232-2bc5-44ca-b8f3-e12468a8175f.json.bz2
+Computing Time: 781 sec
+
+# queried users: 22200
+# pulled users: 16423
+# pulled missed: 5777
+# pulled users in window: 1
+# pulled requests in window: 1
+# pulled tweets in window: 0
+# queried users: 22300
+# pulled users: 16490
+# pulled missed: 5810
+# pulled users in window: 68
+# pulled requests in window: 583
+# pulled tweets in window: 108244
+Saved in user_timeline_101_users_883_requests_164759_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_796bbbab-f0bf-49ef-8779-2b66774bbb64.json.bz2
+Computing Time: 792 sec
+
+# queried users: 22400
+# pulled users: 16564
+# pulled missed: 5836
+# pulled users in window: 41
+# pulled requests in window: 252
+# pulled tweets in window: 45982
+Saved in user_timeline_116_users_894_requests_165989_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3ae8e0bb-7d9a-400e-9fc5-47c7fdcd7818.json.bz2
+Computing Time: 826 sec
+
+# queried users: 22500
+# pulled users: 16643
+# pulled missed: 5857
+# pulled users in window: 4
+# pulled requests in window: 61
+# pulled tweets in window: 11862
+# queried users: 22600
+# pulled users: 16711
+# pulled missed: 5889
+# pulled users in window: 72
+# pulled requests in window: 638
+# pulled tweets in window: 120045
+Saved in user_timeline_99_users_881_requests_165633_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b988a680-6778-4d7d-837f-45eb18b168f6.json.bz2
+Computing Time: 778 sec
+
+# queried users: 22700
+# pulled users: 16787
+# pulled missed: 5913
+# pulled users in window: 49
+# pulled requests in window: 383
+# pulled tweets in window: 71379
+Saved in user_timeline_107_users_881_requests_163678_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_12c3aa5b-329c-4790-9a54-22c33b321093.json.bz2
+Computing Time: 751 sec
+
+# queried users: 22800
+# pulled users: 16869
+# pulled missed: 5931
+# pulled users in window: 24
+# pulled requests in window: 177
+# pulled tweets in window: 32710
+# queried users: 22900
+# pulled users: 16944
+# pulled missed: 5956
+# pulled users in window: 99
+# pulled requests in window: 880
+# pulled tweets in window: 164860
+Saved in user_timeline_100_users_895_requests_167711_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3049643e-dfc0-41ca-be03-5b49ba2295ca.json.bz2
+Computing Time: 1003 sec
+
+# queried users: 23000
+# pulled users: 17011
+# pulled missed: 5989
+# pulled users in window: 66
+# pulled requests in window: 611
+# pulled tweets in window: 114733
+Saved in user_timeline_97_users_886_requests_166213_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d87c1b8c-76d2-4fa9-8e49-61cf899ba6de.json.bz2
+Computing Time: 815 sec
+
+# queried users: 23100
+# pulled users: 17080
+# pulled missed: 6020
+# pulled users in window: 38
+# pulled requests in window: 328
+# pulled tweets in window: 61152
+Saved in user_timeline_95_users_886_requests_166009_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_8c168c54-5d8b-4dac-b2ed-8db4ac652df6.json.bz2
+Computing Time: 839 sec
+
+# queried users: 23200
+# pulled users: 17151
+# pulled missed: 6049
+# pulled users in window: 14
+# pulled requests in window: 138
+# pulled tweets in window: 25892
+# queried users: 23300
+# pulled users: 17212
+# pulled missed: 6088
+# pulled users in window: 75
+# pulled requests in window: 681
+# pulled tweets in window: 127613
+Saved in user_timeline_96_users_881_requests_165205_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_888e6f49-8d8a-4126-89b7-1890812a1318.json.bz2
+Computing Time: 794 sec
+
+# queried users: 23400
+# pulled users: 17289
+# pulled missed: 6111
+# pulled users in window: 56
+# pulled requests in window: 430
+# pulled tweets in window: 79936
+Saved in user_timeline_100_users_893_requests_166678_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_75ed8884-b871-4a75-ac63-8176ac6510c3.json.bz2
+Computing Time: 817 sec
+
+# queried users: 23500
+# pulled users: 17361
+# pulled missed: 6139
+# pulled users in window: 28
+# pulled requests in window: 201
+# pulled tweets in window: 37551
+# queried users: 23600
+# pulled users: 17437
+# pulled missed: 6163
+# pulled users in window: 104
+# pulled requests in window: 783
+# pulled tweets in window: 145929
+Saved in user_timeline_122_users_896_requests_166519_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d95a4a16-18cd-486b-973f-bb7d8a29cc7a.json.bz2
+Computing Time: 812 sec
+
+# queried users: 23700
+# pulled users: 17507
+# pulled missed: 6193
+# pulled users in window: 52
+# pulled requests in window: 399
+# pulled tweets in window: 74220
+Saved in user_timeline_115_users_891_requests_165583_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_fb46c371-4371-4a83-9bcf-a2c1f0f7ab04.json.bz2
+Computing Time: 769 sec
+
+# queried users: 23800
+# pulled users: 17585
+# pulled missed: 6215
+# pulled users in window: 15
+# pulled requests in window: 164
+# pulled tweets in window: 30876
+# queried users: 23900
+# pulled users: 17666
+# pulled missed: 6234
+# pulled users in window: 96
+# pulled requests in window: 829
+# pulled tweets in window: 154560
+Saved in user_timeline_103_users_892_requests_166340_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_647abbc3-a3e6-49bc-85cc-75fbdbd6c3a7.json.bz2
+Computing Time: 795 sec
+
+# queried users: 24000
+# pulled users: 17742
+# pulled missed: 6258
+# pulled users in window: 69
+# pulled requests in window: 605
+# pulled tweets in window: 113287
+Saved in user_timeline_97_users_882_requests_164962_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a76d3645-9080-4cb5-b508-d74bd5d56bfd.json.bz2
+Computing Time: 820 sec
+
+# queried users: 24100
+# pulled users: 17820
+# pulled missed: 6280
+# pulled users in window: 50
+# pulled requests in window: 410
+# pulled tweets in window: 75758
+Saved in user_timeline_103_users_890_requests_166484_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a8038794-a5b8-421c-a367-c255d8ebf24a.json.bz2
+Computing Time: 831 sec
+
+# queried users: 24200
+# pulled users: 17897
+# pulled missed: 6303
+# pulled users in window: 24
+# pulled requests in window: 173
+# pulled tweets in window: 31816
+# queried users: 24300
+# pulled users: 17970
+# pulled missed: 6330
+# pulled users in window: 97
+# pulled requests in window: 876
+# pulled tweets in window: 165482
+Saved in user_timeline_100_users_897_requests_169246_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e7170f52-8c50-4217-a068-ea0d82fedfcd.json.bz2
+Computing Time: 792 sec
+
+# queried users: 24400
+# pulled users: 18046
+# pulled missed: 6354
+# pulled users in window: 73
+# pulled requests in window: 631
+# pulled tweets in window: 118350
+Saved in user_timeline_101_users_889_requests_167068_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0b650b54-0733-4ec0-a1c2-a6018ad43c41.json.bz2
+Computing Time: 847 sec
+
+# queried users: 24500
+# pulled users: 18120
+# pulled missed: 6380
+# pulled users in window: 46
+# pulled requests in window: 486
+# pulled tweets in window: 91954
+Saved in user_timeline_95_users_887_requests_166782_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9aedeb54-8e14-4a11-a593-887172990bd5.json.bz2
+Computing Time: 812 sec
+
+# queried users: 24600
+# pulled users: 18191
+# pulled missed: 6409
+# pulled users in window: 22
+# pulled requests in window: 172
+# pulled tweets in window: 31763
+# queried users: 24700
+# pulled users: 18266
+# pulled missed: 6434
+# pulled users in window: 97
+# pulled requests in window: 794
+# pulled tweets in window: 148855
+Saved in user_timeline_107_users_886_requests_165832_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_57a9491b-b9a3-48e9-a24a-46f87fdbb6de.json.bz2
+Computing Time: 736 sec
+
+# queried users: 24800
+# pulled users: 18329
+# pulled missed: 6471
+# pulled users in window: 53
+# pulled requests in window: 439
+# pulled tweets in window: 81697
+Saved in user_timeline_108_users_885_requests_164956_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c54f8bb5-6cf8-4419-b5d9-f60083e2bb74.json.bz2
+Computing Time: 813 sec
+
+# queried users: 24900
+# pulled users: 18411
+# pulled missed: 6489
+# pulled users in window: 27
+# pulled requests in window: 208
+# pulled tweets in window: 38825
+# queried users: 25000
+# pulled users: 18481
+# pulled missed: 6519
+# pulled users in window: 97
+# pulled requests in window: 799
+# pulled tweets in window: 149650
+Saved in user_timeline_106_users_893_requests_167737_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_34ae62a0-cf2c-4389-ab4c-78c8a7684b98.json.bz2
+Computing Time: 848 sec
+
+# queried users: 25100
+# pulled users: 18556
+# pulled missed: 6544
+# pulled users in window: 66
+# pulled requests in window: 687
+# pulled tweets in window: 130031
+Saved in user_timeline_92_users_895_requests_168634_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0dfd4eca-40c0-4b8a-a0ac-894b1adea309.json.bz2
+Computing Time: 797 sec
+
+# queried users: 25200
+# pulled users: 18635
+# pulled missed: 6565
+# pulled users in window: 53
+# pulled requests in window: 522
+# pulled tweets in window: 98029
+Saved in user_timeline_91_users_883_requests_166998_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e402ef93-97b6-4124-9cff-540cd6bbdda1.json.bz2
+Computing Time: 782 sec
+
+# queried users: 25300
+# pulled users: 18710
+# pulled missed: 6590
+# pulled users in window: 37
+# pulled requests in window: 428
+# pulled tweets in window: 81933
+Saved in user_timeline_92_users_894_requests_168399_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9ba096b5-032b-476b-a4fc-c6be3049a53b.json.bz2
+Computing Time: 789 sec
+
+# queried users: 25400
+# pulled users: 18786
+# pulled missed: 6614
+# pulled users in window: 21
+# pulled requests in window: 213
+# pulled tweets in window: 40617
+# queried users: 25500
+# pulled users: 18862
+# pulled missed: 6638
+# pulled users in window: 97
+# pulled requests in window: 817
+# pulled tweets in window: 151384
+Saved in user_timeline_103_users_890_requests_165511_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_43b0f15e-302b-44a4-9086-0275c8945afa.json.bz2
+Computing Time: 774 sec
+
+# queried users: 25600
+# pulled users: 18940
+# pulled missed: 6660
+# pulled users in window: 72
+# pulled requests in window: 599
+# pulled tweets in window: 110753
+Saved in user_timeline_106_users_897_requests_165797_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_122aec1b-2647-4085-b459-1567bd6d0a97.json.bz2
+Computing Time: 785 sec
+
+# queried users: 25700
+# pulled users: 19023
+# pulled missed: 6677
+# pulled users in window: 49
+# pulled requests in window: 433
+# pulled tweets in window: 81068
+Saved in user_timeline_106_users_888_requests_165624_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_95494240-66fa-401e-9b9d-c60531ad13ce.json.bz2
+Computing Time: 886 sec
+
+# queried users: 25800
+# pulled users: 19095
+# pulled missed: 6705
+# pulled users in window: 15
+# pulled requests in window: 171
+# pulled tweets in window: 32577
+Saved in user_timeline_89_users_884_requests_166976_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6e65dcdd-f2d8-4b48-822e-1d631fa99ea0.json.bz2
+Computing Time: 798 sec
+
+# queried users: 25900
+# pulled users: 19170
+# pulled missed: 6730
+# pulled users in window: 1
+# pulled requests in window: 17
+# pulled tweets in window: 3236
+# queried users: 26000
+# pulled users: 19245
+# pulled missed: 6755
+# pulled users in window: 76
+# pulled requests in window: 609
+# pulled tweets in window: 113728
+Saved in user_timeline_105_users_889_requests_166731_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_8b2639da-0d60-41cb-afb7-7b3d3b13c69d.json.bz2
+Computing Time: 840 sec
+
+# queried users: 26100
+# pulled users: 19317
+# pulled missed: 6783
+# pulled users in window: 43
+# pulled requests in window: 432
+# pulled tweets in window: 82017
+Saved in user_timeline_93_users_884_requests_166842_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_da77214f-7e0b-461c-91a8-b5d2a06f1e29.json.bz2
+Computing Time: 800 sec
+
+# queried users: 26200
+# pulled users: 19397
+# pulled missed: 6803
+# pulled users in window: 30
+# pulled requests in window: 234
+# pulled tweets in window: 43826
+Saved in user_timeline_99_users_890_requests_166904_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4d3cb2d0-5352-4226-b0f5-44a1f9f04806.json.bz2
+Computing Time: 782 sec
+
+# queried users: 26300
+# pulled users: 19468
+# pulled missed: 6832
+# pulled users in window: 2
+# pulled requests in window: 12
+# pulled tweets in window: 2105
+# queried users: 26400
+# pulled users: 19542
+# pulled missed: 6858
+# pulled users in window: 76
+# pulled requests in window: 725
+# pulled tweets in window: 135995
+Saved in user_timeline_97_users_885_requests_165571_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_305f2fa9-ac09-411f-b781-537ec51c373d.json.bz2
+Computing Time: 821 sec
+
+# queried users: 26500
+# pulled users: 19609
+# pulled missed: 6891
+# pulled users in window: 46
+# pulled requests in window: 342
+# pulled tweets in window: 62628
+Saved in user_timeline_111_users_887_requests_163985_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_06eb829d-135d-47ae-b677-eebe9927415d.json.bz2
+Computing Time: 826 sec
+
+# queried users: 26600
+# pulled users: 19680
+# pulled missed: 6920
+# pulled users in window: 6
+# pulled requests in window: 41
+# pulled tweets in window: 7457
+# queried users: 26700
+# pulled users: 19758
+# pulled missed: 6942
+# pulled users in window: 84
+# pulled requests in window: 859
+# pulled tweets in window: 162081
+Saved in user_timeline_86_users_890_requests_168082_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d48386aa-2684-433b-9199-1ead9280bd75.json.bz2
+Computing Time: 869 sec
+
+# queried users: 26800
+# pulled users: 19821
+# pulled missed: 6979
+# pulled users in window: 61
+# pulled requests in window: 511
+# pulled tweets in window: 95302
+Saved in user_timeline_98_users_881_requests_165561_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_470e35e8-6536-415b-9851-21323e0b45b8.json.bz2
+Computing Time: 804 sec
+
+# queried users: 26900
+# pulled users: 19890
+# pulled missed: 7010
+# pulled users in window: 32
+# pulled requests in window: 275
+# pulled tweets in window: 51462
+# queried users: 27000
+# pulled users: 19959
+# pulled missed: 7041
+# pulled users in window: 101
+# pulled requests in window: 877
+# pulled tweets in window: 164407
+Saved in user_timeline_102_users_894_requests_167655_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_ea4f5b21-c316-424d-8946-7a55542a60a9.json.bz2
+Computing Time: 837 sec
+
+# queried users: 27100
+# pulled users: 20033
+# pulled missed: 7067
+# pulled users in window: 73
+# pulled requests in window: 676
+# pulled tweets in window: 127636
+Saved in user_timeline_99_users_883_requests_166270_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_8946ce2a-133a-4e53-aa69-13cb49a5db99.json.bz2
+Computing Time: 728 sec
+
+# queried users: 27200
+# pulled users: 20106
+# pulled missed: 7094
+# pulled users in window: 47
+# pulled requests in window: 456
+# pulled tweets in window: 85638
+Saved in user_timeline_94_users_883_requests_166033_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6957fe00-ff09-404d-9bc0-9134ea6a1f17.json.bz2
+Computing Time: 803 sec
+
+# queried users: 27300
+# pulled users: 20181
+# pulled missed: 7119
+# pulled users in window: 28
+# pulled requests in window: 295
+# pulled tweets in window: 56194
+Saved in user_timeline_95_users_895_requests_168931_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_71b3fc7b-ed5a-448d-a919-161672d6c143.json.bz2
+Computing Time: 803 sec
+
+# queried users: 27400
+# pulled users: 20256
+# pulled missed: 7144
+# pulled users in window: 8
+# pulled requests in window: 79
+# pulled tweets in window: 14945
+# queried users: 27500
+# pulled users: 20339
+# pulled missed: 7161
+# pulled users in window: 91
+# pulled requests in window: 820
+# pulled tweets in window: 154295
+Saved in user_timeline_96_users_895_requests_168629_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_89818dbb-2ea1-4a92-bc90-4a72f38b3e1d.json.bz2
+Computing Time: 796 sec
+
+# queried users: 27600
+# pulled users: 20419
+# pulled missed: 7181
+# pulled users in window: 75
+# pulled requests in window: 678
+# pulled tweets in window: 126199
+Saved in user_timeline_99_users_890_requests_165729_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_02a84e7e-3aaf-4dc1-8c9f-1650189edad8.json.bz2
+Computing Time: 815 sec
+
+# queried users: 27700
+# pulled users: 20499
+# pulled missed: 7201
+# pulled users in window: 56
+# pulled requests in window: 450
+# pulled tweets in window: 83395
+Saved in user_timeline_109_users_896_requests_167194_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_67e35a79-88c6-46f4-9731-bea1675f2b81.json.bz2
+Computing Time: 756 sec
+
+# queried users: 27800
+# pulled users: 20575
+# pulled missed: 7225
+# pulled users in window: 23
+# pulled requests in window: 179
+# pulled tweets in window: 33256
+# queried users: 27900
+# pulled users: 20652
+# pulled missed: 7248
+# pulled users in window: 100
+# pulled requests in window: 833
+# pulled tweets in window: 155226
+Saved in user_timeline_108_users_884_requests_164703_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_dbb1ba36-3dda-420c-ab1b-3400b0172bf0.json.bz2
+Computing Time: 802 sec
+
+# queried users: 28000
+# pulled users: 20719
+# pulled missed: 7281
+# pulled users in window: 59
+# pulled requests in window: 472
+# pulled tweets in window: 87568
+Saved in user_timeline_106_users_885_requests_165885_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_fc101529-2887-4433-a07e-68da5c0a3b2b.json.bz2
+Computing Time: 788 sec
+
+# queried users: 28100
+# pulled users: 20786
+# pulled missed: 7314
+# pulled users in window: 20
+# pulled requests in window: 204
+# pulled tweets in window: 38514
+Saved in user_timeline_93_users_893_requests_168831_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a15c629d-ae50-4232-b51e-ee70c872e5ef.json.bz2
+Computing Time: 888 sec
+
+# queried users: 28200
+# pulled users: 20861
+# pulled missed: 7339
+# pulled users in window: 2
+# pulled requests in window: 6
+# pulled tweets in window: 1058
+# queried users: 28300
+# pulled users: 20932
+# pulled missed: 7368
+# pulled users in window: 73
+# pulled requests in window: 656
+# pulled tweets in window: 123082
+Saved in user_timeline_108_users_888_requests_165566_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_8292bd63-d50f-4e45-aee3-19026845524d.json.bz2
+Computing Time: 799 sec
+
+# queried users: 28400
+# pulled users: 21008
+# pulled missed: 7392
+# pulled users in window: 41
+# pulled requests in window: 341
+# pulled tweets in window: 63117
+Saved in user_timeline_113_users_887_requests_164243_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_c7e99699-4ec7-4491-964e-953f1bd648be.json.bz2
+Computing Time: 770 sec
+
+# queried users: 28500
+# pulled users: 21083
+# pulled missed: 7417
+# pulled users in window: 3
+# pulled requests in window: 30
+# pulled tweets in window: 5641
+# queried users: 28600
+# pulled users: 21160
+# pulled missed: 7440
+# pulled users in window: 80
+# pulled requests in window: 681
+# pulled tweets in window: 127239
+Saved in user_timeline_104_users_888_requests_165588_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_de0b8a05-4218-4dde-b25e-9632fb81c8b9.json.bz2
+Computing Time: 793 sec
+
+# queried users: 28700
+# pulled users: 21229
+# pulled missed: 7471
+# pulled users in window: 45
+# pulled requests in window: 406
+# pulled tweets in window: 76898
+Saved in user_timeline_101_users_895_requests_167499_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_45da3ad8-2d77-4648-bb35-a3986a08b19f.json.bz2
+Computing Time: 802 sec
+
+# queried users: 28800
+# pulled users: 21307
+# pulled missed: 7493
+# pulled users in window: 22
+# pulled requests in window: 187
+# pulled tweets in window: 34971
+Saved in user_timeline_96_users_886_requests_166534_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3bcc5cf6-d948-4819-96cf-e37223f9719c.json.bz2
+Computing Time: 905 sec
+
+# queried users: 28900
+# pulled users: 21385
+# pulled missed: 7515
+# pulled users in window: 4
+# pulled requests in window: 57
+# pulled tweets in window: 11316
+# queried users: 29000
+# pulled users: 21455
+# pulled missed: 7545
+# pulled users in window: 74
+# pulled requests in window: 733
+# pulled tweets in window: 138342
+Saved in user_timeline_96_users_896_requests_168432_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b8f9954c-b65f-443b-a99e-722549cf8524.json.bz2
+Computing Time: 821 sec
+
+# queried users: 29100
+# pulled users: 21528
+# pulled missed: 7572
+# pulled users in window: 51
+# pulled requests in window: 529
+# pulled tweets in window: 99390
+Saved in user_timeline_96_users_885_requests_164902_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_5e2e4fde-1788-4f01-bbfd-44f2798da8cf.json.bz2
+Computing Time: 785 sec
+
+# queried users: 29200
+# pulled users: 21595
+# pulled missed: 7605
+# pulled users in window: 22
+# pulled requests in window: 199
+# pulled tweets in window: 37084
+# queried users: 29300
+# pulled users: 21675
+# pulled missed: 7625
+# pulled users in window: 102
+# pulled requests in window: 840
+# pulled tweets in window: 155667
+Saved in user_timeline_106_users_893_requests_165671_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_95acaf53-7914-4729-9f0a-a4a05d283204.json.bz2
+Computing Time: 839 sec
+
+# queried users: 29400
+# pulled users: 21753
+# pulled missed: 7647
+# pulled users in window: 74
+# pulled requests in window: 634
+# pulled tweets in window: 118169
+Saved in user_timeline_106_users_893_requests_166341_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4e851b40-bc0f-43bb-8ca0-9a172ef56468.json.bz2
+Computing Time: 798 sec
+
+# queried users: 29500
+# pulled users: 21824
+# pulled missed: 7676
+# pulled users in window: 39
+# pulled requests in window: 334
+# pulled tweets in window: 62761
+Saved in user_timeline_97_users_897_requests_168525_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0477f8cd-6bf4-4cb1-9a2e-34381c734d31.json.bz2
+Computing Time: 831 sec
+
+# queried users: 29600
+# pulled users: 21900
+# pulled missed: 7700
+# pulled users in window: 18
+# pulled requests in window: 142
+# pulled tweets in window: 26496
+# queried users: 29700
+# pulled users: 21968
+# pulled missed: 7732
+# pulled users in window: 86
+# pulled requests in window: 792
+# pulled tweets in window: 149013
+Saved in user_timeline_98_users_890_requests_167424_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_35d690e6-2685-4d7c-88cf-b99b1c66c024.json.bz2
+Computing Time: 890 sec
+
+# queried users: 29800
+# pulled users: 22042
+# pulled missed: 7758
+# pulled users in window: 62
+# pulled requests in window: 549
+# pulled tweets in window: 103364
+Saved in user_timeline_99_users_881_requests_165647_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_8a6eb470-e593-4663-bde5-5e8660315683.json.bz2
+Computing Time: 861 sec
+
+# queried users: 29900
+# pulled users: 22113
+# pulled missed: 7787
+# pulled users in window: 34
+# pulled requests in window: 289
+# pulled tweets in window: 54196
+Saved in user_timeline_107_users_881_requests_163596_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_1eaaef3a-dc78-43a7-9507-33e859230633.json.bz2
+Computing Time: 780 sec
+
+# queried users: 30000
+# pulled users: 22192
+# pulled missed: 7808
+# pulled users in window: 6
+# pulled requests in window: 60
+# pulled tweets in window: 11381
+# queried users: 30100
+# pulled users: 22267
+# pulled missed: 7833
+# pulled users in window: 81
+# pulled requests in window: 781
+# pulled tweets in window: 146775
+Saved in user_timeline_90_users_885_requests_166549_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_1f98a0e8-4876-472b-bb00-21c5f9136810.json.bz2
+Computing Time: 791 sec
+
+# queried users: 30200
+# pulled users: 22344
+# pulled missed: 7856
+# pulled users in window: 68
+# pulled requests in window: 705
+# pulled tweets in window: 133378
+Saved in user_timeline_88_users_890_requests_168146_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_f5db2a38-7799-4c87-9a06-c33a2466e3f8.json.bz2
+Computing Time: 821 sec
+
+# queried users: 30300
+# pulled users: 22419
+# pulled missed: 7881
+# pulled users in window: 55
+# pulled requests in window: 511
+# pulled tweets in window: 95985
+Saved in user_timeline_98_users_881_requests_165331_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cba706f7-5a61-42c4-ad8d-c58d3f914357.json.bz2
+Computing Time: 829 sec
+
+# queried users: 30400
+# pulled users: 22502
+# pulled missed: 7898
+# pulled users in window: 40
+# pulled requests in window: 313
+# pulled tweets in window: 58626
+Saved in user_timeline_103_users_886_requests_166448_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cd75c3b8-d498-491c-9c82-f5584dc1d723.json.bz2
+Computing Time: 820 sec
+
+# queried users: 30500
+# pulled users: 22575
+# pulled missed: 7925
+# pulled users in window: 10
+# pulled requests in window: 103
+# pulled tweets in window: 19572
+# queried users: 30600
+# pulled users: 22648
+# pulled missed: 7952
+# pulled users in window: 83
+# pulled requests in window: 712
+# pulled tweets in window: 133187
+Saved in user_timeline_103_users_895_requests_167679_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4ea9aab2-e268-48e9-a6c7-a00d8f545fee.json.bz2
+Computing Time: 826 sec
+
+# queried users: 30700
+# pulled users: 22720
+# pulled missed: 7980
+# pulled users in window: 52
+# pulled requests in window: 435
+# pulled tweets in window: 80890
+Saved in user_timeline_105_users_882_requests_163882_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9b2efed4-87e7-45a9-9c51-3e883c6cf011.json.bz2
+Computing Time: 951 sec
+
+# queried users: 30800
+# pulled users: 22789
+# pulled missed: 8011
+# pulled users in window: 16
+# pulled requests in window: 153
+# pulled tweets in window: 29438
+# queried users: 30900
+# pulled users: 22863
+# pulled missed: 8037
+# pulled users in window: 90
+# pulled requests in window: 792
+# pulled tweets in window: 147673
+Saved in user_timeline_101_users_891_requests_166191_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e8023f15-affb-4bfd-96e2-173efcc087f2.json.bz2
+Computing Time: 842 sec
+
+# queried users: 31000
+# pulled users: 22936
+# pulled missed: 8064
+# pulled users in window: 62
+# pulled requests in window: 424
+# pulled tweets in window: 77520
+Saved in user_timeline_116_users_885_requests_164349_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_bae4441f-f4c5-470d-9fcf-8bfd64a4eddb.json.bz2
+Computing Time: 871 sec
+
+# queried users: 31100
+# pulled users: 23014
+# pulled missed: 8086
+# pulled users in window: 24
+# pulled requests in window: 179
+# pulled tweets in window: 32596
+Saved in user_timeline_87_users_882_requests_166464_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b161bea8-28c4-4f1d-b292-9023ca543e2e.json.bz2
+Computing Time: 793 sec
+
+# queried users: 31200
+# pulled users: 23087
+# pulled missed: 8113
+# pulled users in window: 10
+# pulled requests in window: 101
+# pulled tweets in window: 18845
+# queried users: 31300
+# pulled users: 23161
+# pulled missed: 8139
+# pulled users in window: 84
+# pulled requests in window: 779
+# pulled tweets in window: 146362
+Saved in user_timeline_95_users_895_requests_168220_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4589d9d0-7d51-46b9-8311-b824c07419dd.json.bz2
+Computing Time: 867 sec
+
+# queried users: 31400
+# pulled users: 23231
+# pulled missed: 8169
+# pulled users in window: 59
+# pulled requests in window: 438
+# pulled tweets in window: 81090
+Saved in user_timeline_114_users_889_requests_163669_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_20735add-ee19-4f9f-b83b-74b8b3185568.json.bz2
+Computing Time: 846 sec
+
+# queried users: 31500
+# pulled users: 23305
+# pulled missed: 8195
+# pulled users in window: 19
+# pulled requests in window: 188
+# pulled tweets in window: 35311
+# queried users: 31600
+# pulled users: 23374
+# pulled missed: 8226
+# pulled users in window: 88
+# pulled requests in window: 831
+# pulled tweets in window: 155963
+Saved in user_timeline_100_users_886_requests_165614_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7e917a4f-c7d0-436b-b6b8-383e5f8ca77f.json.bz2
+Computing Time: 828 sec
+
+# queried users: 31700
+# pulled users: 23449
+# pulled missed: 8251
+# pulled users in window: 63
+# pulled requests in window: 531
+# pulled tweets in window: 99774
+Saved in user_timeline_98_users_897_requests_168648_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7d1a18a2-043c-44b3-98ad-aacb68329751.json.bz2
+Computing Time: 874 sec
+
+# queried users: 31800
+# pulled users: 23517
+# pulled missed: 8283
+# pulled users in window: 33
+# pulled requests in window: 229
+# pulled tweets in window: 41583
+# queried users: 31900
+# pulled users: 23594
+# pulled missed: 8306
+# pulled users in window: 110
+# pulled requests in window: 878
+# pulled tweets in window: 163194
+Saved in user_timeline_112_users_881_requests_163452_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4747c329-89fe-4716-8dee-460b664e6af8.json.bz2
+Computing Time: 881 sec
+
+# queried users: 32000
+# pulled users: 23671
+# pulled missed: 8329
+# pulled users in window: 75
+# pulled requests in window: 733
+# pulled tweets in window: 138778
+Saved in user_timeline_93_users_881_requests_165961_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_7b1711cd-3fef-46f7-91ed-3b144ed0568a.json.bz2
+Computing Time: 783 sec
+
+# queried users: 32100
+# pulled users: 23742
+# pulled missed: 8358
+# pulled users in window: 53
+# pulled requests in window: 372
+# pulled tweets in window: 68510
+Saved in user_timeline_112_users_893_requests_166651_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_e7912e7a-b840-4644-b107-994f63496803.json.bz2
+Computing Time: 842 sec
+
+# queried users: 32200
+# pulled users: 23821
+# pulled missed: 8379
+# pulled users in window: 20
+# pulled requests in window: 194
+# pulled tweets in window: 36419
+# queried users: 32300
+# pulled users: 23891
+# pulled missed: 8409
+# pulled users in window: 90
+# pulled requests in window: 828
+# pulled tweets in window: 155098
+Saved in user_timeline_95_users_882_requests_165329_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_828f1126-023a-4d03-94ac-f90aa191ba43.json.bz2
+Computing Time: 841 sec
+
+# queried users: 32400
+# pulled users: 23962
+# pulled missed: 8438
+# pulled users in window: 66
+# pulled requests in window: 533
+# pulled tweets in window: 99594
+Saved in user_timeline_104_users_892_requests_166351_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_4405f0a0-b353-4489-9c20-7e2621497546.json.bz2
+Computing Time: 830 sec
+
+# queried users: 32500
+# pulled users: 24037
+# pulled missed: 8463
+# pulled users in window: 37
+# pulled requests in window: 313
+# pulled tweets in window: 58387
+Saved in user_timeline_107_users_884_requests_164651_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a93184c1-bfc4-4d57-b0bb-19bd704d0503.json.bz2
+Computing Time: 869 sec
+
+# queried users: 32600
+# pulled users: 24110
+# pulled missed: 8490
+# pulled users in window: 3
+# pulled requests in window: 32
+# pulled tweets in window: 6279
+# queried users: 32700
+# pulled users: 24191
+# pulled missed: 8509
+# pulled users in window: 84
+# pulled requests in window: 778
+# pulled tweets in window: 146903
+Saved in user_timeline_94_users_882_requests_166583_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_ec2a7206-6180-497a-8e5d-9d990ad2ba50.json.bz2
+Computing Time: 793 sec
+
+# queried users: 32800
+# pulled users: 24258
+# pulled missed: 8542
+# pulled users in window: 57
+# pulled requests in window: 508
+# pulled tweets in window: 95073
+Saved in user_timeline_109_users_886_requests_164694_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_bb97f774-77b5-4122-adce-3d0970b943ae.json.bz2
+Computing Time: 831 sec
+
+# queried users: 32900
+# pulled users: 24323
+# pulled missed: 8577
+# pulled users in window: 13
+# pulled requests in window: 94
+# pulled tweets in window: 17526
+# queried users: 33000
+# pulled users: 24394
+# pulled missed: 8606
+# pulled users in window: 84
+# pulled requests in window: 700
+# pulled tweets in window: 130743
+Saved in user_timeline_104_users_890_requests_166374_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a197c74f-ba28-4e19-9097-deb7f3adc036.json.bz2
+Computing Time: 872 sec
+
+# queried users: 33100
+# pulled users: 24473
+# pulled missed: 8627
+# pulled users in window: 59
+# pulled requests in window: 444
+# pulled tweets in window: 82517
+Saved in user_timeline_111_users_894_requests_166908_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_622b5f31-0f26-4e3b-b1f2-f8a2d60eeea2.json.bz2
+Computing Time: 815 sec
+
+# queried users: 33200
+# pulled users: 24544
+# pulled missed: 8656
+# pulled users in window: 19
+# pulled requests in window: 178
+# pulled tweets in window: 33524
+# queried users: 33300
+# pulled users: 24615
+# pulled missed: 8685
+# pulled users in window: 90
+# pulled requests in window: 753
+# pulled tweets in window: 140276
+Saved in user_timeline_103_users_891_requests_166381_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_258149f4-8852-4e92-bcde-40cab0459271.json.bz2
+Computing Time: 811 sec
+
+# queried users: 33400
+# pulled users: 24694
+# pulled missed: 8706
+# pulled users in window: 66
+# pulled requests in window: 553
+# pulled tweets in window: 103022
+Saved in user_timeline_104_users_891_requests_166910_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_94c2f9ac-7a2b-4ed4-9f25-4c478328afbe.json.bz2
+Computing Time: 832 sec
+
+# queried users: 33500
+# pulled users: 24767
+# pulled missed: 8733
+# pulled users in window: 35
+# pulled requests in window: 306
+# pulled tweets in window: 56603
+Saved in user_timeline_99_users_888_requests_165067_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_93463a4a-b366-4d9d-a74c-5bb283de2361.json.bz2
+Computing Time: 828 sec
+
+# queried users: 33600
+# pulled users: 24835
+# pulled missed: 8765
+# pulled users in window: 4
+# pulled requests in window: 36
+# pulled tweets in window: 6821
+# queried users: 33700
+# pulled users: 24913
+# pulled missed: 8787
+# pulled users in window: 82
+# pulled requests in window: 725
+# pulled tweets in window: 135367
+Saved in user_timeline_97_users_882_requests_165031_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d1312819-622e-4865-bc3b-480fe5b53d8d.json.bz2
+Computing Time: 808 sec
+
+# queried users: 33800
+# pulled users: 24987
+# pulled missed: 8813
+# pulled users in window: 59
+# pulled requests in window: 541
+# pulled tweets in window: 101142
+Saved in user_timeline_94_users_890_requests_166932_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_43273f01-ba34-467b-917c-9c9fdd6d13fd.json.bz2
+Computing Time: 800 sec
+
+# queried users: 33900
+# pulled users: 25062
+# pulled missed: 8838
+# pulled users in window: 40
+# pulled requests in window: 419
+# pulled tweets in window: 79321
+Saved in user_timeline_92_users_893_requests_168052_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_b1f3e538-715f-4bea-ade9-4b0635454b08.json.bz2
+Computing Time: 810 sec
+
+# queried users: 34000
+# pulled users: 25138
+# pulled missed: 8862
+# pulled users in window: 24
+# pulled requests in window: 221
+# pulled tweets in window: 41718
+# queried users: 34100
+# pulled users: 25206
+# pulled missed: 8894
+# pulled users in window: 92
+# pulled requests in window: 712
+# pulled tweets in window: 132719
+Saved in user_timeline_109_users_894_requests_167317_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9cc6e493-9f78-4967-a16c-042128538f35.json.bz2
+Computing Time: 838 sec
+
+# queried users: 34200
+# pulled users: 25288
+# pulled missed: 8912
+# pulled users in window: 65
+# pulled requests in window: 566
+# pulled tweets in window: 105148
+Saved in user_timeline_99_users_894_requests_167170_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_76a3cefc-352e-4938-b063-00cc8d7f7fba.json.bz2
+Computing Time: 795 sec
+
+# queried users: 34300
+# pulled users: 25366
+# pulled missed: 8934
+# pulled users in window: 44
+# pulled requests in window: 323
+# pulled tweets in window: 58985
+Saved in user_timeline_110_users_881_requests_161933_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0f858d96-622e-4818-a523-a366a8613b77.json.bz2
+Computing Time: 817 sec
+
+# queried users: 34400
+# pulled users: 25441
+# pulled missed: 8959
+# pulled users in window: 9
+# pulled requests in window: 82
+# pulled tweets in window: 15190
+# queried users: 34500
+# pulled users: 25511
+# pulled missed: 8989
+# pulled users in window: 79
+# pulled requests in window: 629
+# pulled tweets in window: 117901
+Saved in user_timeline_106_users_884_requests_165994_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_5dc9efcd-6757-44bd-9f80-e6e9fe96c413.json.bz2
+Computing Time: 837 sec
+
+# queried users: 34600
+# pulled users: 25581
+# pulled missed: 9019
+# pulled users in window: 43
+# pulled requests in window: 401
+# pulled tweets in window: 76120
+Saved in user_timeline_107_users_881_requests_165174_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cdc1fcb3-2107-43fc-ad08-6a489b2fbf30.json.bz2
+Computing Time: 771 sec
+
+# queried users: 34700
+# pulled users: 25657
+# pulled missed: 9043
+# pulled users in window: 12
+# pulled requests in window: 80
+# pulled tweets in window: 14817
+# queried users: 34800
+# pulled users: 25733
+# pulled missed: 9067
+# pulled users in window: 88
+# pulled requests in window: 739
+# pulled tweets in window: 137921
+Saved in user_timeline_105_users_882_requests_164444_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_3cd7ea29-82ce-4cc4-bc67-704e1732c4dc.json.bz2
+Computing Time: 808 sec
+
+# queried users: 34900
+# pulled users: 25806
+# pulled missed: 9094
+# pulled users in window: 56
+# pulled requests in window: 539
+# pulled tweets in window: 100925
+Saved in user_timeline_89_users_884_requests_165887_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_098f1c53-26f8-43be-8ec0-bd784c573051.json.bz2
+Computing Time: 800 sec
+
+# queried users: 35000
+# pulled users: 25883
+# pulled missed: 9117
+# pulled users in window: 44
+# pulled requests in window: 406
+# pulled tweets in window: 76797
+Saved in user_timeline_93_users_885_requests_166488_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9306e96a-4464-45e1-8c64-b29ec535cbfd.json.bz2
+Computing Time: 829 sec
+
+# queried users: 35100
+# pulled users: 25956
+# pulled missed: 9144
+# pulled users in window: 24
+# pulled requests in window: 268
+# pulled tweets in window: 50988
+Saved in user_timeline_95_users_892_requests_167628_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cd13f5fa-8720-4ad9-b05a-5df3958e30e4.json.bz2
+Computing Time: 783 sec
+
+# queried users: 35200
+# pulled users: 26030
+# pulled missed: 9170
+# pulled users in window: 3
+# pulled requests in window: 18
+# pulled tweets in window: 3215
+# queried users: 35300
+# pulled users: 26095
+# pulled missed: 9205
+# pulled users in window: 68
+# pulled requests in window: 558
+# pulled tweets in window: 103915
+Saved in user_timeline_109_users_897_requests_167144_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_52238c94-6809-43f1-a0f9-8b8be8565b18.json.bz2
+Computing Time: 852 sec
+
+# queried users: 35400
+# pulled users: 26158
+# pulled missed: 9242
+# pulled users in window: 22
+# pulled requests in window: 181
+# pulled tweets in window: 33707
+# queried users: 35500
+# pulled users: 26232
+# pulled missed: 9268
+# pulled users in window: 96
+# pulled requests in window: 817
+# pulled tweets in window: 153119
+Saved in user_timeline_108_users_895_requests_167280_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_fae10f04-04e7-4206-8891-440b94c9644f.json.bz2
+Computing Time: 801 sec
+
+# queried users: 35600
+# pulled users: 26298
+# pulled missed: 9302
+# pulled users in window: 54
+# pulled requests in window: 423
+# pulled tweets in window: 78643
+Saved in user_timeline_100_users_882_requests_165109_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9b247fb7-052a-4d7d-a2cf-47d16861b1de.json.bz2
+Computing Time: 833 sec
+
+# queried users: 35700
+# pulled users: 26370
+# pulled missed: 9330
+# pulled users in window: 26
+# pulled requests in window: 299
+# pulled tweets in window: 56940
+Saved in user_timeline_90_users_896_requests_168477_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_5745803a-2d3d-49a0-8aea-4c29873f5035.json.bz2
+Computing Time: 822 sec
+
+# queried users: 35800
+# pulled users: 26448
+# pulled missed: 9352
+# pulled users in window: 14
+# pulled requests in window: 132
+# pulled tweets in window: 24159
+Saved in user_timeline_88_users_884_requests_166368_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9987960c-9aa0-4a45-b49f-0c37a5643301.json.bz2
+Computing Time: 739 sec
+
+# queried users: 35900
+# pulled users: 26526
+# pulled missed: 9374
+# pulled users in window: 4
+# pulled requests in window: 50
+# pulled tweets in window: 9593
+# queried users: 36000
+# pulled users: 26596
+# pulled missed: 9404
+# pulled users in window: 74
+# pulled requests in window: 687
+# pulled tweets in window: 129485
+Saved in user_timeline_97_users_883_requests_166228_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_cf867ff0-6f52-488f-b71a-032bd3751b40.json.bz2
+Computing Time: 750 sec
+
+# queried users: 36100
+# pulled users: 26673
+# pulled missed: 9427
+# pulled users in window: 54
+# pulled requests in window: 530
+# pulled tweets in window: 99882
+Saved in user_timeline_93_users_884_requests_166968_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_565cf55d-4198-4749-9caf-a3ea4814d33f.json.bz2
+Computing Time: 731 sec
+
+# queried users: 36200
+# pulled users: 26745
+# pulled missed: 9455
+# pulled users in window: 33
+# pulled requests in window: 221
+# pulled tweets in window: 40666
+# queried users: 36300
+# pulled users: 26821
+# pulled missed: 9479
+# pulled users in window: 109
+# pulled requests in window: 851
+# pulled tweets in window: 157978
+Saved in user_timeline_113_users_896_requests_166431_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_409f1247-b7dd-4a51-9fbe-7fd486552cdf.json.bz2
+Computing Time: 758 sec
+
+# queried users: 36400
+# pulled users: 26896
+# pulled missed: 9504
+# pulled users in window: 71
+# pulled requests in window: 640
+# pulled tweets in window: 120483
+Saved in user_timeline_101_users_881_requests_164765_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a659f5e5-43b1-44b2-96a6-de60c3cd00d4.json.bz2
+Computing Time: 764 sec
+
+# queried users: 36500
+# pulled users: 26968
+# pulled missed: 9532
+# pulled users in window: 42
+# pulled requests in window: 368
+# pulled tweets in window: 69559
+Saved in user_timeline_95_users_891_requests_168306_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_db7ae2f9-18cf-4671-bfab-2e484a2e847c.json.bz2
+Computing Time: 755 sec
+
+# queried users: 36600
+# pulled users: 27044
+# pulled missed: 9556
+# pulled users in window: 23
+# pulled requests in window: 188
+# pulled tweets in window: 35467
+# queried users: 36700
+# pulled users: 27116
+# pulled missed: 9584
+# pulled users in window: 95
+# pulled requests in window: 765
+# pulled tweets in window: 142808
+Saved in user_timeline_105_users_882_requests_165109_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0bb36bbc-3c64-4b9d-b1e7-1b280b1dbf43.json.bz2
+Computing Time: 766 sec
+
+# queried users: 36800
+# pulled users: 27192
+# pulled missed: 9608
+# pulled users in window: 66
+# pulled requests in window: 586
+# pulled tweets in window: 109224
+Saved in user_timeline_100_users_890_requests_166226_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_35ec52b9-643c-4c0a-b613-e7c578d97659.json.bz2
+Computing Time: 731 sec
+
+# queried users: 36900
+# pulled users: 27259
+# pulled missed: 9641
+# pulled users in window: 33
+# pulled requests in window: 318
+# pulled tweets in window: 60535
+Saved in user_timeline_91_users_891_requests_168788_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_397eb406-a96b-4129-b733-d338b34fa193.json.bz2
+Computing Time: 727 sec
+
+# queried users: 37000
+# pulled users: 27334
+# pulled missed: 9666
+# pulled users in window: 17
+# pulled requests in window: 170
+# pulled tweets in window: 32290
+Saved in user_timeline_97_users_884_requests_166681_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a1b4ff47-c827-4c8d-9b93-c018248bd8f3.json.bz2
+Computing Time: 730 sec
+
+# queried users: 37100
+# pulled users: 27414
+# pulled missed: 9686
+# pulled users in window: 0
+# pulled requests in window: 0
+# pulled tweets in window: 0
+# queried users: 37200
+# pulled users: 27493
+# pulled missed: 9707
+# pulled users in window: 79
+# pulled requests in window: 669
+# pulled tweets in window: 126561
+Saved in user_timeline_103_users_882_requests_166427_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_97ee59fe-01db-432c-a493-4c14e5f14b6b.json.bz2
+Computing Time: 710 sec
+
+# queried users: 37300
+# pulled users: 27573
+# pulled missed: 9727
+# pulled users in window: 56
+# pulled requests in window: 469
+# pulled tweets in window: 87445
+Saved in user_timeline_108_users_889_requests_165066_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_366ad33b-9aaf-4fb8-b22e-caad991f79ba.json.bz2
+Computing Time: 758 sec
+
+# queried users: 37400
+# pulled users: 27640
+# pulled missed: 9760
+# pulled users in window: 15
+# pulled requests in window: 133
+# pulled tweets in window: 24645
+# queried users: 37500
+# pulled users: 27715
+# pulled missed: 9785
+# pulled users in window: 90
+# pulled requests in window: 792
+# pulled tweets in window: 147723
+Saved in user_timeline_98_users_888_requests_166077_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_732248ee-b531-41b9-b719-ad6eea1d3baa.json.bz2
+Computing Time: 738 sec
+
+# queried users: 37600
+# pulled users: 27791
+# pulled missed: 9809
+# pulled users in window: 68
+# pulled requests in window: 644
+# pulled tweets in window: 120949
+Saved in user_timeline_96_users_892_requests_168303_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_51a7d114-5fbd-4bb7-99f5-9f9e19f5b882.json.bz2
+Computing Time: 770 sec
+
+# queried users: 37700
+# pulled users: 27862
+# pulled missed: 9838
+# pulled users in window: 43
+# pulled requests in window: 271
+# pulled tweets in window: 49040
+Saved in user_timeline_122_users_883_requests_161866_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_85064789-4666-47a5-a3e6-8da293cb9ddd.json.bz2
+Computing Time: 726 sec
+
+# queried users: 37800
+# pulled users: 27942
+# pulled missed: 9858
+# pulled users in window: 1
+# pulled requests in window: 16
+# pulled tweets in window: 3101
+# queried users: 37900
+# pulled users: 28017
+# pulled missed: 9883
+# pulled users in window: 76
+# pulled requests in window: 771
+# pulled tweets in window: 145625
+Saved in user_timeline_86_users_882_requests_166494_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_a83516d4-2136-4352-9bb6-ebe9c42d3450.json.bz2
+Computing Time: 756 sec
+
+# queried users: 38000
+# pulled users: 28086
+# pulled missed: 9914
+# pulled users in window: 59
+# pulled requests in window: 489
+# pulled tweets in window: 90665
+Saved in user_timeline_101_users_891_requests_166397_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_51cfb8bd-424f-4b6d-abe8-f8074651f891.json.bz2
+Computing Time: 739 sec
+
+# queried users: 38100
+# pulled users: 28163
+# pulled missed: 9937
+# pulled users in window: 35
+# pulled requests in window: 291
+# pulled tweets in window: 54068
+Saved in user_timeline_102_users_887_requests_165026_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0dc0386e-2ae2-4591-8172-6a733c24252a.json.bz2
+Computing Time: 722 sec
+
+# queried users: 38200
+# pulled users: 28238
+# pulled missed: 9962
+# pulled users in window: 8
+# pulled requests in window: 98
+# pulled tweets in window: 18765
+# queried users: 38300
+# pulled users: 28312
+# pulled missed: 9988
+# pulled users in window: 82
+# pulled requests in window: 796
+# pulled tweets in window: 150113
+Saved in user_timeline_93_users_882_requests_166260_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6eacec3e-ef66-4086-a8f0-f9ff52e540ff.json.bz2
+Computing Time: 913 sec
+
+# queried users: 38400
+# pulled users: 28391
+# pulled missed: 10009
+# pulled users in window: 68
+# pulled requests in window: 614
+# pulled tweets in window: 115341
+Saved in user_timeline_103_users_891_requests_166856_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_0eeee851-6f9a-428d-8630-a5669dde6301.json.bz2
+Computing Time: 906 sec
+
+# queried users: 38500
+# pulled users: 28468
+# pulled missed: 10032
+# pulled users in window: 42
+# pulled requests in window: 348
+# pulled tweets in window: 64772
+Saved in user_timeline_102_users_896_requests_166783_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_503b27b1-7b61-4ba4-8468-1d6ccf1d5d76.json.bz2
+Computing Time: 731 sec
+
+# queried users: 38600
+# pulled users: 28547
+# pulled missed: 10053
+# pulled users in window: 19
+# pulled requests in window: 185
+# pulled tweets in window: 35001
+Saved in user_timeline_89_users_881_requests_165504_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_f4b5dabd-0197-45b2-bc9f-8507e2773594.json.bz2
+Computing Time: 695 sec
+
+# queried users: 38700
+# pulled users: 28624
+# pulled missed: 10076
+# pulled users in window: 7
+# pulled requests in window: 51
+# pulled tweets in window: 9313
+# queried users: 38800
+# pulled users: 28694
+# pulled missed: 10106
+# pulled users in window: 77
+# pulled requests in window: 624
+# pulled tweets in window: 116218
+Saved in user_timeline_104_users_887_requests_166058_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_d7671b94-8046-4554-9eef-9b0af0f6add0.json.bz2
+Computing Time: 725 sec
+
+# queried users: 38900
+# pulled users: 28769
+# pulled missed: 10131
+# pulled users in window: 48
+# pulled requests in window: 435
+# pulled tweets in window: 81870
+Saved in user_timeline_102_users_881_requests_166343_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_5b6146f5-9872-4ead-a892-f3a6fb0f4f35.json.bz2
+Computing Time: 716 sec
+
+# queried users: 39000
+# pulled users: 28844
+# pulled missed: 10156
+# pulled users in window: 21
+# pulled requests in window: 187
+# pulled tweets in window: 35038
+# queried users: 39100
+# pulled users: 28920
+# pulled missed: 10180
+# pulled users in window: 97
+# pulled requests in window: 795
+# pulled tweets in window: 147861
+Saved in user_timeline_105_users_895_requests_166984_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_6756d67f-3223-4dbc-acc1-c84226147fd5.json.bz2
+Computing Time: 850 sec
+
+# queried users: 39200
+# pulled users: 28988
+# pulled missed: 10212
+# pulled users in window: 60
+# pulled requests in window: 572
+# pulled tweets in window: 107400
+Saved in user_timeline_99_users_888_requests_165977_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_45ab3a9e-6e80-42ee-b349-c90048c18391.json.bz2
+Computing Time: 881 sec
+
+# queried users: 39300
+# pulled users: 29060
+# pulled missed: 10240
+# pulled users in window: 33
+# pulled requests in window: 310
+# pulled tweets in window: 58995
+Saved in user_timeline_96_users_881_requests_166747_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_f8e262cf-23f0-4bd8-8361-c2f4df9ba390.json.bz2
+Computing Time: 763 sec
+
+# queried users: 39400
+# pulled users: 29135
+# pulled missed: 10265
+# pulled users in window: 12
+# pulled requests in window: 54
+# pulled tweets in window: 9293
+# queried users: 39500
+# pulled users: 29214
+# pulled missed: 10286
+# pulled users in window: 91
+# pulled requests in window: 632
+# pulled tweets in window: 116620
+Saved in user_timeline_121_users_881_requests_163190_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_2a3505a6-ec5a-443d-89aa-c3752129583d.json.bz2
+Computing Time: 757 sec
+
+# queried users: 39600
+# pulled users: 29296
+# pulled missed: 10304
+# pulled users in window: 52
+# pulled requests in window: 459
+# pulled tweets in window: 85700
+Saved in user_timeline_97_users_881_requests_164800_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_2e20a2b4-c98d-45d9-8c38-ee16012ae54a.json.bz2
+Computing Time: 720 sec
+
+# queried users: 39700
+# pulled users: 29367
+# pulled missed: 10333
+# pulled users in window: 26
+# pulled requests in window: 251
+# pulled tweets in window: 46884
+Saved in user_timeline_86_users_788_requests_147740_tweets_NG_10102022_full_is_neighbor=True_min_neighbors=10_min_timestamp=None_max_timestamp=None25802403_14_9116a9bc-8938-4d41-a086-52082770959e.json.bz2
+Computing Time: 669 sec
+
+
+real	4413m24.333s
+user	1315m58.933s
+sys	30m46.100s

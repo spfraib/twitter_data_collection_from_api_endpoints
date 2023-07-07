@@ -1,0 +1,52 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+app: spfraib_sentiments
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 30 sec to replenish rate limits
+SLURM_JOB_ID : 23547956
+SLURM_ARRAY_TASK_ID : 0
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1397487
+Computing Time: 14 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1397487 entries, 0 to 1397486
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1397487 non-null  object
+ 1   country_short  1397487 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 32.0+ MB
+# keys: 73
+CHECK JOBARRAY
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-aleister.json
+Country: US
+Pull: full
+# users: 1230488
+
+# queried users: 100
+# pulled users: 85
+# pulled missed: 15
+# pulled users in window: 85
+# pulled requests in window: 294
+# pulled tweets in window: 47947
+# queried users: 200
+# pulled users: 173
+# pulled missed: 27
+# pulled users in window: 173
+# pulled requests in window: 643
+# pulled tweets in window: 106695
+/bin/bash: line 2: 2708313 Killed                  python -u ./code/timeline_API.py
+
+real	7m59.922s
+user	1m56.788s
+sys	0m12.125s

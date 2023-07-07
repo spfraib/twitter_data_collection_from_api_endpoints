@@ -1,0 +1,58 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+app: spfraib_sentiments
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 30 sec to replenish rate limits
+SLURM_JOB_ID : 23547982
+SLURM_ARRAY_TASK_ID : 26
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1374642
+Computing Time: 15 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1374642 entries, 0 to 1374641
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1374642 non-null  object
+ 1   country_short  1374642 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 31.5+ MB
+# keys: 73
+CHECK JOBARRAY
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-bot_NG_anietie_O1.json
+Country: US
+Pull: full
+# users: 1210274
+
+# queried users: 100
+# pulled users: 85
+# pulled missed: 15
+# pulled users in window: 85
+# pulled requests in window: 238
+# pulled tweets in window: 36239
+# queried users: 200
+# pulled users: 174
+# pulled missed: 26
+# pulled users in window: 174
+# pulled requests in window: 576
+# pulled tweets in window: 92987
+# queried users: 300
+# pulled users: 257
+# pulled missed: 43
+# pulled users in window: 257
+# pulled requests in window: 861
+# pulled tweets in window: 138834
+/bin/bash: line 2: 2165733 Killed                  python -u ./code/timeline_API.py
+
+real	7m53.624s
+user	2m4.464s
+sys	0m13.283s

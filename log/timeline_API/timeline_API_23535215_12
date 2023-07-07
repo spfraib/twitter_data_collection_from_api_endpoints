@@ -1,0 +1,39 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+Store after 200000 records
+Compression ratio: 18
+id_type: user_id
+app: spfraib_sentiments
+wait_in_sec: 10
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+13082022_no_updates_no_neighbors
+SLURM_JOB_ID : 23535215
+SLURM_ARRAY_TASK_ID : 12
+SLURM_ARRAY_TASK_COUNT : 73
+Load and select users:
+# users: 581264
+Computing Time: 6 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 581264 entries, 6877457 to 1409924
+Data columns (total 3 columns):
+ #   Column         Non-Null Count   Dtype 
+---  ------         --------------   ----- 
+ 0   user_id        581264 non-null  object
+ 1   country_short  581264 non-null  object
+ 2   tweet_id       0 non-null       object
+dtypes: object(3)
+memory usage: 17.7+ MB
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-bot_NG_BolaAbdullahi30.json
+Country: US
+Pull: full
+# users: 512131
+
+/bin/bash: line 2: 3073829 Killed                  python -u ./code/timeline_API.py
+
+real	21m40.766s
+user	3m47.676s
+sys	0m26.360s

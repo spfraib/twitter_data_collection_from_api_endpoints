@@ -1,0 +1,25 @@
+WARNING: Could not find any nv files on this host!
+today: 27102022
+cutoff: 100000
+path_to_data: /scratch/spf248/twitter_data_collection/data
+id_type: user_id
+max_users_per_app: 60
+key files: 73
+SLURM_JOB_ID : 26343399
+SLURM_ARRAY_TASK_COUNT : 73
+SLURM_ARRAY_TASK_ID : 15
+Load users:
+# users_batch: 1705453
+Computing Time: 1 sec
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-bot_NG_HafsatA1903.json
+Traceback (most recent call last):
+  File "./code/users_API.py", line 125, in <module>
+    api = get_API_auth(key_file)
+  File "./code/users_API.py", line 113, in get_API_auth
+    api_auth = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+TypeError: __init__() got an unexpected keyword argument 'wait_on_rate_limit_notify'
+
+real	0m3.573s
+user	0m0.923s
+sys	0m0.411s

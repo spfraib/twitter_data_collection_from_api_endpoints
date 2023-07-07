@@ -1,0 +1,50 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+Max auth of 15 users per app
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 23549825
+SLURM_ARRAY_TASK_ID : 22
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1375982
+Computing Time: 14 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1375982 entries, 0 to 1375981
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1375982 non-null  object
+ 1   country_short  1375982 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 31.5+ MB
+key files: 30
+# keys: 30
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-luis.json
+Country: US
+Pull: full
+# users: 1211722
+
+# queried users: 100
+# pulled users: 80
+# pulled missed: 20
+# pulled users in window: 80
+# pulled requests in window: 312
+# pulled tweets in window: 52541
+# queried users: 200
+# pulled users: 159
+# pulled missed: 41
+# pulled users in window: 159
+# pulled requests in window: 639
+# pulled tweets in window: 108237
+Saved in user_timeline_236_users_891_requests_149077_tweets_US_14082022_no_updates_no_neighbors_full_23549825_22_83bb465a-0253-402a-9271-fdb3848f8637.json.bz2
+Computing Time: 558 sec
+

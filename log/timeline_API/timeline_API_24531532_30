@@ -1,0 +1,34 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['MX', 'NG']
+pull_types: ['update']
+neighbors: False
+max_timestamp: 09/01/2022
+min_timestamp: 01/01/2022
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 06092022
+id_type: user_id
+Max auth of 15 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 24531532
+SLURM_ARRAY_TASK_ID : 30
+SLURM_ARRAY_TASK_COUNT : 40
+Load and select users:
+# users: 37285
+Computing Time: 9 sec
+key files: 30
+# keys: 30
+CHECK JOBARRAY
+Traceback (most recent call last):
+  File "./code/timeline_API.py", line 127, in <module>
+    key_file = get_key_file(key_files,SLURM_ARRAY_TASK_ID,SLURM_ARRAY_TASK_COUNT)
+  File "./code/timeline_API.py", line 125, in get_key_file
+    return key_files[SLURM_ARRAY_TASK_ID]
+IndexError: list index out of range
+
+real	0m9.878s
+user	0m6.798s
+sys	0m2.569s

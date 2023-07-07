@@ -1,0 +1,72 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['US', 'MX']
+pull_types: ['update']
+Pull neighbors: False
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 15082022
+id_type: user_id
+Max auth of 30 users per app
+Apps: ['spfraib_sentiments']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 23572591
+SLURM_ARRAY_TASK_ID : 9
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1394025
+Computing Time: 15 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1394025 entries, 0 to 1394024
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1394025 non-null  object
+ 1   country_short  1394025 non-null  object
+ 2   tweet_id       1189079 non-null  object
+dtypes: object(3)
+memory usage: 31.9+ MB
+key files: 30
+# keys: 30
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-david.json
+Country: US
+Pull: update
+# users: 1048652
+
+# queried users: 100
+# pulled users: 94
+# pulled missed: 6
+# pulled users in window: 94
+# pulled requests in window: 41
+# pulled tweets in window: 5363
+# queried users: 200
+# pulled users: 162
+# pulled missed: 38
+# pulled users in window: 162
+# pulled requests in window: 51
+# pulled tweets in window: 5521
+# queried users: 300
+# pulled users: 206
+# pulled missed: 94
+# pulled users in window: 206
+# pulled requests in window: 63
+# pulled tweets in window: 5882
+# queried users: 400
+# pulled users: 265
+# pulled missed: 135
+# pulled users in window: 265
+# pulled requests in window: 80
+# pulled tweets in window: 7426
+# queried users: 500
+# pulled users: 307
+# pulled missed: 193
+# pulled users in window: 307
+# pulled requests in window: 94
+# pulled tweets in window: 8165
+# queried users: 600
+# pulled users: 356
+# pulled missed: 244
+# pulled users in window: 356
+# pulled requests in window: 99
+# pulled tweets in window: 8245

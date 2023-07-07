@@ -1,0 +1,62 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+Store after 100000 records
+Compression ratio: 18
+id_type: user_id
+app: spfraib_sentiments
+wait_in_sec: 10
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+13082022_no_updates_no_neighbors
+SLURM_JOB_ID : 23535414
+SLURM_ARRAY_TASK_ID : 50
+SLURM_ARRAY_TASK_COUNT : 73
+Load and select users:
+# users: 562694
+Computing Time: 7 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 562694 entries, 1774757 to 3259092
+Data columns (total 3 columns):
+ #   Column         Non-Null Count   Dtype 
+---  ------         --------------   ----- 
+ 0   user_id        562694 non-null  object
+ 1   country_short  562694 non-null  object
+ 2   tweet_id       0 non-null       object
+dtypes: object(3)
+memory usage: 17.2+ MB
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-john.json
+Country: US
+Pull: full
+# users: 495369
+
+# users queried: 1938
+# users pulled: 465
+# users pulled in current file: 465
+# records pulled in current file: 100567
+Saved in user_timeline_465_users_100567_tweets_US_13082022_no_updates_no_neighbors_full_23535414_50_c36afca0-0383-4553-9607-6b141bf3b482.json.bz2
+Computing Time: 1334 sec
+
+# users queried: 5463
+# users pulled: 861
+# users pulled in current file: 396
+# records pulled in current file: 100147
+Saved in user_timeline_396_users_100147_tweets_US_13082022_no_updates_no_neighbors_full_23535414_50_e4de80d3-64a1-4c95-a4e1-56ef5279b9b4.json.bz2
+Computing Time: 1831 sec
+
+# users queried: 8314
+# users pulled: 1366
+# users pulled in current file: 505
+# records pulled in current file: 100063
+Saved in user_timeline_505_users_100063_tweets_US_13082022_no_updates_no_neighbors_full_23535414_50_4cc562c5-3d23-49dd-bae0-f8479ca7e0c9.json.bz2
+Computing Time: 1641 sec
+
+# users queried: 52856
+# users pulled: 1807
+# users pulled in current file: 441
+# records pulled in current file: 100018
+Saved in user_timeline_441_users_100018_tweets_US_13082022_no_updates_no_neighbors_full_23535414_50_b36d6df8-4eee-4202-98bf-3d35997b3359.json.bz2
+Computing Time: 8686 sec
+

@@ -1,0 +1,50 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+Max auth of 15 users per app
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 23549811
+SLURM_ARRAY_TASK_ID : 8
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1395870
+Computing Time: 16 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1395870 entries, 0 to 1395869
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1395870 non-null  object
+ 1   country_short  1395870 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 31.9+ MB
+key files: 30
+# keys: 30
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-carolina2.json
+Country: US
+Pull: full
+# users: 1229110
+
+# queried users: 100
+# pulled users: 70
+# pulled missed: 30
+# pulled users in window: 70
+# pulled requests in window: 270
+# pulled tweets in window: 44456
+# queried users: 200
+# pulled users: 146
+# pulled missed: 54
+# pulled users in window: 146
+# pulled requests in window: 548
+# pulled tweets in window: 90094
+Saved in user_timeline_225_users_884_requests_147715_tweets_US_14082022_no_updates_no_neighbors_full_23549811_8_aa37b595-514b-4aa4-b062-128b50f66be0.json.bz2
+Computing Time: 553 sec
+

@@ -1,0 +1,55 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+Store after 100000 records
+Compression ratio: 18
+id_type: user_id
+app: spfraib_sentiments
+wait_in_sec: 10
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+13082022_no_updates_no_neighbors
+SLURM_JOB_ID : 23535424
+SLURM_ARRAY_TASK_ID : 60
+SLURM_ARRAY_TASK_COUNT : 73
+Load and select users:
+# users: 562255
+Computing Time: 6 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 562255 entries, 3251035 to 803722
+Data columns (total 3 columns):
+ #   Column         Non-Null Count   Dtype 
+---  ------         --------------   ----- 
+ 0   user_id        562255 non-null  object
+ 1   country_short  562255 non-null  object
+ 2   tweet_id       0 non-null       object
+dtypes: object(3)
+memory usage: 17.2+ MB
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-nancy.json
+Country: US
+Pull: full
+# users: 495435
+
+# users queried: 4845
+# users pulled: 572
+# users pulled in current file: 572
+# records pulled in current file: 102194
+Saved in user_timeline_572_users_102194_tweets_US_13082022_no_updates_no_neighbors_full_23535424_60_d6778fc6-a66d-42ea-b386-efb0383433b6.json.bz2
+Computing Time: 2758 sec
+
+# users queried: 7124
+# users pulled: 967
+# users pulled in current file: 395
+# records pulled in current file: 100030
+Saved in user_timeline_395_users_100030_tweets_US_13082022_no_updates_no_neighbors_full_23535424_60_95367df9-0480-4421-99bd-db1e5af3b584.json.bz2
+Computing Time: 1824 sec
+
+# users queried: 49519
+# users pulled: 1518
+# users pulled in current file: 551
+# records pulled in current file: 100055
+Saved in user_timeline_551_users_100055_tweets_US_13082022_no_updates_no_neighbors_full_23535424_60_712d63e4-dd07-41f9-9602-946e24f86124.json.bz2
+Computing Time: 8984 sec
+

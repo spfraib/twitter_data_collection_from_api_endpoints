@@ -1,0 +1,149 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['US']
+pull_type: update
+drop_seeds: False
+max_timestamp: 1/1/2022
+min_timestamp: 1/1/2021
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 23122022
+id_type: user_id
+Max auth of 15 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+key files: 30
+SLURM_JOB_ID : 28574201
+SLURM_ARRAY_TASK_ID : 25
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1106890
+keep updated timelines...
+# users: 906548
+max_timestamp...
+# users: 632560
+min_timestamp...
+# users: 98506
+drop duplicates...
+# users: 98506
+Computing Time: 5 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 98506 entries, 0 to 98505
+Data columns (total 5 columns):
+ #   Column           Non-Null Count  Dtype         
+---  ------           --------------  -----         
+ 0   user_id          98506 non-null  object        
+ 1   country_short    98506 non-null  object        
+ 2   tweet_id         98506 non-null  object        
+ 3   tweet_timestamp  98506 non-null  datetime64[ns]
+ 4   is_seed          98506 non-null  int32         
+dtypes: datetime64[ns](1), int32(1), object(3)
+memory usage: 3.4+ MB
+# keys: 30
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-martin.json
+Country: US
+# users: 98506
+
+# queried users: 100
+# pulled users: 63
+# pulled missed: 37
+# pulled users in window: 63
+# pulled requests in window: 63
+# pulled tweets in window: 224
+# queried users: 200
+# pulled users: 75
+# pulled missed: 125
+# pulled users in window: 75
+# pulled requests in window: 75
+# pulled tweets in window: 224
+# queried users: 300
+# pulled users: 131
+# pulled missed: 169
+# pulled users in window: 131
+# pulled requests in window: 138
+# pulled tweets in window: 1842
+# queried users: 400
+# pulled users: 167
+# pulled missed: 233
+# pulled users in window: 167
+# pulled requests in window: 174
+# pulled tweets in window: 1849
+# queried users: 500
+# pulled users: 215
+# pulled missed: 285
+# pulled users in window: 215
+# pulled requests in window: 222
+# pulled tweets in window: 1861
+# queried users: 600
+# pulled users: 285
+# pulled missed: 315
+# pulled users in window: 285
+# pulled requests in window: 292
+# pulled tweets in window: 1921
+# queried users: 700
+# pulled users: 358
+# pulled missed: 342
+# pulled users in window: 358
+# pulled requests in window: 365
+# pulled tweets in window: 2140
+# queried users: 800
+# pulled users: 441
+# pulled missed: 359
+# pulled users in window: 441
+# pulled requests in window: 449
+# pulled tweets in window: 2531
+# queried users: 900
+# pulled users: 515
+# pulled missed: 385
+# pulled users in window: 515
+# pulled requests in window: 523
+# pulled tweets in window: 2552
+# queried users: 1000
+# pulled users: 575
+# pulled missed: 425
+# pulled users in window: 575
+# pulled requests in window: 583
+# pulled tweets in window: 2573
+# queried users: 1100
+# pulled users: 639
+# pulled missed: 461
+# pulled users in window: 639
+# pulled requests in window: 647
+# pulled tweets in window: 2631
+# queried users: 1200
+# pulled users: 703
+# pulled missed: 497
+# pulled users in window: 703
+# pulled requests in window: 711
+# pulled tweets in window: 2695
+# queried users: 1300
+# pulled users: 764
+# pulled missed: 536
+# pulled users in window: 764
+# pulled requests in window: 772
+# pulled tweets in window: 2878
+# queried users: 1400
+# pulled users: 828
+# pulled missed: 572
+# pulled users in window: 828
+# pulled requests in window: 836
+# pulled tweets in window: 2887
+Traceback (most recent call last):
+  File "./code/timeline_API.py", line 291, in <module>
+    pull_and_store(country_short)
+  File "./code/timeline_API.py", line 266, in pull_and_store
+    tweets_window.to_json(
+  File "/ext3/miniconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 2465, in to_json
+    return json.to_json(
+  File "/ext3/miniconda3/lib/python3.8/site-packages/pandas/io/json/_json.py", line 102, in to_json
+    with get_handle(
+  File "/ext3/miniconda3/lib/python3.8/site-packages/pandas/io/common.py", line 600, in get_handle
+    handle = bz2.BZ2File(
+  File "/ext3/miniconda3/lib/python3.8/bz2.py", line 96, in __init__
+    self._fp = _builtin_open(filename, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/spf248/twitter_data_collection/data/user_timeline/API/US/23122022/update/user_timeline_873_users_881_requests_2926_tweets_US_23122022_update_min_timestamp=1/1/2021_max_timestamp=1/1/2022_28574201_25_201d769c-0a04-4e78-8586-3f63651e1d45.json.bz2'
+
+real	6m17.202s
+user	0m25.958s
+sys	0m2.647s

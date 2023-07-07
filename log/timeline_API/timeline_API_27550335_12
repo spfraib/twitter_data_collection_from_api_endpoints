@@ -1,0 +1,6565 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['US']
+pull_type: full
+drop_seeds: True
+max_timestamp: None
+min_timestamp: None
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 01122022
+id_type: user_id
+Max auth of 20 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+key files: 40
+SLURM_JOB_ID : 27550335
+SLURM_ARRAY_TASK_ID : 12
+SLURM_ARRAY_TASK_COUNT : 40
+Load and select users:
+# users: 935834
+keep full timelines...
+# users: 181543
+drop_seeds...
+# users: 106034
+drop duplicates...
+# users: 106034
+Computing Time: 3 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 106034 entries, 0 to 106033
+Data columns (total 5 columns):
+ #   Column           Non-Null Count   Dtype         
+---  ------           --------------   -----         
+ 0   user_id          106034 non-null  object        
+ 1   country_short    106034 non-null  object        
+ 2   tweet_id         0 non-null       object        
+ 3   tweet_timestamp  0 non-null       datetime64[ns]
+ 4   is_seed          106034 non-null  int32         
+dtypes: datetime64[ns](1), int32(1), object(3)
+memory usage: 3.6+ MB
+# keys: 40
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-fab.json
+Country: US
+# users: 106034
+
+# queried users: 100
+# pulled users: 52
+# pulled missed: 48
+# pulled users in window: 52
+# pulled requests in window: 97
+# pulled tweets in window: 11661
+# queried users: 200
+# pulled users: 104
+# pulled missed: 96
+# pulled users in window: 104
+# pulled requests in window: 174
+# pulled tweets in window: 18844
+# queried users: 300
+# pulled users: 150
+# pulled missed: 150
+# pulled users in window: 150
+# pulled requests in window: 267
+# pulled tweets in window: 30667
+# queried users: 400
+# pulled users: 202
+# pulled missed: 198
+# pulled users in window: 202
+# pulled requests in window: 376
+# pulled tweets in window: 43834
+# queried users: 500
+# pulled users: 254
+# pulled missed: 246
+# pulled users in window: 254
+# pulled requests in window: 451
+# pulled tweets in window: 51090
+# queried users: 600
+# pulled users: 305
+# pulled missed: 295
+# pulled users in window: 305
+# pulled requests in window: 532
+# pulled tweets in window: 58771
+# queried users: 700
+# pulled users: 359
+# pulled missed: 341
+# pulled users in window: 359
+# pulled requests in window: 648
+# pulled tweets in window: 73621
+# queried users: 800
+# pulled users: 402
+# pulled missed: 398
+# pulled users in window: 402
+# pulled requests in window: 751
+# pulled tweets in window: 87495
+Saved in user_timeline_452_users_882_requests_105959_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_8b5bbe27-9d7d-4830-8ede-0d7826b62493.json.bz2
+Computing Time: 623 sec
+
+# queried users: 900
+# pulled users: 452
+# pulled missed: 448
+# pulled users in window: 0
+# pulled requests in window: 0
+# pulled tweets in window: 0
+# queried users: 1000
+# pulled users: 501
+# pulled missed: 499
+# pulled users in window: 49
+# pulled requests in window: 115
+# pulled tweets in window: 14997
+# queried users: 1100
+# pulled users: 548
+# pulled missed: 552
+# pulled users in window: 96
+# pulled requests in window: 220
+# pulled tweets in window: 28447
+# queried users: 1200
+# pulled users: 604
+# pulled missed: 596
+# pulled users in window: 152
+# pulled requests in window: 313
+# pulled tweets in window: 38420
+# queried users: 1300
+# pulled users: 651
+# pulled missed: 649
+# pulled users in window: 199
+# pulled requests in window: 427
+# pulled tweets in window: 53770
+# queried users: 1400
+# pulled users: 703
+# pulled missed: 697
+# pulled users in window: 251
+# pulled requests in window: 503
+# pulled tweets in window: 60724
+# queried users: 1500
+# pulled users: 754
+# pulled missed: 746
+# pulled users in window: 302
+# pulled requests in window: 618
+# pulled tweets in window: 75876
+# queried users: 1600
+# pulled users: 810
+# pulled missed: 790
+# pulled users in window: 358
+# pulled requests in window: 756
+# pulled tweets in window: 94874
+# queried users: 1700
+# pulled users: 861
+# pulled missed: 839
+# pulled users in window: 409
+# pulled requests in window: 844
+# pulled tweets in window: 104071
+Saved in user_timeline_425_users_882_requests_109429_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_dcf646fa-76d8-4026-895e-2bdf9f9c8ccf.json.bz2
+Computing Time: 651 sec
+
+# queried users: 1800
+# pulled users: 910
+# pulled missed: 890
+# pulled users in window: 33
+# pulled requests in window: 108
+# pulled tweets in window: 17097
+# queried users: 1900
+# pulled users: 962
+# pulled missed: 938
+# pulled users in window: 85
+# pulled requests in window: 194
+# pulled tweets in window: 26454
+# queried users: 2000
+# pulled users: 1019
+# pulled missed: 981
+# pulled users in window: 142
+# pulled requests in window: 297
+# pulled tweets in window: 38346
+# queried users: 2100
+# pulled users: 1077
+# pulled missed: 1023
+# pulled users in window: 200
+# pulled requests in window: 435
+# pulled tweets in window: 56203
+# queried users: 2200
+# pulled users: 1131
+# pulled missed: 1069
+# pulled users in window: 254
+# pulled requests in window: 550
+# pulled tweets in window: 70184
+# queried users: 2300
+# pulled users: 1188
+# pulled missed: 1112
+# pulled users in window: 311
+# pulled requests in window: 620
+# pulled tweets in window: 75407
+# queried users: 2400
+# pulled users: 1239
+# pulled missed: 1161
+# pulled users in window: 362
+# pulled requests in window: 732
+# pulled tweets in window: 89916
+# queried users: 2500
+# pulled users: 1293
+# pulled missed: 1207
+# pulled users in window: 416
+# pulled requests in window: 868
+# pulled tweets in window: 109377
+Saved in user_timeline_428_users_881_requests_110086_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_6ecf273d-8e06-470d-9228-dc3f755354a4.json.bz2
+Computing Time: 604 sec
+
+# queried users: 2600
+# pulled users: 1352
+# pulled missed: 1248
+# pulled users in window: 47
+# pulled requests in window: 78
+# pulled tweets in window: 8288
+# queried users: 2700
+# pulled users: 1402
+# pulled missed: 1298
+# pulled users in window: 97
+# pulled requests in window: 180
+# pulled tweets in window: 21236
+# queried users: 2800
+# pulled users: 1457
+# pulled missed: 1343
+# pulled users in window: 152
+# pulled requests in window: 260
+# pulled tweets in window: 29185
+# queried users: 2900
+# pulled users: 1517
+# pulled missed: 1383
+# pulled users in window: 212
+# pulled requests in window: 354
+# pulled tweets in window: 38339
+# queried users: 3000
+# pulled users: 1564
+# pulled missed: 1436
+# pulled users in window: 259
+# pulled requests in window: 434
+# pulled tweets in window: 46950
+# queried users: 3100
+# pulled users: 1615
+# pulled missed: 1485
+# pulled users in window: 310
+# pulled requests in window: 515
+# pulled tweets in window: 54937
+# queried users: 3200
+# pulled users: 1672
+# pulled missed: 1528
+# pulled users in window: 367
+# pulled requests in window: 614
+# pulled tweets in window: 65784
+# queried users: 3300
+# pulled users: 1731
+# pulled missed: 1569
+# pulled users in window: 426
+# pulled requests in window: 721
+# pulled tweets in window: 78248
+# queried users: 3400
+# pulled users: 1782
+# pulled missed: 1618
+# pulled users in window: 477
+# pulled requests in window: 827
+# pulled tweets in window: 91254
+Saved in user_timeline_498_users_882_requests_99062_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_74b9a365-4bad-4e7f-b793-121784b05ff5.json.bz2
+Computing Time: 637 sec
+
+# queried users: 3500
+# pulled users: 1839
+# pulled missed: 1661
+# pulled users in window: 36
+# pulled requests in window: 86
+# pulled tweets in window: 11339
+# queried users: 3600
+# pulled users: 1893
+# pulled missed: 1707
+# pulled users in window: 90
+# pulled requests in window: 185
+# pulled tweets in window: 22354
+# queried users: 3700
+# pulled users: 1936
+# pulled missed: 1764
+# pulled users in window: 133
+# pulled requests in window: 250
+# pulled tweets in window: 28393
+# queried users: 3800
+# pulled users: 1998
+# pulled missed: 1802
+# pulled users in window: 195
+# pulled requests in window: 390
+# pulled tweets in window: 47293
+# queried users: 3900
+# pulled users: 2055
+# pulled missed: 1845
+# pulled users in window: 252
+# pulled requests in window: 526
+# pulled tweets in window: 65619
+# queried users: 4000
+# pulled users: 2108
+# pulled missed: 1892
+# pulled users in window: 305
+# pulled requests in window: 626
+# pulled tweets in window: 78072
+# queried users: 4100
+# pulled users: 2161
+# pulled missed: 1939
+# pulled users in window: 358
+# pulled requests in window: 739
+# pulled tweets in window: 92841
+# queried users: 4200
+# pulled users: 2215
+# pulled missed: 1985
+# pulled users in window: 412
+# pulled requests in window: 844
+# pulled tweets in window: 105783
+Saved in user_timeline_430_users_894_requests_113090_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_51d777fc-f677-4b9c-add1-2a0867cf8eae.json.bz2
+Computing Time: 639 sec
+
+# queried users: 4300
+# pulled users: 2280
+# pulled missed: 2020
+# pulled users in window: 47
+# pulled requests in window: 78
+# pulled tweets in window: 8074
+# queried users: 4400
+# pulled users: 2331
+# pulled missed: 2069
+# pulled users in window: 98
+# pulled requests in window: 185
+# pulled tweets in window: 20941
+# queried users: 4500
+# pulled users: 2378
+# pulled missed: 2122
+# pulled users in window: 145
+# pulled requests in window: 262
+# pulled tweets in window: 29018
+# queried users: 4600
+# pulled users: 2423
+# pulled missed: 2177
+# pulled users in window: 190
+# pulled requests in window: 334
+# pulled tweets in window: 36064
+# queried users: 4700
+# pulled users: 2480
+# pulled missed: 2220
+# pulled users in window: 247
+# pulled requests in window: 419
+# pulled tweets in window: 44351
+# queried users: 4800
+# pulled users: 2529
+# pulled missed: 2271
+# pulled users in window: 296
+# pulled requests in window: 504
+# pulled tweets in window: 53691
+# queried users: 4900
+# pulled users: 2582
+# pulled missed: 2318
+# pulled users in window: 349
+# pulled requests in window: 676
+# pulled tweets in window: 79719
+# queried users: 5000
+# pulled users: 2643
+# pulled missed: 2357
+# pulled users in window: 410
+# pulled requests in window: 787
+# pulled tweets in window: 91525
+Saved in user_timeline_444_users_881_requests_105008_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_6ffc680e-6e06-4aa7-8ffc-717921b8739a.json.bz2
+Computing Time: 647 sec
+
+# queried users: 5100
+# pulled users: 2698
+# pulled missed: 2402
+# pulled users in window: 21
+# pulled requests in window: 21
+# pulled tweets in window: 487
+# queried users: 5200
+# pulled users: 2752
+# pulled missed: 2448
+# pulled users in window: 75
+# pulled requests in window: 140
+# pulled tweets in window: 15750
+# queried users: 5300
+# pulled users: 2805
+# pulled missed: 2495
+# pulled users in window: 128
+# pulled requests in window: 232
+# pulled tweets in window: 25903
+# queried users: 5400
+# pulled users: 2858
+# pulled missed: 2542
+# pulled users in window: 181
+# pulled requests in window: 310
+# pulled tweets in window: 33187
+# queried users: 5500
+# pulled users: 2897
+# pulled missed: 2603
+# pulled users in window: 220
+# pulled requests in window: 364
+# pulled tweets in window: 37590
+# queried users: 5600
+# pulled users: 2949
+# pulled missed: 2651
+# pulled users in window: 272
+# pulled requests in window: 481
+# pulled tweets in window: 53443
+# queried users: 5700
+# pulled users: 3008
+# pulled missed: 2692
+# pulled users in window: 331
+# pulled requests in window: 579
+# pulled tweets in window: 63972
+# queried users: 5800
+# pulled users: 3058
+# pulled missed: 2742
+# pulled users in window: 381
+# pulled requests in window: 702
+# pulled tweets in window: 80579
+# queried users: 5900
+# pulled users: 3110
+# pulled missed: 2790
+# pulled users in window: 433
+# pulled requests in window: 807
+# pulled tweets in window: 94513
+Saved in user_timeline_469_users_883_requests_103908_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_02be9e57-56c2-407e-bf7f-1056ad0b676f.json.bz2
+Computing Time: 637 sec
+
+# queried users: 6000
+# pulled users: 3175
+# pulled missed: 2825
+# pulled users in window: 29
+# pulled requests in window: 46
+# pulled tweets in window: 4433
+# queried users: 6100
+# pulled users: 3227
+# pulled missed: 2873
+# pulled users in window: 81
+# pulled requests in window: 153
+# pulled tweets in window: 18013
+# queried users: 6200
+# pulled users: 3277
+# pulled missed: 2923
+# pulled users in window: 131
+# pulled requests in window: 238
+# pulled tweets in window: 27306
+# queried users: 6300
+# pulled users: 3334
+# pulled missed: 2966
+# pulled users in window: 188
+# pulled requests in window: 317
+# pulled tweets in window: 33712
+# queried users: 6400
+# pulled users: 3392
+# pulled missed: 3008
+# pulled users in window: 246
+# pulled requests in window: 456
+# pulled tweets in window: 52904
+# queried users: 6500
+# pulled users: 3447
+# pulled missed: 3053
+# pulled users in window: 301
+# pulled requests in window: 564
+# pulled tweets in window: 65699
+# queried users: 6600
+# pulled users: 3510
+# pulled missed: 3090
+# pulled users in window: 364
+# pulled requests in window: 718
+# pulled tweets in window: 86685
+# queried users: 6700
+# pulled users: 3566
+# pulled missed: 3134
+# pulled users in window: 420
+# pulled requests in window: 852
+# pulled tweets in window: 104529
+Saved in user_timeline_435_users_881_requests_108017_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_410eb5b2-95b9-4700-b803-a9a1fddb1582.json.bz2
+Computing Time: 608 sec
+
+# queried users: 6800
+# pulled users: 3618
+# pulled missed: 3182
+# pulled users in window: 37
+# pulled requests in window: 99
+# pulled tweets in window: 14925
+# queried users: 6900
+# pulled users: 3671
+# pulled missed: 3229
+# pulled users in window: 90
+# pulled requests in window: 214
+# pulled tweets in window: 30063
+# queried users: 7000
+# pulled users: 3727
+# pulled missed: 3273
+# pulled users in window: 146
+# pulled requests in window: 315
+# pulled tweets in window: 41507
+# queried users: 7100
+# pulled users: 3773
+# pulled missed: 3327
+# pulled users in window: 192
+# pulled requests in window: 410
+# pulled tweets in window: 53245
+# queried users: 7200
+# pulled users: 3823
+# pulled missed: 3377
+# pulled users in window: 242
+# pulled requests in window: 543
+# pulled tweets in window: 73231
+# queried users: 7300
+# pulled users: 3878
+# pulled missed: 3422
+# pulled users in window: 297
+# pulled requests in window: 637
+# pulled tweets in window: 83231
+# queried users: 7400
+# pulled users: 3936
+# pulled missed: 3464
+# pulled users in window: 355
+# pulled requests in window: 719
+# pulled tweets in window: 90324
+Saved in user_timeline_411_users_881_requests_114469_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_4dec78c4-1ab1-412d-86aa-08b70a485126.json.bz2
+Computing Time: 674 sec
+
+# queried users: 7500
+# pulled users: 3998
+# pulled missed: 3502
+# pulled users in window: 6
+# pulled requests in window: 8
+# pulled tweets in window: 655
+# queried users: 7600
+# pulled users: 4051
+# pulled missed: 3549
+# pulled users in window: 59
+# pulled requests in window: 87
+# pulled tweets in window: 8319
+# queried users: 7700
+# pulled users: 4110
+# pulled missed: 3590
+# pulled users in window: 118
+# pulled requests in window: 209
+# pulled tweets in window: 23602
+# queried users: 7800
+# pulled users: 4168
+# pulled missed: 3632
+# pulled users in window: 176
+# pulled requests in window: 334
+# pulled tweets in window: 40054
+# queried users: 7900
+# pulled users: 4224
+# pulled missed: 3676
+# pulled users in window: 232
+# pulled requests in window: 468
+# pulled tweets in window: 58085
+# queried users: 8000
+# pulled users: 4282
+# pulled missed: 3718
+# pulled users in window: 290
+# pulled requests in window: 591
+# pulled tweets in window: 73902
+# queried users: 8100
+# pulled users: 4339
+# pulled missed: 3761
+# pulled users in window: 347
+# pulled requests in window: 707
+# pulled tweets in window: 88747
+# queried users: 8200
+# pulled users: 4399
+# pulled missed: 3801
+# pulled users in window: 407
+# pulled requests in window: 814
+# pulled tweets in window: 101014
+Saved in user_timeline_439_users_881_requests_109671_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_79fe38b2-4777-4b91-bf98-2793d422cff8.json.bz2
+Computing Time: 639 sec
+
+# queried users: 8300
+# pulled users: 4459
+# pulled missed: 3841
+# pulled users in window: 28
+# pulled requests in window: 56
+# pulled tweets in window: 6927
+# queried users: 8400
+# pulled users: 4521
+# pulled missed: 3879
+# pulled users in window: 90
+# pulled requests in window: 181
+# pulled tweets in window: 21026
+# queried users: 8500
+# pulled users: 4573
+# pulled missed: 3927
+# pulled users in window: 142
+# pulled requests in window: 277
+# pulled tweets in window: 32090
+# queried users: 8600
+# pulled users: 4626
+# pulled missed: 3974
+# pulled users in window: 195
+# pulled requests in window: 358
+# pulled tweets in window: 39432
+# queried users: 8700
+# pulled users: 4689
+# pulled missed: 4011
+# pulled users in window: 258
+# pulled requests in window: 499
+# pulled tweets in window: 57639
+# queried users: 8800
+# pulled users: 4746
+# pulled missed: 4054
+# pulled users in window: 315
+# pulled requests in window: 619
+# pulled tweets in window: 73106
+# queried users: 8900
+# pulled users: 4803
+# pulled missed: 4097
+# pulled users in window: 372
+# pulled requests in window: 746
+# pulled tweets in window: 89378
+Saved in user_timeline_424_users_886_requests_109268_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_d35f9dcc-ffbc-4848-8316-17692bef2839.json.bz2
+Computing Time: 976 sec
+
+# queried users: 9000
+# pulled users: 4862
+# pulled missed: 4138
+# pulled users in window: 7
+# pulled requests in window: 11
+# pulled tweets in window: 1577
+# queried users: 9100
+# pulled users: 4919
+# pulled missed: 4181
+# pulled users in window: 64
+# pulled requests in window: 95
+# pulled tweets in window: 9231
+# queried users: 9200
+# pulled users: 4974
+# pulled missed: 4226
+# pulled users in window: 119
+# pulled requests in window: 243
+# pulled tweets in window: 29906
+# queried users: 9300
+# pulled users: 5027
+# pulled missed: 4273
+# pulled users in window: 172
+# pulled requests in window: 360
+# pulled tweets in window: 44660
+# queried users: 9400
+# pulled users: 5089
+# pulled missed: 4311
+# pulled users in window: 234
+# pulled requests in window: 479
+# pulled tweets in window: 58352
+# queried users: 9500
+# pulled users: 5139
+# pulled missed: 4361
+# pulled users in window: 284
+# pulled requests in window: 579
+# pulled tweets in window: 71052
+# queried users: 9600
+# pulled users: 5191
+# pulled missed: 4409
+# pulled users in window: 336
+# pulled requests in window: 694
+# pulled tweets in window: 86239
+# queried users: 9700
+# pulled users: 5246
+# pulled missed: 4454
+# pulled users in window: 391
+# pulled requests in window: 809
+# pulled tweets in window: 101104
+Saved in user_timeline_418_users_887_requests_112719_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_207902d1-667a-4f78-928c-2143d62048ab.json.bz2
+Computing Time: 668 sec
+
+# queried users: 9800
+# pulled users: 5301
+# pulled missed: 4499
+# pulled users in window: 28
+# pulled requests in window: 59
+# pulled tweets in window: 7426
+# queried users: 9900
+# pulled users: 5355
+# pulled missed: 4545
+# pulled users in window: 82
+# pulled requests in window: 176
+# pulled tweets in window: 22407
+# queried users: 10000
+# pulled users: 5413
+# pulled missed: 4587
+# pulled users in window: 140
+# pulled requests in window: 297
+# pulled tweets in window: 37319
+# queried users: 10100
+# pulled users: 5471
+# pulled missed: 4629
+# pulled users in window: 198
+# pulled requests in window: 413
+# pulled tweets in window: 51836
+# queried users: 10200
+# pulled users: 5525
+# pulled missed: 4675
+# pulled users in window: 252
+# pulled requests in window: 550
+# pulled tweets in window: 71758
+# queried users: 10300
+# pulled users: 5579
+# pulled missed: 4721
+# pulled users in window: 306
+# pulled requests in window: 655
+# pulled tweets in window: 85034
+# queried users: 10400
+# pulled users: 5632
+# pulled missed: 4768
+# pulled users in window: 359
+# pulled requests in window: 776
+# pulled tweets in window: 101476
+# queried users: 10500
+# pulled users: 5686
+# pulled missed: 4814
+# pulled users in window: 413
+# pulled requests in window: 871
+# pulled tweets in window: 111830
+Saved in user_timeline_418_users_881_requests_113224_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_a6bd6ade-da88-4352-940b-02d9c7058b54.json.bz2
+Computing Time: 661 sec
+
+# queried users: 10600
+# pulled users: 5742
+# pulled missed: 4858
+# pulled users in window: 51
+# pulled requests in window: 90
+# pulled tweets in window: 9318
+# queried users: 10700
+# pulled users: 5797
+# pulled missed: 4903
+# pulled users in window: 106
+# pulled requests in window: 176
+# pulled tweets in window: 17220
+# queried users: 10800
+# pulled users: 5844
+# pulled missed: 4956
+# pulled users in window: 153
+# pulled requests in window: 276
+# pulled tweets in window: 30270
+# queried users: 10900
+# pulled users: 5901
+# pulled missed: 4999
+# pulled users in window: 210
+# pulled requests in window: 438
+# pulled tweets in window: 53940
+# queried users: 11000
+# pulled users: 5953
+# pulled missed: 5047
+# pulled users in window: 262
+# pulled requests in window: 527
+# pulled tweets in window: 63514
+# queried users: 11100
+# pulled users: 6010
+# pulled missed: 5090
+# pulled users in window: 319
+# pulled requests in window: 640
+# pulled tweets in window: 77217
+# queried users: 11200
+# pulled users: 6064
+# pulled missed: 5136
+# pulled users in window: 373
+# pulled requests in window: 734
+# pulled tweets in window: 87509
+# queried users: 11300
+# pulled users: 6126
+# pulled missed: 5174
+# pulled users in window: 435
+# pulled requests in window: 867
+# pulled tweets in window: 104056
+Saved in user_timeline_440_users_881_requests_106102_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_c5effbc3-3d32-4218-81bc-1e7821f2bdc8.json.bz2
+Computing Time: 622 sec
+
+# queried users: 11400
+# pulled users: 6180
+# pulled missed: 5220
+# pulled users in window: 49
+# pulled requests in window: 100
+# pulled tweets in window: 12528
+# queried users: 11500
+# pulled users: 6228
+# pulled missed: 5272
+# pulled users in window: 97
+# pulled requests in window: 190
+# pulled tweets in window: 22607
+# queried users: 11600
+# pulled users: 6281
+# pulled missed: 5319
+# pulled users in window: 150
+# pulled requests in window: 299
+# pulled tweets in window: 36473
+# queried users: 11700
+# pulled users: 6337
+# pulled missed: 5363
+# pulled users in window: 206
+# pulled requests in window: 419
+# pulled tweets in window: 52100
+# queried users: 11800
+# pulled users: 6395
+# pulled missed: 5405
+# pulled users in window: 264
+# pulled requests in window: 538
+# pulled tweets in window: 66885
+# queried users: 11900
+# pulled users: 6445
+# pulled missed: 5455
+# pulled users in window: 314
+# pulled requests in window: 609
+# pulled tweets in window: 72747
+# queried users: 12000
+# pulled users: 6508
+# pulled missed: 5492
+# pulled users in window: 377
+# pulled requests in window: 758
+# pulled tweets in window: 92754
+Saved in user_timeline_436_users_882_requests_108535_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_89cd73b7-a6a3-468c-a8bd-8ca2eadaae73.json.bz2
+Computing Time: 657 sec
+
+# queried users: 12100
+# pulled users: 6578
+# pulled missed: 5522
+# pulled users in window: 11
+# pulled requests in window: 28
+# pulled tweets in window: 3725
+# queried users: 12200
+# pulled users: 6637
+# pulled missed: 5563
+# pulled users in window: 70
+# pulled requests in window: 130
+# pulled tweets in window: 15757
+# queried users: 12300
+# pulled users: 6693
+# pulled missed: 5607
+# pulled users in window: 126
+# pulled requests in window: 271
+# pulled tweets in window: 35181
+# queried users: 12400
+# pulled users: 6746
+# pulled missed: 5654
+# pulled users in window: 179
+# pulled requests in window: 369
+# pulled tweets in window: 46994
+# queried users: 12500
+# pulled users: 6805
+# pulled missed: 5695
+# pulled users in window: 238
+# pulled requests in window: 477
+# pulled tweets in window: 60173
+# queried users: 12600
+# pulled users: 6863
+# pulled missed: 5737
+# pulled users in window: 296
+# pulled requests in window: 573
+# pulled tweets in window: 69775
+# queried users: 12700
+# pulled users: 6921
+# pulled missed: 5779
+# pulled users in window: 354
+# pulled requests in window: 711
+# pulled tweets in window: 89087
+# queried users: 12800
+# pulled users: 6982
+# pulled missed: 5818
+# pulled users in window: 415
+# pulled requests in window: 827
+# pulled tweets in window: 102567
+Saved in user_timeline_430_users_886_requests_112458_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_288bee16-afa1-4ce1-80c7-88da8c9efdbd.json.bz2
+Computing Time: 628 sec
+
+# queried users: 12900
+# pulled users: 7039
+# pulled missed: 5861
+# pulled users in window: 42
+# pulled requests in window: 79
+# pulled tweets in window: 9138
+# queried users: 13000
+# pulled users: 7098
+# pulled missed: 5902
+# pulled users in window: 101
+# pulled requests in window: 220
+# pulled tweets in window: 29168
+# queried users: 13100
+# pulled users: 7149
+# pulled missed: 5951
+# pulled users in window: 152
+# pulled requests in window: 302
+# pulled tweets in window: 37345
+# queried users: 13200
+# pulled users: 7207
+# pulled missed: 5993
+# pulled users in window: 210
+# pulled requests in window: 437
+# pulled tweets in window: 55431
+# queried users: 13300
+# pulled users: 7261
+# pulled missed: 6039
+# pulled users in window: 264
+# pulled requests in window: 567
+# pulled tweets in window: 72804
+# queried users: 13400
+# pulled users: 7325
+# pulled missed: 6075
+# pulled users in window: 328
+# pulled requests in window: 709
+# pulled tweets in window: 91026
+# queried users: 13500
+# pulled users: 7383
+# pulled missed: 6117
+# pulled users in window: 386
+# pulled requests in window: 858
+# pulled tweets in window: 112082
+Saved in user_timeline_406_users_884_requests_114049_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_11d69b08-0e67-4682-bce6-790330feab1f.json.bz2
+Computing Time: 641 sec
+
+# queried users: 13600
+# pulled users: 7442
+# pulled missed: 6158
+# pulled users in window: 39
+# pulled requests in window: 76
+# pulled tweets in window: 9427
+# queried users: 13700
+# pulled users: 7496
+# pulled missed: 6204
+# pulled users in window: 93
+# pulled requests in window: 166
+# pulled tweets in window: 19189
+# queried users: 13800
+# pulled users: 7547
+# pulled missed: 6253
+# pulled users in window: 144
+# pulled requests in window: 270
+# pulled tweets in window: 31680
+# queried users: 13900
+# pulled users: 7610
+# pulled missed: 6290
+# pulled users in window: 207
+# pulled requests in window: 418
+# pulled tweets in window: 51671
+# queried users: 14000
+# pulled users: 7672
+# pulled missed: 6328
+# pulled users in window: 269
+# pulled requests in window: 573
+# pulled tweets in window: 73353
+# queried users: 14100
+# pulled users: 7731
+# pulled missed: 6369
+# pulled users in window: 328
+# pulled requests in window: 698
+# pulled tweets in window: 89546
+# queried users: 14200
+# pulled users: 7788
+# pulled missed: 6412
+# pulled users in window: 385
+# pulled requests in window: 839
+# pulled tweets in window: 109885
+Saved in user_timeline_401_users_882_requests_116023_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_13427941-3006-412c-b75f-c668b1825a79.json.bz2
+Computing Time: 699 sec
+
+# queried users: 14300
+# pulled users: 7847
+# pulled missed: 6453
+# pulled users in window: 43
+# pulled requests in window: 92
+# pulled tweets in window: 11725
+# queried users: 14400
+# pulled users: 7903
+# pulled missed: 6497
+# pulled users in window: 99
+# pulled requests in window: 200
+# pulled tweets in window: 25268
+# queried users: 14500
+# pulled users: 7950
+# pulled missed: 6550
+# pulled users in window: 146
+# pulled requests in window: 271
+# pulled tweets in window: 31900
+# queried users: 14600
+# pulled users: 8012
+# pulled missed: 6588
+# pulled users in window: 208
+# pulled requests in window: 420
+# pulled tweets in window: 51804
+# queried users: 14700
+# pulled users: 8072
+# pulled missed: 6628
+# pulled users in window: 268
+# pulled requests in window: 556
+# pulled tweets in window: 69415
+# queried users: 14800
+# pulled users: 8126
+# pulled missed: 6674
+# pulled users in window: 322
+# pulled requests in window: 665
+# pulled tweets in window: 83174
+# queried users: 14900
+# pulled users: 8174
+# pulled missed: 6726
+# pulled users in window: 370
+# pulled requests in window: 767
+# pulled tweets in window: 96029
+Saved in user_timeline_411_users_882_requests_112517_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_6e275355-dd50-4613-af89-a69394629225.json.bz2
+Computing Time: 635 sec
+
+# queried users: 15000
+# pulled users: 8224
+# pulled missed: 6776
+# pulled users in window: 9
+# pulled requests in window: 15
+# pulled tweets in window: 1501
+# queried users: 15100
+# pulled users: 8278
+# pulled missed: 6822
+# pulled users in window: 63
+# pulled requests in window: 129
+# pulled tweets in window: 15625
+# queried users: 15200
+# pulled users: 8330
+# pulled missed: 6870
+# pulled users in window: 115
+# pulled requests in window: 289
+# pulled tweets in window: 39840
+# queried users: 15300
+# pulled users: 8382
+# pulled missed: 6918
+# pulled users in window: 167
+# pulled requests in window: 424
+# pulled tweets in window: 58723
+# queried users: 15400
+# pulled users: 8438
+# pulled missed: 6962
+# pulled users in window: 223
+# pulled requests in window: 536
+# pulled tweets in window: 72814
+# queried users: 15500
+# pulled users: 8492
+# pulled missed: 7008
+# pulled users in window: 277
+# pulled requests in window: 683
+# pulled tweets in window: 94304
+# queried users: 15600
+# pulled users: 8556
+# pulled missed: 7044
+# pulled users in window: 341
+# pulled requests in window: 851
+# pulled tweets in window: 118358
+Saved in user_timeline_351_users_883_requests_123224_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_7959dc26-daab-4e50-a088-dfe05a879f14.json.bz2
+Computing Time: 886 sec
+
+# queried users: 15700
+# pulled users: 8609
+# pulled missed: 7091
+# pulled users in window: 43
+# pulled requests in window: 51
+# pulled tweets in window: 2663
+# queried users: 15800
+# pulled users: 8660
+# pulled missed: 7140
+# pulled users in window: 94
+# pulled requests in window: 146
+# pulled tweets in window: 13569
+# queried users: 15900
+# pulled users: 8707
+# pulled missed: 7193
+# pulled users in window: 141
+# pulled requests in window: 208
+# pulled tweets in window: 18365
+# queried users: 16000
+# pulled users: 8758
+# pulled missed: 7242
+# pulled users in window: 192
+# pulled requests in window: 293
+# pulled tweets in window: 27301
+# queried users: 16100
+# pulled users: 8815
+# pulled missed: 7285
+# pulled users in window: 249
+# pulled requests in window: 390
+# pulled tweets in window: 37578
+# queried users: 16200
+# pulled users: 8866
+# pulled missed: 7334
+# pulled users in window: 300
+# pulled requests in window: 475
+# pulled tweets in window: 46477
+# queried users: 16300
+# pulled users: 8922
+# pulled missed: 7378
+# pulled users in window: 356
+# pulled requests in window: 599
+# pulled tweets in window: 63059
+# queried users: 16400
+# pulled users: 8974
+# pulled missed: 7426
+# pulled users in window: 408
+# pulled requests in window: 738
+# pulled tweets in window: 83345
+# queried users: 16500
+# pulled users: 9029
+# pulled missed: 7471
+# pulled users in window: 463
+# pulled requests in window: 859
+# pulled tweets in window: 98445
+Saved in user_timeline_472_users_886_requests_102437_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_1db63972-4279-42b3-bb09-8d35522d7297.json.bz2
+Computing Time: 719 sec
+
+# queried users: 16600
+# pulled users: 9077
+# pulled missed: 7523
+# pulled users in window: 39
+# pulled requests in window: 72
+# pulled tweets in window: 8758
+# queried users: 16700
+# pulled users: 9134
+# pulled missed: 7566
+# pulled users in window: 96
+# pulled requests in window: 195
+# pulled tweets in window: 24611
+# queried users: 16800
+# pulled users: 9187
+# pulled missed: 7613
+# pulled users in window: 149
+# pulled requests in window: 281
+# pulled tweets in window: 33681
+# queried users: 16900
+# pulled users: 9234
+# pulled missed: 7666
+# pulled users in window: 196
+# pulled requests in window: 392
+# pulled tweets in window: 48462
+# queried users: 17000
+# pulled users: 9279
+# pulled missed: 7721
+# pulled users in window: 241
+# pulled requests in window: 475
+# pulled tweets in window: 58017
+# queried users: 17100
+# pulled users: 9333
+# pulled missed: 7767
+# pulled users in window: 295
+# pulled requests in window: 568
+# pulled tweets in window: 68087
+# queried users: 17200
+# pulled users: 9393
+# pulled missed: 7807
+# pulled users in window: 355
+# pulled requests in window: 685
+# pulled tweets in window: 82218
+# queried users: 17300
+# pulled users: 9450
+# pulled missed: 7850
+# pulled users in window: 412
+# pulled requests in window: 809
+# pulled tweets in window: 98496
+Saved in user_timeline_431_users_887_requests_111422_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_08675c79-4a84-4de4-b7bb-7972c34d3e45.json.bz2
+Computing Time: 698 sec
+
+# queried users: 17400
+# pulled users: 9507
+# pulled missed: 7893
+# pulled users in window: 38
+# pulled requests in window: 59
+# pulled tweets in window: 5806
+# queried users: 17500
+# pulled users: 9557
+# pulled missed: 7943
+# pulled users in window: 88
+# pulled requests in window: 139
+# pulled tweets in window: 14155
+# queried users: 17600
+# pulled users: 9602
+# pulled missed: 7998
+# pulled users in window: 133
+# pulled requests in window: 242
+# pulled tweets in window: 28122
+# queried users: 17700
+# pulled users: 9659
+# pulled missed: 8041
+# pulled users in window: 190
+# pulled requests in window: 347
+# pulled tweets in window: 40424
+# queried users: 17800
+# pulled users: 9715
+# pulled missed: 8085
+# pulled users in window: 246
+# pulled requests in window: 454
+# pulled tweets in window: 53061
+# queried users: 17900
+# pulled users: 9766
+# pulled missed: 8134
+# pulled users in window: 297
+# pulled requests in window: 545
+# pulled tweets in window: 62987
+# queried users: 18000
+# pulled users: 9815
+# pulled missed: 8185
+# pulled users in window: 346
+# pulled requests in window: 655
+# pulled tweets in window: 77534
+# queried users: 18100
+# pulled users: 9872
+# pulled missed: 8228
+# pulled users in window: 403
+# pulled requests in window: 742
+# pulled tweets in window: 85735
+# queried users: 18200
+# pulled users: 9924
+# pulled missed: 8276
+# pulled users in window: 455
+# pulled requests in window: 855
+# pulled tweets in window: 99841
+Saved in user_timeline_469_users_881_requests_103086_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_fdc3e481-afd2-407f-881c-b3cf650e25c9.json.bz2
+Computing Time: 681 sec
+
+# queried users: 18300
+# pulled users: 9968
+# pulled missed: 8332
+# pulled users in window: 30
+# pulled requests in window: 37
+# pulled tweets in window: 2321
+# queried users: 18400
+# pulled users: 10001
+# pulled missed: 8399
+# pulled users in window: 63
+# pulled requests in window: 83
+# pulled tweets in window: 7174
+# queried users: 18500
+# pulled users: 10045
+# pulled missed: 8455
+# pulled users in window: 107
+# pulled requests in window: 169
+# pulled tweets in window: 17461
+# queried users: 18600
+# pulled users: 10096
+# pulled missed: 8504
+# pulled users in window: 158
+# pulled requests in window: 259
+# pulled tweets in window: 27922
+# queried users: 18700
+# pulled users: 10152
+# pulled missed: 8548
+# pulled users in window: 214
+# pulled requests in window: 365
+# pulled tweets in window: 40599
+# queried users: 18800
+# pulled users: 10199
+# pulled missed: 8601
+# pulled users in window: 261
+# pulled requests in window: 427
+# pulled tweets in window: 45772
+# queried users: 18900
+# pulled users: 10242
+# pulled missed: 8658
+# pulled users in window: 304
+# pulled requests in window: 526
+# pulled tweets in window: 58999
+# queried users: 19000
+# pulled users: 10287
+# pulled missed: 8713
+# pulled users in window: 349
+# pulled requests in window: 631
+# pulled tweets in window: 72550
+# queried users: 19100
+# pulled users: 10346
+# pulled missed: 8754
+# pulled users in window: 408
+# pulled requests in window: 718
+# pulled tweets in window: 80707
+# queried users: 19200
+# pulled users: 10406
+# pulled missed: 8794
+# pulled users in window: 468
+# pulled requests in window: 852
+# pulled tweets in window: 98449
+Saved in user_timeline_480_users_885_requests_103266_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_cd05ff61-c49f-41da-b8c2-70134f5457ab.json.bz2
+Computing Time: 707 sec
+
+# queried users: 19300
+# pulled users: 10458
+# pulled missed: 8842
+# pulled users in window: 40
+# pulled requests in window: 73
+# pulled tweets in window: 8535
+# queried users: 19400
+# pulled users: 10505
+# pulled missed: 8895
+# pulled users in window: 87
+# pulled requests in window: 145
+# pulled tweets in window: 15550
+# queried users: 19500
+# pulled users: 10554
+# pulled missed: 8946
+# pulled users in window: 136
+# pulled requests in window: 197
+# pulled tweets in window: 18027
+# queried users: 19600
+# pulled users: 10599
+# pulled missed: 9001
+# pulled users in window: 181
+# pulled requests in window: 291
+# pulled tweets in window: 29778
+# queried users: 19700
+# pulled users: 10642
+# pulled missed: 9058
+# pulled users in window: 224
+# pulled requests in window: 353
+# pulled tweets in window: 35859
+# queried users: 19800
+# pulled users: 10696
+# pulled missed: 9104
+# pulled users in window: 278
+# pulled requests in window: 449
+# pulled tweets in window: 46851
+# queried users: 19900
+# pulled users: 10758
+# pulled missed: 9142
+# pulled users in window: 340
+# pulled requests in window: 554
+# pulled tweets in window: 58067
+# queried users: 20000
+# pulled users: 10806
+# pulled missed: 9194
+# pulled users in window: 388
+# pulled requests in window: 620
+# pulled tweets in window: 63898
+# queried users: 20100
+# pulled users: 10853
+# pulled missed: 9247
+# pulled users in window: 435
+# pulled requests in window: 689
+# pulled tweets in window: 70360
+# queried users: 20200
+# pulled users: 10905
+# pulled missed: 9295
+# pulled users in window: 487
+# pulled requests in window: 815
+# pulled tweets in window: 87610
+Saved in user_timeline_534_users_881_requests_93599_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_b5a33044-7794-4211-81e0-321b79b82c93.json.bz2
+Computing Time: 733 sec
+
+# queried users: 20300
+# pulled users: 10966
+# pulled missed: 9334
+# pulled users in window: 14
+# pulled requests in window: 15
+# pulled tweets in window: 439
+# queried users: 20400
+# pulled users: 10999
+# pulled missed: 9401
+# pulled users in window: 47
+# pulled requests in window: 53
+# pulled tweets in window: 2732
+# queried users: 20500
+# pulled users: 11018
+# pulled missed: 9482
+# pulled users in window: 66
+# pulled requests in window: 76
+# pulled tweets in window: 4313
+# queried users: 20600
+# pulled users: 11027
+# pulled missed: 9573
+# pulled users in window: 75
+# pulled requests in window: 85
+# pulled tweets in window: 4723
+# queried users: 20700
+# pulled users: 11035
+# pulled missed: 9665
+# pulled users in window: 83
+# pulled requests in window: 94
+# pulled tweets in window: 5197
+# queried users: 20800
+# pulled users: 11052
+# pulled missed: 9748
+# pulled users in window: 100
+# pulled requests in window: 111
+# pulled tweets in window: 5554
+# queried users: 20900
+# pulled users: 11074
+# pulled missed: 9826
+# pulled users in window: 122
+# pulled requests in window: 133
+# pulled tweets in window: 5933
+# queried users: 21000
+# pulled users: 11085
+# pulled missed: 9915
+# pulled users in window: 133
+# pulled requests in window: 147
+# pulled tweets in window: 6739
+# queried users: 21100
+# pulled users: 11102
+# pulled missed: 9998
+# pulled users in window: 150
+# pulled requests in window: 165
+# pulled tweets in window: 7321
+# queried users: 21200
+# pulled users: 11114
+# pulled missed: 10086
+# pulled users in window: 162
+# pulled requests in window: 177
+# pulled tweets in window: 7709
+# queried users: 21300
+# pulled users: 11130
+# pulled missed: 10170
+# pulled users in window: 178
+# pulled requests in window: 193
+# pulled tweets in window: 8024
+# queried users: 21400
+# pulled users: 11155
+# pulled missed: 10245
+# pulled users in window: 203
+# pulled requests in window: 227
+# pulled tweets in window: 10774
+# queried users: 21500
+# pulled users: 11177
+# pulled missed: 10323
+# pulled users in window: 225
+# pulled requests in window: 249
+# pulled tweets in window: 11018
+# queried users: 21600
+# pulled users: 11201
+# pulled missed: 10399
+# pulled users in window: 249
+# pulled requests in window: 277
+# pulled tweets in window: 12661
+# queried users: 21700
+# pulled users: 11230
+# pulled missed: 10470
+# pulled users in window: 278
+# pulled requests in window: 313
+# pulled tweets in window: 14764
+# queried users: 21800
+# pulled users: 11262
+# pulled missed: 10538
+# pulled users in window: 310
+# pulled requests in window: 346
+# pulled tweets in window: 16311
+# queried users: 21900
+# pulled users: 11292
+# pulled missed: 10608
+# pulled users in window: 340
+# pulled requests in window: 381
+# pulled tweets in window: 18813
+# queried users: 22000
+# pulled users: 11312
+# pulled missed: 10688
+# pulled users in window: 360
+# pulled requests in window: 406
+# pulled tweets in window: 20311
+# queried users: 22100
+# pulled users: 11343
+# pulled missed: 10757
+# pulled users in window: 391
+# pulled requests in window: 451
+# pulled tweets in window: 24433
+# queried users: 22200
+# pulled users: 11377
+# pulled missed: 10823
+# pulled users in window: 425
+# pulled requests in window: 487
+# pulled tweets in window: 26153
+# queried users: 22300
+# pulled users: 11411
+# pulled missed: 10889
+# pulled users in window: 459
+# pulled requests in window: 537
+# pulled tweets in window: 30388
+# queried users: 22400
+# pulled users: 11440
+# pulled missed: 10960
+# pulled users in window: 488
+# pulled requests in window: 573
+# pulled tweets in window: 32808
+# queried users: 22500
+# pulled users: 11473
+# pulled missed: 11027
+# pulled users in window: 521
+# pulled requests in window: 631
+# pulled tweets in window: 39169
+# queried users: 22600
+# pulled users: 11516
+# pulled missed: 11084
+# pulled users in window: 564
+# pulled requests in window: 698
+# pulled tweets in window: 45660
+# queried users: 22700
+# pulled users: 11565
+# pulled missed: 11135
+# pulled users in window: 613
+# pulled requests in window: 806
+# pulled tweets in window: 60155
+Saved in user_timeline_647_users_886_requests_70831_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_6873fb0e-9cd3-428d-ba0e-da534ba410d7.json.bz2
+Computing Time: 938 sec
+
+# queried users: 22800
+# pulled users: 11610
+# pulled missed: 11190
+# pulled users in window: 11
+# pulled requests in window: 19
+# pulled tweets in window: 2087
+# queried users: 22900
+# pulled users: 11653
+# pulled missed: 11247
+# pulled users in window: 54
+# pulled requests in window: 63
+# pulled tweets in window: 3557
+# queried users: 23000
+# pulled users: 11675
+# pulled missed: 11325
+# pulled users in window: 76
+# pulled requests in window: 88
+# pulled tweets in window: 4940
+# queried users: 23100
+# pulled users: 11688
+# pulled missed: 11412
+# pulled users in window: 89
+# pulled requests in window: 101
+# pulled tweets in window: 5484
+# queried users: 23200
+# pulled users: 11693
+# pulled missed: 11507
+# pulled users in window: 94
+# pulled requests in window: 107
+# pulled tweets in window: 5738
+# queried users: 23300
+# pulled users: 11705
+# pulled missed: 11595
+# pulled users in window: 106
+# pulled requests in window: 119
+# pulled tweets in window: 6083
+# queried users: 23400
+# pulled users: 11718
+# pulled missed: 11682
+# pulled users in window: 119
+# pulled requests in window: 132
+# pulled tweets in window: 6212
+# queried users: 23500
+# pulled users: 11733
+# pulled missed: 11767
+# pulled users in window: 134
+# pulled requests in window: 147
+# pulled tweets in window: 6539
+# queried users: 23600
+# pulled users: 11741
+# pulled missed: 11859
+# pulled users in window: 142
+# pulled requests in window: 155
+# pulled tweets in window: 6830
+# queried users: 23700
+# pulled users: 11750
+# pulled missed: 11950
+# pulled users in window: 151
+# pulled requests in window: 165
+# pulled tweets in window: 7161
+# queried users: 23800
+# pulled users: 11766
+# pulled missed: 12034
+# pulled users in window: 167
+# pulled requests in window: 181
+# pulled tweets in window: 7266
+# queried users: 23900
+# pulled users: 11774
+# pulled missed: 12126
+# pulled users in window: 175
+# pulled requests in window: 189
+# pulled tweets in window: 7394
+# queried users: 24000
+# pulled users: 11787
+# pulled missed: 12213
+# pulled users in window: 188
+# pulled requests in window: 202
+# pulled tweets in window: 7601
+# queried users: 24100
+# pulled users: 11803
+# pulled missed: 12297
+# pulled users in window: 204
+# pulled requests in window: 222
+# pulled tweets in window: 8862
+# queried users: 24200
+# pulled users: 11822
+# pulled missed: 12378
+# pulled users in window: 223
+# pulled requests in window: 242
+# pulled tweets in window: 9533
+# queried users: 24300
+# pulled users: 11841
+# pulled missed: 12459
+# pulled users in window: 242
+# pulled requests in window: 261
+# pulled tweets in window: 10024
+# queried users: 24400
+# pulled users: 11865
+# pulled missed: 12535
+# pulled users in window: 266
+# pulled requests in window: 292
+# pulled tweets in window: 12418
+# queried users: 24500
+# pulled users: 11885
+# pulled missed: 12615
+# pulled users in window: 286
+# pulled requests in window: 316
+# pulled tweets in window: 14287
+# queried users: 24600
+# pulled users: 11905
+# pulled missed: 12695
+# pulled users in window: 306
+# pulled requests in window: 338
+# pulled tweets in window: 15354
+# queried users: 24700
+# pulled users: 11933
+# pulled missed: 12767
+# pulled users in window: 334
+# pulled requests in window: 366
+# pulled tweets in window: 16639
+# queried users: 24800
+# pulled users: 11960
+# pulled missed: 12840
+# pulled users in window: 361
+# pulled requests in window: 395
+# pulled tweets in window: 17359
+# queried users: 24900
+# pulled users: 11973
+# pulled missed: 12927
+# pulled users in window: 374
+# pulled requests in window: 408
+# pulled tweets in window: 17844
+# queried users: 25000
+# pulled users: 11981
+# pulled missed: 13019
+# pulled users in window: 382
+# pulled requests in window: 416
+# pulled tweets in window: 18043
+# queried users: 25100
+# pulled users: 11990
+# pulled missed: 13110
+# pulled users in window: 391
+# pulled requests in window: 425
+# pulled tweets in window: 18127
+# queried users: 25200
+# pulled users: 12000
+# pulled missed: 13200
+# pulled users in window: 401
+# pulled requests in window: 436
+# pulled tweets in window: 18628
+# queried users: 25300
+# pulled users: 12005
+# pulled missed: 13295
+# pulled users in window: 406
+# pulled requests in window: 441
+# pulled tweets in window: 18747
+# queried users: 25400
+# pulled users: 12014
+# pulled missed: 13386
+# pulled users in window: 415
+# pulled requests in window: 450
+# pulled tweets in window: 19348
+# queried users: 25500
+# pulled users: 12026
+# pulled missed: 13474
+# pulled users in window: 427
+# pulled requests in window: 465
+# pulled tweets in window: 20605
+# queried users: 25600
+# pulled users: 12033
+# pulled missed: 13567
+# pulled users in window: 434
+# pulled requests in window: 473
+# pulled tweets in window: 21019
+# queried users: 25700
+# pulled users: 12040
+# pulled missed: 13660
+# pulled users in window: 441
+# pulled requests in window: 480
+# pulled tweets in window: 21121
+# queried users: 25800
+# pulled users: 12044
+# pulled missed: 13756
+# pulled users in window: 445
+# pulled requests in window: 484
+# pulled tweets in window: 21180
+# queried users: 25900
+# pulled users: 12050
+# pulled missed: 13850
+# pulled users in window: 451
+# pulled requests in window: 490
+# pulled tweets in window: 21366
+# queried users: 26000
+# pulled users: 12058
+# pulled missed: 13942
+# pulled users in window: 459
+# pulled requests in window: 498
+# pulled tweets in window: 21795
+# queried users: 26100
+# pulled users: 12068
+# pulled missed: 14032
+# pulled users in window: 469
+# pulled requests in window: 508
+# pulled tweets in window: 21930
+# queried users: 26200
+# pulled users: 12080
+# pulled missed: 14120
+# pulled users in window: 481
+# pulled requests in window: 520
+# pulled tweets in window: 22390
+# queried users: 26300
+# pulled users: 12094
+# pulled missed: 14206
+# pulled users in window: 495
+# pulled requests in window: 536
+# pulled tweets in window: 23222
+# queried users: 26400
+# pulled users: 12115
+# pulled missed: 14285
+# pulled users in window: 516
+# pulled requests in window: 559
+# pulled tweets in window: 24377
+# queried users: 26500
+# pulled users: 12135
+# pulled missed: 14365
+# pulled users in window: 536
+# pulled requests in window: 583
+# pulled tweets in window: 25764
+# queried users: 26600
+# pulled users: 12169
+# pulled missed: 14431
+# pulled users in window: 570
+# pulled requests in window: 640
+# pulled tweets in window: 31719
+# queried users: 26700
+# pulled users: 12196
+# pulled missed: 14504
+# pulled users in window: 597
+# pulled requests in window: 670
+# pulled tweets in window: 33309
+# queried users: 26800
+# pulled users: 12226
+# pulled missed: 14574
+# pulled users in window: 627
+# pulled requests in window: 707
+# pulled tweets in window: 35785
+# queried users: 26900
+# pulled users: 12253
+# pulled missed: 14647
+# pulled users in window: 654
+# pulled requests in window: 737
+# pulled tweets in window: 37180
+# queried users: 27000
+# pulled users: 12279
+# pulled missed: 14721
+# pulled users in window: 680
+# pulled requests in window: 770
+# pulled tweets in window: 39265
+# queried users: 27100
+# pulled users: 12297
+# pulled missed: 14803
+# pulled users in window: 698
+# pulled requests in window: 793
+# pulled tweets in window: 40918
+# queried users: 27200
+# pulled users: 12307
+# pulled missed: 14893
+# pulled users in window: 708
+# pulled requests in window: 804
+# pulled tweets in window: 41401
+# queried users: 27300
+# pulled users: 12310
+# pulled missed: 14990
+# pulled users in window: 711
+# pulled requests in window: 807
+# pulled tweets in window: 41442
+# queried users: 27400
+# pulled users: 12319
+# pulled missed: 15081
+# pulled users in window: 720
+# pulled requests in window: 816
+# pulled tweets in window: 41841
+# queried users: 27500
+# pulled users: 12323
+# pulled missed: 15177
+# pulled users in window: 724
+# pulled requests in window: 820
+# pulled tweets in window: 42071
+# queried users: 27600
+# pulled users: 12330
+# pulled missed: 15270
+# pulled users in window: 731
+# pulled requests in window: 827
+# pulled tweets in window: 42264
+# queried users: 27700
+# pulled users: 12344
+# pulled missed: 15356
+# pulled users in window: 745
+# pulled requests in window: 844
+# pulled tweets in window: 43302
+# queried users: 27800
+# pulled users: 12362
+# pulled missed: 15438
+# pulled users in window: 763
+# pulled requests in window: 868
+# pulled tweets in window: 45461
+# queried users: 27900
+# pulled users: 12373
+# pulled missed: 15527
+# pulled users in window: 774
+# pulled requests in window: 879
+# pulled tweets in window: 45749
+Saved in user_timeline_776_users_881_requests_45779_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_097d9d43-c2ee-4dfc-a2d5-57994232ae9c.json.bz2
+Computing Time: 1497 sec
+
+# queried users: 28000
+# pulled users: 12385
+# pulled missed: 15615
+# pulled users in window: 10
+# pulled requests in window: 10
+# pulled tweets in window: 156
+# queried users: 28100
+# pulled users: 12397
+# pulled missed: 15703
+# pulled users in window: 22
+# pulled requests in window: 23
+# pulled tweets in window: 777
+# queried users: 28200
+# pulled users: 12402
+# pulled missed: 15798
+# pulled users in window: 27
+# pulled requests in window: 28
+# pulled tweets in window: 968
+# queried users: 28300
+# pulled users: 12406
+# pulled missed: 15894
+# pulled users in window: 31
+# pulled requests in window: 32
+# pulled tweets in window: 1070
+# queried users: 28400
+# pulled users: 12412
+# pulled missed: 15988
+# pulled users in window: 37
+# pulled requests in window: 38
+# pulled tweets in window: 1234
+# queried users: 28500
+# pulled users: 12417
+# pulled missed: 16083
+# pulled users in window: 42
+# pulled requests in window: 43
+# pulled tweets in window: 1376
+# queried users: 28600
+# pulled users: 12419
+# pulled missed: 16181
+# pulled users in window: 44
+# pulled requests in window: 45
+# pulled tweets in window: 1557
+# queried users: 28700
+# pulled users: 12420
+# pulled missed: 16280
+# pulled users in window: 45
+# pulled requests in window: 46
+# pulled tweets in window: 1557
+# queried users: 28800
+# pulled users: 12427
+# pulled missed: 16373
+# pulled users in window: 52
+# pulled requests in window: 53
+# pulled tweets in window: 1557
+# queried users: 28900
+# pulled users: 12431
+# pulled missed: 16469
+# pulled users in window: 56
+# pulled requests in window: 57
+# pulled tweets in window: 1588
+# queried users: 29000
+# pulled users: 12437
+# pulled missed: 16563
+# pulled users in window: 62
+# pulled requests in window: 63
+# pulled tweets in window: 1620
+# queried users: 29100
+# pulled users: 12442
+# pulled missed: 16658
+# pulled users in window: 67
+# pulled requests in window: 68
+# pulled tweets in window: 1908
+# queried users: 29200
+# pulled users: 12449
+# pulled missed: 16751
+# pulled users in window: 74
+# pulled requests in window: 75
+# pulled tweets in window: 2105
+# queried users: 29300
+# pulled users: 12464
+# pulled missed: 16836
+# pulled users in window: 89
+# pulled requests in window: 91
+# pulled tweets in window: 2607
+# queried users: 29400
+# pulled users: 12480
+# pulled missed: 16920
+# pulled users in window: 105
+# pulled requests in window: 107
+# pulled tweets in window: 2898
+# queried users: 29500
+# pulled users: 12497
+# pulled missed: 17003
+# pulled users in window: 122
+# pulled requests in window: 124
+# pulled tweets in window: 3164
+# queried users: 29600
+# pulled users: 12518
+# pulled missed: 17082
+# pulled users in window: 143
+# pulled requests in window: 147
+# pulled tweets in window: 3891
+# queried users: 29700
+# pulled users: 12537
+# pulled missed: 17163
+# pulled users in window: 162
+# pulled requests in window: 166
+# pulled tweets in window: 4394
+# queried users: 29800
+# pulled users: 12554
+# pulled missed: 17246
+# pulled users in window: 179
+# pulled requests in window: 183
+# pulled tweets in window: 5365
+# queried users: 29900
+# pulled users: 12573
+# pulled missed: 17327
+# pulled users in window: 198
+# pulled requests in window: 202
+# pulled tweets in window: 5546
+# queried users: 30000
+# pulled users: 12592
+# pulled missed: 17408
+# pulled users in window: 217
+# pulled requests in window: 223
+# pulled tweets in window: 6274
+# queried users: 30100
+# pulled users: 12607
+# pulled missed: 17493
+# pulled users in window: 232
+# pulled requests in window: 238
+# pulled tweets in window: 6792
+# queried users: 30200
+# pulled users: 12633
+# pulled missed: 17567
+# pulled users in window: 258
+# pulled requests in window: 267
+# pulled tweets in window: 8615
+# queried users: 30300
+# pulled users: 12644
+# pulled missed: 17656
+# pulled users in window: 269
+# pulled requests in window: 278
+# pulled tweets in window: 8784
+# queried users: 30400
+# pulled users: 12657
+# pulled missed: 17743
+# pulled users in window: 282
+# pulled requests in window: 293
+# pulled tweets in window: 9694
+# queried users: 30500
+# pulled users: 12676
+# pulled missed: 17824
+# pulled users in window: 301
+# pulled requests in window: 313
+# pulled tweets in window: 10649
+# queried users: 30600
+# pulled users: 12685
+# pulled missed: 17915
+# pulled users in window: 310
+# pulled requests in window: 322
+# pulled tweets in window: 10969
+# queried users: 30700
+# pulled users: 12694
+# pulled missed: 18006
+# pulled users in window: 319
+# pulled requests in window: 331
+# pulled tweets in window: 11086
+# queried users: 30800
+# pulled users: 12695
+# pulled missed: 18105
+# pulled users in window: 320
+# pulled requests in window: 332
+# pulled tweets in window: 11086
+# queried users: 30900
+# pulled users: 12700
+# pulled missed: 18200
+# pulled users in window: 325
+# pulled requests in window: 337
+# pulled tweets in window: 11199
+# queried users: 31000
+# pulled users: 12709
+# pulled missed: 18291
+# pulled users in window: 334
+# pulled requests in window: 347
+# pulled tweets in window: 11412
+# queried users: 31100
+# pulled users: 12719
+# pulled missed: 18381
+# pulled users in window: 344
+# pulled requests in window: 357
+# pulled tweets in window: 11491
+# queried users: 31200
+# pulled users: 12743
+# pulled missed: 18457
+# pulled users in window: 368
+# pulled requests in window: 383
+# pulled tweets in window: 12162
+# queried users: 31300
+# pulled users: 12755
+# pulled missed: 18545
+# pulled users in window: 380
+# pulled requests in window: 398
+# pulled tweets in window: 13130
+# queried users: 31400
+# pulled users: 12763
+# pulled missed: 18637
+# pulled users in window: 388
+# pulled requests in window: 406
+# pulled tweets in window: 13286
+# queried users: 31500
+# pulled users: 12770
+# pulled missed: 18730
+# pulled users in window: 395
+# pulled requests in window: 413
+# pulled tweets in window: 13294
+# queried users: 31600
+# pulled users: 12773
+# pulled missed: 18827
+# pulled users in window: 398
+# pulled requests in window: 416
+# pulled tweets in window: 13307
+# queried users: 31700
+# pulled users: 12776
+# pulled missed: 18924
+# pulled users in window: 401
+# pulled requests in window: 419
+# pulled tweets in window: 13307
+# queried users: 31800
+# pulled users: 12781
+# pulled missed: 19019
+# pulled users in window: 406
+# pulled requests in window: 424
+# pulled tweets in window: 13317
+# queried users: 31900
+# pulled users: 12783
+# pulled missed: 19117
+# pulled users in window: 408
+# pulled requests in window: 426
+# pulled tweets in window: 13318
+# queried users: 32000
+# pulled users: 12783
+# pulled missed: 19217
+# pulled users in window: 408
+# pulled requests in window: 426
+# pulled tweets in window: 13318
+# queried users: 32100
+# pulled users: 12785
+# pulled missed: 19315
+# pulled users in window: 410
+# pulled requests in window: 428
+# pulled tweets in window: 13318
+# queried users: 32200
+# pulled users: 12800
+# pulled missed: 19400
+# pulled users in window: 425
+# pulled requests in window: 443
+# pulled tweets in window: 13954
+# queried users: 32300
+# pulled users: 12819
+# pulled missed: 19481
+# pulled users in window: 444
+# pulled requests in window: 466
+# pulled tweets in window: 15322
+# queried users: 32400
+# pulled users: 12836
+# pulled missed: 19564
+# pulled users in window: 461
+# pulled requests in window: 483
+# pulled tweets in window: 15498
+# queried users: 32500
+# pulled users: 12854
+# pulled missed: 19646
+# pulled users in window: 479
+# pulled requests in window: 503
+# pulled tweets in window: 16296
+# queried users: 32600
+# pulled users: 12861
+# pulled missed: 19739
+# pulled users in window: 486
+# pulled requests in window: 510
+# pulled tweets in window: 16318
+# queried users: 32700
+# pulled users: 12867
+# pulled missed: 19833
+# pulled users in window: 492
+# pulled requests in window: 516
+# pulled tweets in window: 16470
+# queried users: 32800
+# pulled users: 12878
+# pulled missed: 19922
+# pulled users in window: 503
+# pulled requests in window: 527
+# pulled tweets in window: 16567
+# queried users: 32900
+# pulled users: 12882
+# pulled missed: 20018
+# pulled users in window: 507
+# pulled requests in window: 531
+# pulled tweets in window: 16571
+# queried users: 33000
+# pulled users: 12894
+# pulled missed: 20106
+# pulled users in window: 519
+# pulled requests in window: 543
+# pulled tweets in window: 16771
+# queried users: 33100
+# pulled users: 12914
+# pulled missed: 20186
+# pulled users in window: 539
+# pulled requests in window: 564
+# pulled tweets in window: 17290
+# queried users: 33200
+# pulled users: 12939
+# pulled missed: 20261
+# pulled users in window: 564
+# pulled requests in window: 590
+# pulled tweets in window: 18094
+# queried users: 33300
+# pulled users: 12952
+# pulled missed: 20348
+# pulled users in window: 577
+# pulled requests in window: 604
+# pulled tweets in window: 18845
+# queried users: 33400
+# pulled users: 12961
+# pulled missed: 20439
+# pulled users in window: 586
+# pulled requests in window: 613
+# pulled tweets in window: 19211
+# queried users: 33500
+# pulled users: 12969
+# pulled missed: 20531
+# pulled users in window: 594
+# pulled requests in window: 621
+# pulled tweets in window: 19360
+# queried users: 33600
+# pulled users: 12979
+# pulled missed: 20621
+# pulled users in window: 604
+# pulled requests in window: 631
+# pulled tweets in window: 19496
+# queried users: 33700
+# pulled users: 13000
+# pulled missed: 20700
+# pulled users in window: 625
+# pulled requests in window: 652
+# pulled tweets in window: 19978
+# queried users: 33800
+# pulled users: 13016
+# pulled missed: 20784
+# pulled users in window: 641
+# pulled requests in window: 668
+# pulled tweets in window: 20302
+# queried users: 33900
+# pulled users: 13031
+# pulled missed: 20869
+# pulled users in window: 656
+# pulled requests in window: 686
+# pulled tweets in window: 21422
+# queried users: 34000
+# pulled users: 13037
+# pulled missed: 20963
+# pulled users in window: 662
+# pulled requests in window: 692
+# pulled tweets in window: 21538
+# queried users: 34100
+# pulled users: 13048
+# pulled missed: 21052
+# pulled users in window: 673
+# pulled requests in window: 704
+# pulled tweets in window: 21920
+# queried users: 34200
+# pulled users: 13057
+# pulled missed: 21143
+# pulled users in window: 682
+# pulled requests in window: 713
+# pulled tweets in window: 22295
+# queried users: 34300
+# pulled users: 13069
+# pulled missed: 21231
+# pulled users in window: 694
+# pulled requests in window: 725
+# pulled tweets in window: 22362
+# queried users: 34400
+# pulled users: 13073
+# pulled missed: 21327
+# pulled users in window: 698
+# pulled requests in window: 729
+# pulled tweets in window: 22362
+# queried users: 34500
+# pulled users: 13082
+# pulled missed: 21418
+# pulled users in window: 707
+# pulled requests in window: 738
+# pulled tweets in window: 22534
+# queried users: 34600
+# pulled users: 13085
+# pulled missed: 21515
+# pulled users in window: 710
+# pulled requests in window: 741
+# pulled tweets in window: 22547
+# queried users: 34700
+# pulled users: 13090
+# pulled missed: 21610
+# pulled users in window: 715
+# pulled requests in window: 746
+# pulled tweets in window: 22648
+# queried users: 34800
+# pulled users: 13093
+# pulled missed: 21707
+# pulled users in window: 718
+# pulled requests in window: 749
+# pulled tweets in window: 22648
+# queried users: 34900
+# pulled users: 13101
+# pulled missed: 21799
+# pulled users in window: 726
+# pulled requests in window: 757
+# pulled tweets in window: 22831
+# queried users: 35000
+# pulled users: 13104
+# pulled missed: 21896
+# pulled users in window: 729
+# pulled requests in window: 760
+# pulled tweets in window: 22831
+# queried users: 35100
+# pulled users: 13115
+# pulled missed: 21985
+# pulled users in window: 740
+# pulled requests in window: 771
+# pulled tweets in window: 22931
+# queried users: 35200
+# pulled users: 13119
+# pulled missed: 22081
+# pulled users in window: 744
+# pulled requests in window: 775
+# pulled tweets in window: 22931
+# queried users: 35300
+# pulled users: 13126
+# pulled missed: 22174
+# pulled users in window: 751
+# pulled requests in window: 782
+# pulled tweets in window: 23044
+# queried users: 35400
+# pulled users: 13127
+# pulled missed: 22273
+# pulled users in window: 752
+# pulled requests in window: 783
+# pulled tweets in window: 23044
+# queried users: 35500
+# pulled users: 13131
+# pulled missed: 22369
+# pulled users in window: 756
+# pulled requests in window: 788
+# pulled tweets in window: 23640
+# queried users: 35600
+# pulled users: 13133
+# pulled missed: 22467
+# pulled users in window: 758
+# pulled requests in window: 790
+# pulled tweets in window: 23640
+# queried users: 35700
+# pulled users: 13136
+# pulled missed: 22564
+# pulled users in window: 761
+# pulled requests in window: 793
+# pulled tweets in window: 23660
+# queried users: 35800
+# pulled users: 13136
+# pulled missed: 22664
+# pulled users in window: 761
+# pulled requests in window: 793
+# pulled tweets in window: 23660
+# queried users: 35900
+# pulled users: 13137
+# pulled missed: 22763
+# pulled users in window: 762
+# pulled requests in window: 794
+# pulled tweets in window: 23660
+# queried users: 36000
+# pulled users: 13138
+# pulled missed: 22862
+# pulled users in window: 763
+# pulled requests in window: 795
+# pulled tweets in window: 23660
+# queried users: 36100
+# pulled users: 13141
+# pulled missed: 22959
+# pulled users in window: 766
+# pulled requests in window: 798
+# pulled tweets in window: 23866
+# queried users: 36200
+# pulled users: 13142
+# pulled missed: 23058
+# pulled users in window: 767
+# pulled requests in window: 799
+# pulled tweets in window: 23879
+# queried users: 36300
+# pulled users: 13148
+# pulled missed: 23152
+# pulled users in window: 773
+# pulled requests in window: 805
+# pulled tweets in window: 23879
+# queried users: 36400
+# pulled users: 13151
+# pulled missed: 23249
+# pulled users in window: 776
+# pulled requests in window: 808
+# pulled tweets in window: 23879
+# queried users: 36500
+# pulled users: 13153
+# pulled missed: 23347
+# pulled users in window: 778
+# pulled requests in window: 810
+# pulled tweets in window: 23879
+# queried users: 36600
+# pulled users: 13155
+# pulled missed: 23445
+# pulled users in window: 780
+# pulled requests in window: 812
+# pulled tweets in window: 23879
+# queried users: 36700
+# pulled users: 13157
+# pulled missed: 23543
+# pulled users in window: 782
+# pulled requests in window: 814
+# pulled tweets in window: 23879
+# queried users: 36800
+# pulled users: 13160
+# pulled missed: 23640
+# pulled users in window: 785
+# pulled requests in window: 817
+# pulled tweets in window: 23882
+# queried users: 36900
+# pulled users: 13164
+# pulled missed: 23736
+# pulled users in window: 789
+# pulled requests in window: 821
+# pulled tweets in window: 23893
+# queried users: 37000
+# pulled users: 13171
+# pulled missed: 23829
+# pulled users in window: 796
+# pulled requests in window: 828
+# pulled tweets in window: 24031
+# queried users: 37100
+# pulled users: 13180
+# pulled missed: 23920
+# pulled users in window: 805
+# pulled requests in window: 837
+# pulled tweets in window: 24163
+# queried users: 37200
+# pulled users: 13183
+# pulled missed: 24017
+# pulled users in window: 808
+# pulled requests in window: 840
+# pulled tweets in window: 24163
+# queried users: 37300
+# pulled users: 13192
+# pulled missed: 24108
+# pulled users in window: 817
+# pulled requests in window: 849
+# pulled tweets in window: 24203
+# queried users: 37400
+# pulled users: 13200
+# pulled missed: 24200
+# pulled users in window: 825
+# pulled requests in window: 857
+# pulled tweets in window: 24291
+# queried users: 37500
+# pulled users: 13212
+# pulled missed: 24288
+# pulled users in window: 837
+# pulled requests in window: 869
+# pulled tweets in window: 24343
+# queried users: 37600
+# pulled users: 13221
+# pulled missed: 24379
+# pulled users in window: 846
+# pulled requests in window: 878
+# pulled tweets in window: 24432
+Saved in user_timeline_849_users_881_requests_24606_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_38f602b9-b90b-48f7-8aea-5a4e784f5581.json.bz2
+Computing Time: 2203 sec
+
+# queried users: 37700
+# pulled users: 13225
+# pulled missed: 24475
+# pulled users in window: 1
+# pulled requests in window: 1
+# pulled tweets in window: 0
+# queried users: 37800
+# pulled users: 13228
+# pulled missed: 24572
+# pulled users in window: 4
+# pulled requests in window: 4
+# pulled tweets in window: 46
+# queried users: 37900
+# pulled users: 13234
+# pulled missed: 24666
+# pulled users in window: 10
+# pulled requests in window: 10
+# pulled tweets in window: 195
+# queried users: 38000
+# pulled users: 13237
+# pulled missed: 24763
+# pulled users in window: 13
+# pulled requests in window: 13
+# pulled tweets in window: 305
+# queried users: 38100
+# pulled users: 13238
+# pulled missed: 24862
+# pulled users in window: 14
+# pulled requests in window: 14
+# pulled tweets in window: 305
+# queried users: 38200
+# pulled users: 13245
+# pulled missed: 24955
+# pulled users in window: 21
+# pulled requests in window: 21
+# pulled tweets in window: 437
+# queried users: 38300
+# pulled users: 13253
+# pulled missed: 25047
+# pulled users in window: 29
+# pulled requests in window: 29
+# pulled tweets in window: 514
+# queried users: 38400
+# pulled users: 13263
+# pulled missed: 25137
+# pulled users in window: 39
+# pulled requests in window: 39
+# pulled tweets in window: 705
+# queried users: 38500
+# pulled users: 13270
+# pulled missed: 25230
+# pulled users in window: 46
+# pulled requests in window: 46
+# pulled tweets in window: 723
+# queried users: 38600
+# pulled users: 13278
+# pulled missed: 25322
+# pulled users in window: 54
+# pulled requests in window: 54
+# pulled tweets in window: 900
+# queried users: 38700
+# pulled users: 13285
+# pulled missed: 25415
+# pulled users in window: 61
+# pulled requests in window: 61
+# pulled tweets in window: 1180
+# queried users: 38800
+# pulled users: 13292
+# pulled missed: 25508
+# pulled users in window: 68
+# pulled requests in window: 68
+# pulled tweets in window: 1184
+# queried users: 38900
+# pulled users: 13295
+# pulled missed: 25605
+# pulled users in window: 71
+# pulled requests in window: 71
+# pulled tweets in window: 1202
+# queried users: 39000
+# pulled users: 13297
+# pulled missed: 25703
+# pulled users in window: 73
+# pulled requests in window: 73
+# pulled tweets in window: 1202
+# queried users: 39100
+# pulled users: 13305
+# pulled missed: 25795
+# pulled users in window: 81
+# pulled requests in window: 81
+# pulled tweets in window: 1411
+# queried users: 39200
+# pulled users: 13311
+# pulled missed: 25889
+# pulled users in window: 87
+# pulled requests in window: 87
+# pulled tweets in window: 1441
+# queried users: 39300
+# pulled users: 13328
+# pulled missed: 25972
+# pulled users in window: 104
+# pulled requests in window: 104
+# pulled tweets in window: 1692
+# queried users: 39400
+# pulled users: 13336
+# pulled missed: 26064
+# pulled users in window: 112
+# pulled requests in window: 112
+# pulled tweets in window: 1759
+# queried users: 39500
+# pulled users: 13345
+# pulled missed: 26155
+# pulled users in window: 121
+# pulled requests in window: 121
+# pulled tweets in window: 1822
+# queried users: 39600
+# pulled users: 13355
+# pulled missed: 26245
+# pulled users in window: 131
+# pulled requests in window: 131
+# pulled tweets in window: 2174
+# queried users: 39700
+# pulled users: 13363
+# pulled missed: 26337
+# pulled users in window: 139
+# pulled requests in window: 139
+# pulled tweets in window: 2237
+# queried users: 39800
+# pulled users: 13367
+# pulled missed: 26433
+# pulled users in window: 143
+# pulled requests in window: 143
+# pulled tweets in window: 2262
+# queried users: 39900
+# pulled users: 13376
+# pulled missed: 26524
+# pulled users in window: 152
+# pulled requests in window: 152
+# pulled tweets in window: 2338
+# queried users: 40000
+# pulled users: 13381
+# pulled missed: 26619
+# pulled users in window: 157
+# pulled requests in window: 157
+# pulled tweets in window: 2411
+# queried users: 40100
+# pulled users: 13389
+# pulled missed: 26711
+# pulled users in window: 165
+# pulled requests in window: 165
+# pulled tweets in window: 2620
+# queried users: 40200
+# pulled users: 13397
+# pulled missed: 26803
+# pulled users in window: 173
+# pulled requests in window: 173
+# pulled tweets in window: 3011
+# queried users: 40300
+# pulled users: 13405
+# pulled missed: 26895
+# pulled users in window: 181
+# pulled requests in window: 181
+# pulled tweets in window: 3126
+# queried users: 40400
+# pulled users: 13407
+# pulled missed: 26993
+# pulled users in window: 183
+# pulled requests in window: 183
+# pulled tweets in window: 3228
+# queried users: 40500
+# pulled users: 13409
+# pulled missed: 27091
+# pulled users in window: 185
+# pulled requests in window: 185
+# pulled tweets in window: 3236
+# queried users: 40600
+# pulled users: 13414
+# pulled missed: 27186
+# pulled users in window: 190
+# pulled requests in window: 190
+# pulled tweets in window: 3269
+# queried users: 40700
+# pulled users: 13416
+# pulled missed: 27284
+# pulled users in window: 192
+# pulled requests in window: 192
+# pulled tweets in window: 3270
+# queried users: 40800
+# pulled users: 13419
+# pulled missed: 27381
+# pulled users in window: 195
+# pulled requests in window: 195
+# pulled tweets in window: 3297
+# queried users: 40900
+# pulled users: 13425
+# pulled missed: 27475
+# pulled users in window: 201
+# pulled requests in window: 201
+# pulled tweets in window: 3504
+# queried users: 41000
+# pulled users: 13429
+# pulled missed: 27571
+# pulled users in window: 205
+# pulled requests in window: 205
+# pulled tweets in window: 3583
+# queried users: 41100
+# pulled users: 13437
+# pulled missed: 27663
+# pulled users in window: 213
+# pulled requests in window: 213
+# pulled tweets in window: 3621
+# queried users: 41200
+# pulled users: 13445
+# pulled missed: 27755
+# pulled users in window: 221
+# pulled requests in window: 221
+# pulled tweets in window: 3774
+# queried users: 41300
+# pulled users: 13447
+# pulled missed: 27853
+# pulled users in window: 223
+# pulled requests in window: 223
+# pulled tweets in window: 3774
+# queried users: 41400
+# pulled users: 13447
+# pulled missed: 27953
+# pulled users in window: 223
+# pulled requests in window: 223
+# pulled tweets in window: 3774
+# queried users: 41500
+# pulled users: 13447
+# pulled missed: 28053
+# pulled users in window: 223
+# pulled requests in window: 223
+# pulled tweets in window: 3774
+# queried users: 41600
+# pulled users: 13447
+# pulled missed: 28153
+# pulled users in window: 223
+# pulled requests in window: 223
+# pulled tweets in window: 3774
+# queried users: 41700
+# pulled users: 13449
+# pulled missed: 28251
+# pulled users in window: 225
+# pulled requests in window: 225
+# pulled tweets in window: 3774
+# queried users: 41800
+# pulled users: 13454
+# pulled missed: 28346
+# pulled users in window: 230
+# pulled requests in window: 230
+# pulled tweets in window: 3774
+# queried users: 41900
+# pulled users: 13456
+# pulled missed: 28444
+# pulled users in window: 232
+# pulled requests in window: 232
+# pulled tweets in window: 3774
+# queried users: 42000
+# pulled users: 13456
+# pulled missed: 28544
+# pulled users in window: 232
+# pulled requests in window: 232
+# pulled tweets in window: 3774
+# queried users: 42100
+# pulled users: 13458
+# pulled missed: 28642
+# pulled users in window: 234
+# pulled requests in window: 234
+# pulled tweets in window: 3774
+# queried users: 42200
+# pulled users: 13459
+# pulled missed: 28741
+# pulled users in window: 235
+# pulled requests in window: 235
+# pulled tweets in window: 3819
+# queried users: 42300
+# pulled users: 13463
+# pulled missed: 28837
+# pulled users in window: 239
+# pulled requests in window: 239
+# pulled tweets in window: 3832
+# queried users: 42400
+# pulled users: 13467
+# pulled missed: 28933
+# pulled users in window: 243
+# pulled requests in window: 243
+# pulled tweets in window: 3928
+# queried users: 42500
+# pulled users: 13470
+# pulled missed: 29030
+# pulled users in window: 246
+# pulled requests in window: 246
+# pulled tweets in window: 3932
+# queried users: 42600
+# pulled users: 13471
+# pulled missed: 29129
+# pulled users in window: 247
+# pulled requests in window: 247
+# pulled tweets in window: 3934
+# queried users: 42700
+# pulled users: 13476
+# pulled missed: 29224
+# pulled users in window: 252
+# pulled requests in window: 252
+# pulled tweets in window: 3971
+# queried users: 42800
+# pulled users: 13482
+# pulled missed: 29318
+# pulled users in window: 258
+# pulled requests in window: 258
+# pulled tweets in window: 4009
+# queried users: 42900
+# pulled users: 13487
+# pulled missed: 29413
+# pulled users in window: 263
+# pulled requests in window: 263
+# pulled tweets in window: 4010
+# queried users: 43000
+# pulled users: 13487
+# pulled missed: 29513
+# pulled users in window: 263
+# pulled requests in window: 263
+# pulled tweets in window: 4010
+# queried users: 43100
+# pulled users: 13488
+# pulled missed: 29612
+# pulled users in window: 264
+# pulled requests in window: 264
+# pulled tweets in window: 4010
+# queried users: 43200
+# pulled users: 13492
+# pulled missed: 29708
+# pulled users in window: 268
+# pulled requests in window: 268
+# pulled tweets in window: 4094
+# queried users: 43300
+# pulled users: 13494
+# pulled missed: 29806
+# pulled users in window: 270
+# pulled requests in window: 270
+# pulled tweets in window: 4094
+# queried users: 43400
+# pulled users: 13496
+# pulled missed: 29904
+# pulled users in window: 272
+# pulled requests in window: 272
+# pulled tweets in window: 4285
+# queried users: 43500
+# pulled users: 13505
+# pulled missed: 29995
+# pulled users in window: 281
+# pulled requests in window: 281
+# pulled tweets in window: 4548
+# queried users: 43600
+# pulled users: 13509
+# pulled missed: 30091
+# pulled users in window: 285
+# pulled requests in window: 285
+# pulled tweets in window: 4668
+# queried users: 43700
+# pulled users: 13510
+# pulled missed: 30190
+# pulled users in window: 286
+# pulled requests in window: 286
+# pulled tweets in window: 4668
+# queried users: 43800
+# pulled users: 13512
+# pulled missed: 30288
+# pulled users in window: 288
+# pulled requests in window: 288
+# pulled tweets in window: 4677
+# queried users: 43900
+# pulled users: 13513
+# pulled missed: 30387
+# pulled users in window: 289
+# pulled requests in window: 289
+# pulled tweets in window: 4744
+# queried users: 44000
+# pulled users: 13518
+# pulled missed: 30482
+# pulled users in window: 294
+# pulled requests in window: 294
+# pulled tweets in window: 4777
+# queried users: 44100
+# pulled users: 13522
+# pulled missed: 30578
+# pulled users in window: 298
+# pulled requests in window: 298
+# pulled tweets in window: 5029
+# queried users: 44200
+# pulled users: 13527
+# pulled missed: 30673
+# pulled users in window: 303
+# pulled requests in window: 303
+# pulled tweets in window: 5080
+# queried users: 44300
+# pulled users: 13530
+# pulled missed: 30770
+# pulled users in window: 306
+# pulled requests in window: 306
+# pulled tweets in window: 5083
+# queried users: 44400
+# pulled users: 13532
+# pulled missed: 30868
+# pulled users in window: 308
+# pulled requests in window: 308
+# pulled tweets in window: 5164
+# queried users: 44500
+# pulled users: 13532
+# pulled missed: 30968
+# pulled users in window: 308
+# pulled requests in window: 308
+# pulled tweets in window: 5164
+# queried users: 44600
+# pulled users: 13533
+# pulled missed: 31067
+# pulled users in window: 309
+# pulled requests in window: 309
+# pulled tweets in window: 5164
+# queried users: 44700
+# pulled users: 13536
+# pulled missed: 31164
+# pulled users in window: 312
+# pulled requests in window: 312
+# pulled tweets in window: 5164
+# queried users: 44800
+# pulled users: 13546
+# pulled missed: 31254
+# pulled users in window: 322
+# pulled requests in window: 323
+# pulled tweets in window: 5433
+# queried users: 44900
+# pulled users: 13555
+# pulled missed: 31345
+# pulled users in window: 331
+# pulled requests in window: 332
+# pulled tweets in window: 5754
+# queried users: 45000
+# pulled users: 13560
+# pulled missed: 31440
+# pulled users in window: 336
+# pulled requests in window: 337
+# pulled tweets in window: 5856
+# queried users: 45100
+# pulled users: 13562
+# pulled missed: 31538
+# pulled users in window: 338
+# pulled requests in window: 339
+# pulled tweets in window: 5856
+# queried users: 45200
+# pulled users: 13567
+# pulled missed: 31633
+# pulled users in window: 343
+# pulled requests in window: 344
+# pulled tweets in window: 5870
+# queried users: 45300
+# pulled users: 13573
+# pulled missed: 31727
+# pulled users in window: 349
+# pulled requests in window: 350
+# pulled tweets in window: 5902
+# queried users: 45400
+# pulled users: 13588
+# pulled missed: 31812
+# pulled users in window: 364
+# pulled requests in window: 365
+# pulled tweets in window: 6043
+# queried users: 45500
+# pulled users: 13604
+# pulled missed: 31896
+# pulled users in window: 380
+# pulled requests in window: 381
+# pulled tweets in window: 6408
+# queried users: 45600
+# pulled users: 13609
+# pulled missed: 31991
+# pulled users in window: 385
+# pulled requests in window: 386
+# pulled tweets in window: 6458
+# queried users: 45700
+# pulled users: 13613
+# pulled missed: 32087
+# pulled users in window: 389
+# pulled requests in window: 390
+# pulled tweets in window: 6600
+# queried users: 45800
+# pulled users: 13614
+# pulled missed: 32186
+# pulled users in window: 390
+# pulled requests in window: 391
+# pulled tweets in window: 6676
+# queried users: 45900
+# pulled users: 13615
+# pulled missed: 32285
+# pulled users in window: 391
+# pulled requests in window: 392
+# pulled tweets in window: 6676
+# queried users: 46000
+# pulled users: 13616
+# pulled missed: 32384
+# pulled users in window: 392
+# pulled requests in window: 393
+# pulled tweets in window: 6676
+# queried users: 46100
+# pulled users: 13618
+# pulled missed: 32482
+# pulled users in window: 394
+# pulled requests in window: 395
+# pulled tweets in window: 6722
+# queried users: 46200
+# pulled users: 13619
+# pulled missed: 32581
+# pulled users in window: 395
+# pulled requests in window: 396
+# pulled tweets in window: 6722
+# queried users: 46300
+# pulled users: 13620
+# pulled missed: 32680
+# pulled users in window: 396
+# pulled requests in window: 397
+# pulled tweets in window: 6722
+# queried users: 46400
+# pulled users: 13622
+# pulled missed: 32778
+# pulled users in window: 398
+# pulled requests in window: 399
+# pulled tweets in window: 6826
+# queried users: 46500
+# pulled users: 13624
+# pulled missed: 32876
+# pulled users in window: 400
+# pulled requests in window: 401
+# pulled tweets in window: 6834
+# queried users: 46600
+# pulled users: 13626
+# pulled missed: 32974
+# pulled users in window: 402
+# pulled requests in window: 403
+# pulled tweets in window: 6836
+# queried users: 46700
+# pulled users: 13628
+# pulled missed: 33072
+# pulled users in window: 404
+# pulled requests in window: 405
+# pulled tweets in window: 6836
+# queried users: 46800
+# pulled users: 13628
+# pulled missed: 33172
+# pulled users in window: 404
+# pulled requests in window: 405
+# pulled tweets in window: 6836
+# queried users: 46900
+# pulled users: 13631
+# pulled missed: 33269
+# pulled users in window: 407
+# pulled requests in window: 408
+# pulled tweets in window: 6847
+# queried users: 47000
+# pulled users: 13632
+# pulled missed: 33368
+# pulled users in window: 408
+# pulled requests in window: 409
+# pulled tweets in window: 6847
+# queried users: 47100
+# pulled users: 13633
+# pulled missed: 33467
+# pulled users in window: 409
+# pulled requests in window: 410
+# pulled tweets in window: 6847
+# queried users: 47200
+# pulled users: 13636
+# pulled missed: 33564
+# pulled users in window: 412
+# pulled requests in window: 413
+# pulled tweets in window: 6847
+# queried users: 47300
+# pulled users: 13639
+# pulled missed: 33661
+# pulled users in window: 415
+# pulled requests in window: 416
+# pulled tweets in window: 6847
+# queried users: 47400
+# pulled users: 13644
+# pulled missed: 33756
+# pulled users in window: 420
+# pulled requests in window: 421
+# pulled tweets in window: 6847
+# queried users: 47500
+# pulled users: 13648
+# pulled missed: 33852
+# pulled users in window: 424
+# pulled requests in window: 425
+# pulled tweets in window: 6858
+# queried users: 47600
+# pulled users: 13656
+# pulled missed: 33944
+# pulled users in window: 432
+# pulled requests in window: 433
+# pulled tweets in window: 7087
+# queried users: 47700
+# pulled users: 13659
+# pulled missed: 34041
+# pulled users in window: 435
+# pulled requests in window: 436
+# pulled tweets in window: 7087
+# queried users: 47800
+# pulled users: 13666
+# pulled missed: 34134
+# pulled users in window: 442
+# pulled requests in window: 443
+# pulled tweets in window: 7329
+# queried users: 47900
+# pulled users: 13671
+# pulled missed: 34229
+# pulled users in window: 447
+# pulled requests in window: 448
+# pulled tweets in window: 7432
+# queried users: 48000
+# pulled users: 13673
+# pulled missed: 34327
+# pulled users in window: 449
+# pulled requests in window: 450
+# pulled tweets in window: 7590
+# queried users: 48100
+# pulled users: 13674
+# pulled missed: 34426
+# pulled users in window: 450
+# pulled requests in window: 451
+# pulled tweets in window: 7590
+# queried users: 48200
+# pulled users: 13674
+# pulled missed: 34526
+# pulled users in window: 450
+# pulled requests in window: 451
+# pulled tweets in window: 7590
+# queried users: 48300
+# pulled users: 13679
+# pulled missed: 34621
+# pulled users in window: 455
+# pulled requests in window: 456
+# pulled tweets in window: 7596
+# queried users: 48400
+# pulled users: 13682
+# pulled missed: 34718
+# pulled users in window: 458
+# pulled requests in window: 459
+# pulled tweets in window: 7596
+# queried users: 48500
+# pulled users: 13684
+# pulled missed: 34816
+# pulled users in window: 460
+# pulled requests in window: 461
+# pulled tweets in window: 7606
+# queried users: 48600
+# pulled users: 13684
+# pulled missed: 34916
+# pulled users in window: 460
+# pulled requests in window: 461
+# pulled tweets in window: 7606
+# queried users: 48700
+# pulled users: 13684
+# pulled missed: 35016
+# pulled users in window: 460
+# pulled requests in window: 461
+# pulled tweets in window: 7606
+# queried users: 48800
+# pulled users: 13686
+# pulled missed: 35114
+# pulled users in window: 462
+# pulled requests in window: 463
+# pulled tweets in window: 7606
+# queried users: 48900
+# pulled users: 13687
+# pulled missed: 35213
+# pulled users in window: 463
+# pulled requests in window: 464
+# pulled tweets in window: 7606
+# queried users: 49000
+# pulled users: 13691
+# pulled missed: 35309
+# pulled users in window: 467
+# pulled requests in window: 468
+# pulled tweets in window: 7607
+# queried users: 49100
+# pulled users: 13693
+# pulled missed: 35407
+# pulled users in window: 469
+# pulled requests in window: 470
+# pulled tweets in window: 7652
+# queried users: 49200
+# pulled users: 13695
+# pulled missed: 35505
+# pulled users in window: 471
+# pulled requests in window: 472
+# pulled tweets in window: 7661
+# queried users: 49300
+# pulled users: 13699
+# pulled missed: 35601
+# pulled users in window: 475
+# pulled requests in window: 476
+# pulled tweets in window: 7730
+# queried users: 49400
+# pulled users: 13702
+# pulled missed: 35698
+# pulled users in window: 478
+# pulled requests in window: 479
+# pulled tweets in window: 7730
+# queried users: 49500
+# pulled users: 13702
+# pulled missed: 35798
+# pulled users in window: 478
+# pulled requests in window: 479
+# pulled tweets in window: 7730
+# queried users: 49600
+# pulled users: 13702
+# pulled missed: 35898
+# pulled users in window: 478
+# pulled requests in window: 479
+# pulled tweets in window: 7730
+# queried users: 49700
+# pulled users: 13702
+# pulled missed: 35998
+# pulled users in window: 478
+# pulled requests in window: 479
+# pulled tweets in window: 7730
+# queried users: 49800
+# pulled users: 13704
+# pulled missed: 36096
+# pulled users in window: 480
+# pulled requests in window: 481
+# pulled tweets in window: 7730
+# queried users: 49900
+# pulled users: 13708
+# pulled missed: 36192
+# pulled users in window: 484
+# pulled requests in window: 485
+# pulled tweets in window: 7730
+# queried users: 50000
+# pulled users: 13709
+# pulled missed: 36291
+# pulled users in window: 485
+# pulled requests in window: 486
+# pulled tweets in window: 7730
+# queried users: 50100
+# pulled users: 13712
+# pulled missed: 36388
+# pulled users in window: 488
+# pulled requests in window: 489
+# pulled tweets in window: 7730
+# queried users: 50200
+# pulled users: 13714
+# pulled missed: 36486
+# pulled users in window: 490
+# pulled requests in window: 491
+# pulled tweets in window: 7730
+# queried users: 50300
+# pulled users: 13722
+# pulled missed: 36578
+# pulled users in window: 498
+# pulled requests in window: 499
+# pulled tweets in window: 7756
+# queried users: 50400
+# pulled users: 13732
+# pulled missed: 36668
+# pulled users in window: 508
+# pulled requests in window: 509
+# pulled tweets in window: 7929
+# queried users: 50500
+# pulled users: 13739
+# pulled missed: 36761
+# pulled users in window: 515
+# pulled requests in window: 516
+# pulled tweets in window: 8018
+# queried users: 50600
+# pulled users: 13750
+# pulled missed: 36850
+# pulled users in window: 526
+# pulled requests in window: 527
+# pulled tweets in window: 8423
+# queried users: 50700
+# pulled users: 13754
+# pulled missed: 36946
+# pulled users in window: 530
+# pulled requests in window: 531
+# pulled tweets in window: 8423
+# queried users: 50800
+# pulled users: 13755
+# pulled missed: 37045
+# pulled users in window: 531
+# pulled requests in window: 532
+# pulled tweets in window: 8423
+# queried users: 50900
+# pulled users: 13760
+# pulled missed: 37140
+# pulled users in window: 536
+# pulled requests in window: 537
+# pulled tweets in window: 8423
+# queried users: 51000
+# pulled users: 13762
+# pulled missed: 37238
+# pulled users in window: 538
+# pulled requests in window: 539
+# pulled tweets in window: 8423
+# queried users: 51100
+# pulled users: 13763
+# pulled missed: 37337
+# pulled users in window: 539
+# pulled requests in window: 540
+# pulled tweets in window: 8423
+# queried users: 51200
+# pulled users: 13767
+# pulled missed: 37433
+# pulled users in window: 543
+# pulled requests in window: 544
+# pulled tweets in window: 8423
+# queried users: 51300
+# pulled users: 13769
+# pulled missed: 37531
+# pulled users in window: 545
+# pulled requests in window: 546
+# pulled tweets in window: 8437
+# queried users: 51400
+# pulled users: 13770
+# pulled missed: 37630
+# pulled users in window: 546
+# pulled requests in window: 547
+# pulled tweets in window: 8493
+# queried users: 51500
+# pulled users: 13772
+# pulled missed: 37728
+# pulled users in window: 548
+# pulled requests in window: 550
+# pulled tweets in window: 8813
+# queried users: 51600
+# pulled users: 13776
+# pulled missed: 37824
+# pulled users in window: 552
+# pulled requests in window: 554
+# pulled tweets in window: 8886
+# queried users: 51700
+# pulled users: 13779
+# pulled missed: 37921
+# pulled users in window: 555
+# pulled requests in window: 557
+# pulled tweets in window: 8886
+# queried users: 51800
+# pulled users: 13784
+# pulled missed: 38016
+# pulled users in window: 560
+# pulled requests in window: 562
+# pulled tweets in window: 9124
+# queried users: 51900
+# pulled users: 13795
+# pulled missed: 38105
+# pulled users in window: 571
+# pulled requests in window: 574
+# pulled tweets in window: 9519
+# queried users: 52000
+# pulled users: 13806
+# pulled missed: 38194
+# pulled users in window: 582
+# pulled requests in window: 585
+# pulled tweets in window: 9817
+# queried users: 52100
+# pulled users: 13810
+# pulled missed: 38290
+# pulled users in window: 586
+# pulled requests in window: 589
+# pulled tweets in window: 9858
+# queried users: 52200
+# pulled users: 13814
+# pulled missed: 38386
+# pulled users in window: 590
+# pulled requests in window: 593
+# pulled tweets in window: 10098
+# queried users: 52300
+# pulled users: 13824
+# pulled missed: 38476
+# pulled users in window: 600
+# pulled requests in window: 603
+# pulled tweets in window: 10136
+# queried users: 52400
+# pulled users: 13830
+# pulled missed: 38570
+# pulled users in window: 606
+# pulled requests in window: 610
+# pulled tweets in window: 10553
+# queried users: 52500
+# pulled users: 13835
+# pulled missed: 38665
+# pulled users in window: 611
+# pulled requests in window: 615
+# pulled tweets in window: 10685
+# queried users: 52600
+# pulled users: 13842
+# pulled missed: 38758
+# pulled users in window: 618
+# pulled requests in window: 622
+# pulled tweets in window: 10777
+# queried users: 52700
+# pulled users: 13843
+# pulled missed: 38857
+# pulled users in window: 619
+# pulled requests in window: 623
+# pulled tweets in window: 10808
+# queried users: 52800
+# pulled users: 13846
+# pulled missed: 38954
+# pulled users in window: 622
+# pulled requests in window: 626
+# pulled tweets in window: 10868
+# queried users: 52900
+# pulled users: 13848
+# pulled missed: 39052
+# pulled users in window: 624
+# pulled requests in window: 628
+# pulled tweets in window: 10868
+# queried users: 53000
+# pulled users: 13850
+# pulled missed: 39150
+# pulled users in window: 626
+# pulled requests in window: 630
+# pulled tweets in window: 10868
+# queried users: 53100
+# pulled users: 13851
+# pulled missed: 39249
+# pulled users in window: 627
+# pulled requests in window: 631
+# pulled tweets in window: 10868
+# queried users: 53200
+# pulled users: 13854
+# pulled missed: 39346
+# pulled users in window: 630
+# pulled requests in window: 634
+# pulled tweets in window: 10928
+# queried users: 53300
+# pulled users: 13856
+# pulled missed: 39444
+# pulled users in window: 632
+# pulled requests in window: 636
+# pulled tweets in window: 10928
+# queried users: 53400
+# pulled users: 13857
+# pulled missed: 39543
+# pulled users in window: 633
+# pulled requests in window: 637
+# pulled tweets in window: 10928
+# queried users: 53500
+# pulled users: 13857
+# pulled missed: 39643
+# pulled users in window: 633
+# pulled requests in window: 637
+# pulled tweets in window: 10928
+# queried users: 53600
+# pulled users: 13858
+# pulled missed: 39742
+# pulled users in window: 634
+# pulled requests in window: 638
+# pulled tweets in window: 10928
+# queried users: 53700
+# pulled users: 13858
+# pulled missed: 39842
+# pulled users in window: 634
+# pulled requests in window: 638
+# pulled tweets in window: 10928
+# queried users: 53800
+# pulled users: 13862
+# pulled missed: 39938
+# pulled users in window: 638
+# pulled requests in window: 642
+# pulled tweets in window: 10972
+# queried users: 53900
+# pulled users: 13865
+# pulled missed: 40035
+# pulled users in window: 641
+# pulled requests in window: 645
+# pulled tweets in window: 10972
+# queried users: 54000
+# pulled users: 13868
+# pulled missed: 40132
+# pulled users in window: 644
+# pulled requests in window: 648
+# pulled tweets in window: 10972
+# queried users: 54100
+# pulled users: 13870
+# pulled missed: 40230
+# pulled users in window: 646
+# pulled requests in window: 650
+# pulled tweets in window: 10972
+# queried users: 54200
+# pulled users: 13873
+# pulled missed: 40327
+# pulled users in window: 649
+# pulled requests in window: 653
+# pulled tweets in window: 10975
+# queried users: 54300
+# pulled users: 13880
+# pulled missed: 40420
+# pulled users in window: 656
+# pulled requests in window: 660
+# pulled tweets in window: 11205
+# queried users: 54400
+# pulled users: 13881
+# pulled missed: 40519
+# pulled users in window: 657
+# pulled requests in window: 661
+# pulled tweets in window: 11205
+# queried users: 54500
+# pulled users: 13882
+# pulled missed: 40618
+# pulled users in window: 658
+# pulled requests in window: 662
+# pulled tweets in window: 11205
+# queried users: 54600
+# pulled users: 13885
+# pulled missed: 40715
+# pulled users in window: 661
+# pulled requests in window: 665
+# pulled tweets in window: 11242
+# queried users: 54700
+# pulled users: 13885
+# pulled missed: 40815
+# pulled users in window: 661
+# pulled requests in window: 665
+# pulled tweets in window: 11242
+# queried users: 54800
+# pulled users: 13885
+# pulled missed: 40915
+# pulled users in window: 661
+# pulled requests in window: 665
+# pulled tweets in window: 11242
+# queried users: 54900
+# pulled users: 13888
+# pulled missed: 41012
+# pulled users in window: 664
+# pulled requests in window: 668
+# pulled tweets in window: 11310
+# queried users: 55000
+# pulled users: 13891
+# pulled missed: 41109
+# pulled users in window: 667
+# pulled requests in window: 671
+# pulled tweets in window: 11310
+# queried users: 55100
+# pulled users: 13891
+# pulled missed: 41209
+# pulled users in window: 667
+# pulled requests in window: 671
+# pulled tweets in window: 11310
+# queried users: 55200
+# pulled users: 13895
+# pulled missed: 41305
+# pulled users in window: 671
+# pulled requests in window: 675
+# pulled tweets in window: 11323
+# queried users: 55300
+# pulled users: 13895
+# pulled missed: 41405
+# pulled users in window: 671
+# pulled requests in window: 675
+# pulled tweets in window: 11323
+# queried users: 55400
+# pulled users: 13897
+# pulled missed: 41503
+# pulled users in window: 673
+# pulled requests in window: 677
+# pulled tweets in window: 11384
+# queried users: 55500
+# pulled users: 13903
+# pulled missed: 41597
+# pulled users in window: 679
+# pulled requests in window: 683
+# pulled tweets in window: 11384
+# queried users: 55600
+# pulled users: 13909
+# pulled missed: 41691
+# pulled users in window: 685
+# pulled requests in window: 689
+# pulled tweets in window: 11508
+# queried users: 55700
+# pulled users: 13920
+# pulled missed: 41780
+# pulled users in window: 696
+# pulled requests in window: 700
+# pulled tweets in window: 11865
+# queried users: 55800
+# pulled users: 13922
+# pulled missed: 41878
+# pulled users in window: 698
+# pulled requests in window: 702
+# pulled tweets in window: 11882
+# queried users: 55900
+# pulled users: 13929
+# pulled missed: 41971
+# pulled users in window: 705
+# pulled requests in window: 709
+# pulled tweets in window: 11906
+# queried users: 56000
+# pulled users: 13930
+# pulled missed: 42070
+# pulled users in window: 706
+# pulled requests in window: 710
+# pulled tweets in window: 12051
+# queried users: 56100
+# pulled users: 13933
+# pulled missed: 42167
+# pulled users in window: 709
+# pulled requests in window: 713
+# pulled tweets in window: 12197
+# queried users: 56200
+# pulled users: 13935
+# pulled missed: 42265
+# pulled users in window: 711
+# pulled requests in window: 715
+# pulled tweets in window: 12268
+# queried users: 56300
+# pulled users: 13937
+# pulled missed: 42363
+# pulled users in window: 713
+# pulled requests in window: 717
+# pulled tweets in window: 12377
+# queried users: 56400
+# pulled users: 13941
+# pulled missed: 42459
+# pulled users in window: 717
+# pulled requests in window: 721
+# pulled tweets in window: 12377
+# queried users: 56500
+# pulled users: 13946
+# pulled missed: 42554
+# pulled users in window: 722
+# pulled requests in window: 726
+# pulled tweets in window: 12382
+# queried users: 56600
+# pulled users: 13954
+# pulled missed: 42646
+# pulled users in window: 730
+# pulled requests in window: 735
+# pulled tweets in window: 12596
+# queried users: 56700
+# pulled users: 13961
+# pulled missed: 42739
+# pulled users in window: 737
+# pulled requests in window: 742
+# pulled tweets in window: 12647
+# queried users: 56800
+# pulled users: 13961
+# pulled missed: 42839
+# pulled users in window: 737
+# pulled requests in window: 742
+# pulled tweets in window: 12647
+# queried users: 56900
+# pulled users: 13963
+# pulled missed: 42937
+# pulled users in window: 739
+# pulled requests in window: 744
+# pulled tweets in window: 12659
+# queried users: 57000
+# pulled users: 13965
+# pulled missed: 43035
+# pulled users in window: 741
+# pulled requests in window: 746
+# pulled tweets in window: 12662
+# queried users: 57100
+# pulled users: 13966
+# pulled missed: 43134
+# pulled users in window: 742
+# pulled requests in window: 747
+# pulled tweets in window: 12662
+# queried users: 57200
+# pulled users: 13969
+# pulled missed: 43231
+# pulled users in window: 745
+# pulled requests in window: 750
+# pulled tweets in window: 12834
+# queried users: 57300
+# pulled users: 13970
+# pulled missed: 43330
+# pulled users in window: 746
+# pulled requests in window: 751
+# pulled tweets in window: 12834
+# queried users: 57400
+# pulled users: 13973
+# pulled missed: 43427
+# pulled users in window: 749
+# pulled requests in window: 754
+# pulled tweets in window: 12834
+# queried users: 57500
+# pulled users: 13973
+# pulled missed: 43527
+# pulled users in window: 749
+# pulled requests in window: 754
+# pulled tweets in window: 12834
+# queried users: 57600
+# pulled users: 13973
+# pulled missed: 43627
+# pulled users in window: 749
+# pulled requests in window: 754
+# pulled tweets in window: 12834
+# queried users: 57700
+# pulled users: 13973
+# pulled missed: 43727
+# pulled users in window: 749
+# pulled requests in window: 754
+# pulled tweets in window: 12834
+# queried users: 57800
+# pulled users: 13974
+# pulled missed: 43826
+# pulled users in window: 750
+# pulled requests in window: 755
+# pulled tweets in window: 12834
+# queried users: 57900
+# pulled users: 13974
+# pulled missed: 43926
+# pulled users in window: 750
+# pulled requests in window: 755
+# pulled tweets in window: 12834
+# queried users: 58000
+# pulled users: 13975
+# pulled missed: 44025
+# pulled users in window: 751
+# pulled requests in window: 756
+# pulled tweets in window: 12892
+# queried users: 58100
+# pulled users: 13978
+# pulled missed: 44122
+# pulled users in window: 754
+# pulled requests in window: 759
+# pulled tweets in window: 12892
+# queried users: 58200
+# pulled users: 13978
+# pulled missed: 44222
+# pulled users in window: 754
+# pulled requests in window: 759
+# pulled tweets in window: 12892
+# queried users: 58300
+# pulled users: 13979
+# pulled missed: 44321
+# pulled users in window: 755
+# pulled requests in window: 760
+# pulled tweets in window: 12892
+# queried users: 58400
+# pulled users: 13981
+# pulled missed: 44419
+# pulled users in window: 757
+# pulled requests in window: 762
+# pulled tweets in window: 12897
+# queried users: 58500
+# pulled users: 13984
+# pulled missed: 44516
+# pulled users in window: 760
+# pulled requests in window: 765
+# pulled tweets in window: 12897
+# queried users: 58600
+# pulled users: 13988
+# pulled missed: 44612
+# pulled users in window: 764
+# pulled requests in window: 769
+# pulled tweets in window: 12897
+# queried users: 58700
+# pulled users: 13988
+# pulled missed: 44712
+# pulled users in window: 764
+# pulled requests in window: 769
+# pulled tweets in window: 12897
+# queried users: 58800
+# pulled users: 13992
+# pulled missed: 44808
+# pulled users in window: 768
+# pulled requests in window: 773
+# pulled tweets in window: 13043
+# queried users: 58900
+# pulled users: 14002
+# pulled missed: 44898
+# pulled users in window: 778
+# pulled requests in window: 783
+# pulled tweets in window: 13682
+# queried users: 59000
+# pulled users: 14005
+# pulled missed: 44995
+# pulled users in window: 781
+# pulled requests in window: 786
+# pulled tweets in window: 13687
+# queried users: 59100
+# pulled users: 14009
+# pulled missed: 45091
+# pulled users in window: 785
+# pulled requests in window: 790
+# pulled tweets in window: 13802
+# queried users: 59200
+# pulled users: 14014
+# pulled missed: 45186
+# pulled users in window: 790
+# pulled requests in window: 795
+# pulled tweets in window: 13814
+# queried users: 59300
+# pulled users: 14017
+# pulled missed: 45283
+# pulled users in window: 793
+# pulled requests in window: 798
+# pulled tweets in window: 13814
+# queried users: 59400
+# pulled users: 14020
+# pulled missed: 45380
+# pulled users in window: 796
+# pulled requests in window: 801
+# pulled tweets in window: 13949
+# queried users: 59500
+# pulled users: 14023
+# pulled missed: 45477
+# pulled users in window: 799
+# pulled requests in window: 804
+# pulled tweets in window: 13955
+# queried users: 59600
+# pulled users: 14024
+# pulled missed: 45576
+# pulled users in window: 800
+# pulled requests in window: 805
+# pulled tweets in window: 13955
+# queried users: 59700
+# pulled users: 14027
+# pulled missed: 45673
+# pulled users in window: 803
+# pulled requests in window: 808
+# pulled tweets in window: 13955
+# queried users: 59800
+# pulled users: 14029
+# pulled missed: 45771
+# pulled users in window: 805
+# pulled requests in window: 810
+# pulled tweets in window: 13955
+# queried users: 59900
+# pulled users: 14030
+# pulled missed: 45870
+# pulled users in window: 806
+# pulled requests in window: 811
+# pulled tweets in window: 13955
+# queried users: 60000
+# pulled users: 14030
+# pulled missed: 45970
+# pulled users in window: 806
+# pulled requests in window: 811
+# pulled tweets in window: 13955
+# queried users: 60100
+# pulled users: 14032
+# pulled missed: 46068
+# pulled users in window: 808
+# pulled requests in window: 813
+# pulled tweets in window: 13969
+# queried users: 60200
+# pulled users: 14032
+# pulled missed: 46168
+# pulled users in window: 808
+# pulled requests in window: 813
+# pulled tweets in window: 13969
+# queried users: 60300
+# pulled users: 14033
+# pulled missed: 46267
+# pulled users in window: 809
+# pulled requests in window: 814
+# pulled tweets in window: 13995
+# queried users: 60400
+# pulled users: 14036
+# pulled missed: 46364
+# pulled users in window: 812
+# pulled requests in window: 817
+# pulled tweets in window: 13995
+# queried users: 60500
+# pulled users: 14039
+# pulled missed: 46461
+# pulled users in window: 815
+# pulled requests in window: 820
+# pulled tweets in window: 13996
+# queried users: 60600
+# pulled users: 14042
+# pulled missed: 46558
+# pulled users in window: 818
+# pulled requests in window: 823
+# pulled tweets in window: 13996
+# queried users: 60700
+# pulled users: 14043
+# pulled missed: 46657
+# pulled users in window: 819
+# pulled requests in window: 824
+# pulled tweets in window: 13996
+# queried users: 60800
+# pulled users: 14047
+# pulled missed: 46753
+# pulled users in window: 823
+# pulled requests in window: 828
+# pulled tweets in window: 14036
+# queried users: 60900
+# pulled users: 14050
+# pulled missed: 46850
+# pulled users in window: 826
+# pulled requests in window: 831
+# pulled tweets in window: 14157
+# queried users: 61000
+# pulled users: 14050
+# pulled missed: 46950
+# pulled users in window: 826
+# pulled requests in window: 831
+# pulled tweets in window: 14157
+# queried users: 61100
+# pulled users: 14054
+# pulled missed: 47046
+# pulled users in window: 830
+# pulled requests in window: 835
+# pulled tweets in window: 14157
+# queried users: 61200
+# pulled users: 14055
+# pulled missed: 47145
+# pulled users in window: 831
+# pulled requests in window: 836
+# pulled tweets in window: 14157
+# queried users: 61300
+# pulled users: 14055
+# pulled missed: 47245
+# pulled users in window: 831
+# pulled requests in window: 836
+# pulled tweets in window: 14157
+# queried users: 61400
+# pulled users: 14055
+# pulled missed: 47345
+# pulled users in window: 831
+# pulled requests in window: 836
+# pulled tweets in window: 14157
+# queried users: 61500
+# pulled users: 14055
+# pulled missed: 47445
+# pulled users in window: 831
+# pulled requests in window: 836
+# pulled tweets in window: 14157
+# queried users: 61600
+# pulled users: 14056
+# pulled missed: 47544
+# pulled users in window: 832
+# pulled requests in window: 837
+# pulled tweets in window: 14157
+# queried users: 61700
+# pulled users: 14056
+# pulled missed: 47644
+# pulled users in window: 832
+# pulled requests in window: 837
+# pulled tweets in window: 14157
+# queried users: 61800
+# pulled users: 14056
+# pulled missed: 47744
+# pulled users in window: 832
+# pulled requests in window: 837
+# pulled tweets in window: 14157
+# queried users: 61900
+# pulled users: 14057
+# pulled missed: 47843
+# pulled users in window: 833
+# pulled requests in window: 838
+# pulled tweets in window: 14157
+# queried users: 62000
+# pulled users: 14059
+# pulled missed: 47941
+# pulled users in window: 835
+# pulled requests in window: 840
+# pulled tweets in window: 14157
+# queried users: 62100
+# pulled users: 14065
+# pulled missed: 48035
+# pulled users in window: 841
+# pulled requests in window: 846
+# pulled tweets in window: 14347
+# queried users: 62200
+# pulled users: 14069
+# pulled missed: 48131
+# pulled users in window: 845
+# pulled requests in window: 850
+# pulled tweets in window: 14378
+# queried users: 62300
+# pulled users: 14081
+# pulled missed: 48219
+# pulled users in window: 857
+# pulled requests in window: 862
+# pulled tweets in window: 14673
+# queried users: 62400
+# pulled users: 14090
+# pulled missed: 48310
+# pulled users in window: 866
+# pulled requests in window: 871
+# pulled tweets in window: 14697
+# queried users: 62500
+# pulled users: 14098
+# pulled missed: 48402
+# pulled users in window: 874
+# pulled requests in window: 879
+# pulled tweets in window: 14864
+Saved in user_timeline_876_users_881_requests_14881_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_4dd88045-94a7-45f6-8d69-03859244362e.json.bz2
+Computing Time: 4411 sec
+
+# queried users: 62600
+# pulled users: 14108
+# pulled missed: 48492
+# pulled users in window: 8
+# pulled requests in window: 8
+# pulled tweets in window: 108
+# queried users: 62700
+# pulled users: 14116
+# pulled missed: 48584
+# pulled users in window: 16
+# pulled requests in window: 16
+# pulled tweets in window: 108
+# queried users: 62800
+# pulled users: 14122
+# pulled missed: 48678
+# pulled users in window: 22
+# pulled requests in window: 22
+# pulled tweets in window: 217
+# queried users: 62900
+# pulled users: 14130
+# pulled missed: 48770
+# pulled users in window: 30
+# pulled requests in window: 31
+# pulled tweets in window: 604
+# queried users: 63000
+# pulled users: 14136
+# pulled missed: 48864
+# pulled users in window: 36
+# pulled requests in window: 37
+# pulled tweets in window: 623
+# queried users: 63100
+# pulled users: 14141
+# pulled missed: 48959
+# pulled users in window: 41
+# pulled requests in window: 42
+# pulled tweets in window: 690
+# queried users: 63200
+# pulled users: 14145
+# pulled missed: 49055
+# pulled users in window: 45
+# pulled requests in window: 46
+# pulled tweets in window: 792
+# queried users: 63300
+# pulled users: 14150
+# pulled missed: 49150
+# pulled users in window: 50
+# pulled requests in window: 51
+# pulled tweets in window: 792
+# queried users: 63400
+# pulled users: 14154
+# pulled missed: 49246
+# pulled users in window: 54
+# pulled requests in window: 55
+# pulled tweets in window: 868
+# queried users: 63500
+# pulled users: 14157
+# pulled missed: 49343
+# pulled users in window: 57
+# pulled requests in window: 58
+# pulled tweets in window: 899
+# queried users: 63600
+# pulled users: 14159
+# pulled missed: 49441
+# pulled users in window: 59
+# pulled requests in window: 60
+# pulled tweets in window: 1044
+# queried users: 63700
+# pulled users: 14162
+# pulled missed: 49538
+# pulled users in window: 62
+# pulled requests in window: 63
+# pulled tweets in window: 1158
+# queried users: 63800
+# pulled users: 14164
+# pulled missed: 49636
+# pulled users in window: 64
+# pulled requests in window: 65
+# pulled tweets in window: 1158
+# queried users: 63900
+# pulled users: 14165
+# pulled missed: 49735
+# pulled users in window: 65
+# pulled requests in window: 66
+# pulled tweets in window: 1158
+# queried users: 64000
+# pulled users: 14165
+# pulled missed: 49835
+# pulled users in window: 65
+# pulled requests in window: 66
+# pulled tweets in window: 1158
+# queried users: 64100
+# pulled users: 14167
+# pulled missed: 49933
+# pulled users in window: 67
+# pulled requests in window: 68
+# pulled tweets in window: 1159
+# queried users: 64200
+# pulled users: 14169
+# pulled missed: 50031
+# pulled users in window: 69
+# pulled requests in window: 70
+# pulled tweets in window: 1167
+# queried users: 64300
+# pulled users: 14174
+# pulled missed: 50126
+# pulled users in window: 74
+# pulled requests in window: 75
+# pulled tweets in window: 1189
+# queried users: 64400
+# pulled users: 14175
+# pulled missed: 50225
+# pulled users in window: 75
+# pulled requests in window: 76
+# pulled tweets in window: 1189
+# queried users: 64500
+# pulled users: 14176
+# pulled missed: 50324
+# pulled users in window: 76
+# pulled requests in window: 77
+# pulled tweets in window: 1189
+# queried users: 64600
+# pulled users: 14179
+# pulled missed: 50421
+# pulled users in window: 79
+# pulled requests in window: 80
+# pulled tweets in window: 1252
+# queried users: 64700
+# pulled users: 14180
+# pulled missed: 50520
+# pulled users in window: 80
+# pulled requests in window: 81
+# pulled tweets in window: 1252
+# queried users: 64800
+# pulled users: 14182
+# pulled missed: 50618
+# pulled users in window: 82
+# pulled requests in window: 83
+# pulled tweets in window: 1252
+# queried users: 64900
+# pulled users: 14183
+# pulled missed: 50717
+# pulled users in window: 83
+# pulled requests in window: 84
+# pulled tweets in window: 1252
+# queried users: 65000
+# pulled users: 14185
+# pulled missed: 50815
+# pulled users in window: 85
+# pulled requests in window: 86
+# pulled tweets in window: 1266
+# queried users: 65100
+# pulled users: 14187
+# pulled missed: 50913
+# pulled users in window: 87
+# pulled requests in window: 88
+# pulled tweets in window: 1367
+# queried users: 65200
+# pulled users: 14189
+# pulled missed: 51011
+# pulled users in window: 89
+# pulled requests in window: 90
+# pulled tweets in window: 1521
+# queried users: 65300
+# pulled users: 14192
+# pulled missed: 51108
+# pulled users in window: 92
+# pulled requests in window: 93
+# pulled tweets in window: 1663
+# queried users: 65400
+# pulled users: 14197
+# pulled missed: 51203
+# pulled users in window: 97
+# pulled requests in window: 98
+# pulled tweets in window: 1735
+# queried users: 65500
+# pulled users: 14202
+# pulled missed: 51298
+# pulled users in window: 102
+# pulled requests in window: 103
+# pulled tweets in window: 1742
+# queried users: 65600
+# pulled users: 14205
+# pulled missed: 51395
+# pulled users in window: 105
+# pulled requests in window: 106
+# pulled tweets in window: 1742
+# queried users: 65700
+# pulled users: 14206
+# pulled missed: 51494
+# pulled users in window: 106
+# pulled requests in window: 107
+# pulled tweets in window: 1742
+# queried users: 65800
+# pulled users: 14210
+# pulled missed: 51590
+# pulled users in window: 110
+# pulled requests in window: 111
+# pulled tweets in window: 1757
+# queried users: 65900
+# pulled users: 14211
+# pulled missed: 51689
+# pulled users in window: 111
+# pulled requests in window: 112
+# pulled tweets in window: 1757
+# queried users: 66000
+# pulled users: 14211
+# pulled missed: 51789
+# pulled users in window: 111
+# pulled requests in window: 112
+# pulled tweets in window: 1757
+# queried users: 66100
+# pulled users: 14212
+# pulled missed: 51888
+# pulled users in window: 112
+# pulled requests in window: 113
+# pulled tweets in window: 1858
+# queried users: 66200
+# pulled users: 14215
+# pulled missed: 51985
+# pulled users in window: 115
+# pulled requests in window: 116
+# pulled tweets in window: 1858
+# queried users: 66300
+# pulled users: 14215
+# pulled missed: 52085
+# pulled users in window: 115
+# pulled requests in window: 116
+# pulled tweets in window: 1858
+# queried users: 66400
+# pulled users: 14216
+# pulled missed: 52184
+# pulled users in window: 116
+# pulled requests in window: 117
+# pulled tweets in window: 1858
+# queried users: 66500
+# pulled users: 14217
+# pulled missed: 52283
+# pulled users in window: 117
+# pulled requests in window: 118
+# pulled tweets in window: 1858
+# queried users: 66600
+# pulled users: 14218
+# pulled missed: 52382
+# pulled users in window: 118
+# pulled requests in window: 119
+# pulled tweets in window: 1858
+# queried users: 66700
+# pulled users: 14221
+# pulled missed: 52479
+# pulled users in window: 121
+# pulled requests in window: 123
+# pulled tweets in window: 2146
+# queried users: 66800
+# pulled users: 14225
+# pulled missed: 52575
+# pulled users in window: 125
+# pulled requests in window: 127
+# pulled tweets in window: 2150
+# queried users: 66900
+# pulled users: 14226
+# pulled missed: 52674
+# pulled users in window: 126
+# pulled requests in window: 128
+# pulled tweets in window: 2157
+# queried users: 67000
+# pulled users: 14229
+# pulled missed: 52771
+# pulled users in window: 129
+# pulled requests in window: 131
+# pulled tweets in window: 2157
+# queried users: 67100
+# pulled users: 14231
+# pulled missed: 52869
+# pulled users in window: 131
+# pulled requests in window: 133
+# pulled tweets in window: 2157
+# queried users: 67200
+# pulled users: 14232
+# pulled missed: 52968
+# pulled users in window: 132
+# pulled requests in window: 134
+# pulled tweets in window: 2157
+# queried users: 67300
+# pulled users: 14232
+# pulled missed: 53068
+# pulled users in window: 132
+# pulled requests in window: 134
+# pulled tweets in window: 2157
+# queried users: 67400
+# pulled users: 14233
+# pulled missed: 53167
+# pulled users in window: 133
+# pulled requests in window: 135
+# pulled tweets in window: 2157
+# queried users: 67500
+# pulled users: 14234
+# pulled missed: 53266
+# pulled users in window: 134
+# pulled requests in window: 136
+# pulled tweets in window: 2157
+# queried users: 67600
+# pulled users: 14234
+# pulled missed: 53366
+# pulled users in window: 134
+# pulled requests in window: 136
+# pulled tweets in window: 2157
+# queried users: 67700
+# pulled users: 14235
+# pulled missed: 53465
+# pulled users in window: 135
+# pulled requests in window: 137
+# pulled tweets in window: 2222
+# queried users: 67800
+# pulled users: 14235
+# pulled missed: 53565
+# pulled users in window: 135
+# pulled requests in window: 137
+# pulled tweets in window: 2222
+# queried users: 67900
+# pulled users: 14238
+# pulled missed: 53662
+# pulled users in window: 138
+# pulled requests in window: 140
+# pulled tweets in window: 2222
+# queried users: 68000
+# pulled users: 14241
+# pulled missed: 53759
+# pulled users in window: 141
+# pulled requests in window: 143
+# pulled tweets in window: 2236
+# queried users: 68100
+# pulled users: 14241
+# pulled missed: 53859
+# pulled users in window: 141
+# pulled requests in window: 143
+# pulled tweets in window: 2236
+# queried users: 68200
+# pulled users: 14243
+# pulled missed: 53957
+# pulled users in window: 143
+# pulled requests in window: 145
+# pulled tweets in window: 2236
+# queried users: 68300
+# pulled users: 14245
+# pulled missed: 54055
+# pulled users in window: 145
+# pulled requests in window: 147
+# pulled tweets in window: 2236
+# queried users: 68400
+# pulled users: 14247
+# pulled missed: 54153
+# pulled users in window: 147
+# pulled requests in window: 149
+# pulled tweets in window: 2236
+# queried users: 68500
+# pulled users: 14249
+# pulled missed: 54251
+# pulled users in window: 149
+# pulled requests in window: 151
+# pulled tweets in window: 2236
+# queried users: 68600
+# pulled users: 14250
+# pulled missed: 54350
+# pulled users in window: 150
+# pulled requests in window: 152
+# pulled tweets in window: 2236
+# queried users: 68700
+# pulled users: 14253
+# pulled missed: 54447
+# pulled users in window: 153
+# pulled requests in window: 155
+# pulled tweets in window: 2236
+# queried users: 68800
+# pulled users: 14255
+# pulled missed: 54545
+# pulled users in window: 155
+# pulled requests in window: 157
+# pulled tweets in window: 2236
+# queried users: 68900
+# pulled users: 14256
+# pulled missed: 54644
+# pulled users in window: 156
+# pulled requests in window: 158
+# pulled tweets in window: 2236
+# queried users: 69000
+# pulled users: 14256
+# pulled missed: 54744
+# pulled users in window: 156
+# pulled requests in window: 158
+# pulled tweets in window: 2236
+# queried users: 69100
+# pulled users: 14258
+# pulled missed: 54842
+# pulled users in window: 158
+# pulled requests in window: 160
+# pulled tweets in window: 2236
+# queried users: 69200
+# pulled users: 14261
+# pulled missed: 54939
+# pulled users in window: 161
+# pulled requests in window: 163
+# pulled tweets in window: 2236
+# queried users: 69300
+# pulled users: 14264
+# pulled missed: 55036
+# pulled users in window: 164
+# pulled requests in window: 166
+# pulled tweets in window: 2304
+# queried users: 69400
+# pulled users: 14266
+# pulled missed: 55134
+# pulled users in window: 166
+# pulled requests in window: 168
+# pulled tweets in window: 2456
+# queried users: 69500
+# pulled users: 14269
+# pulled missed: 55231
+# pulled users in window: 169
+# pulled requests in window: 171
+# pulled tweets in window: 2469
+# queried users: 69600
+# pulled users: 14275
+# pulled missed: 55325
+# pulled users in window: 175
+# pulled requests in window: 177
+# pulled tweets in window: 2472
+# queried users: 69700
+# pulled users: 14279
+# pulled missed: 55421
+# pulled users in window: 179
+# pulled requests in window: 181
+# pulled tweets in window: 2502
+# queried users: 69800
+# pulled users: 14280
+# pulled missed: 55520
+# pulled users in window: 180
+# pulled requests in window: 182
+# pulled tweets in window: 2502
+# queried users: 69900
+# pulled users: 14283
+# pulled missed: 55617
+# pulled users in window: 183
+# pulled requests in window: 185
+# pulled tweets in window: 2502
+# queried users: 70000
+# pulled users: 14283
+# pulled missed: 55717
+# pulled users in window: 183
+# pulled requests in window: 185
+# pulled tweets in window: 2502
+# queried users: 70100
+# pulled users: 14286
+# pulled missed: 55814
+# pulled users in window: 186
+# pulled requests in window: 188
+# pulled tweets in window: 2586
+# queried users: 70200
+# pulled users: 14288
+# pulled missed: 55912
+# pulled users in window: 188
+# pulled requests in window: 190
+# pulled tweets in window: 2586
+# queried users: 70300
+# pulled users: 14292
+# pulled missed: 56008
+# pulled users in window: 192
+# pulled requests in window: 194
+# pulled tweets in window: 2806
+# queried users: 70400
+# pulled users: 14296
+# pulled missed: 56104
+# pulled users in window: 196
+# pulled requests in window: 198
+# pulled tweets in window: 2841
+# queried users: 70500
+# pulled users: 14297
+# pulled missed: 56203
+# pulled users in window: 197
+# pulled requests in window: 199
+# pulled tweets in window: 2841
+# queried users: 70600
+# pulled users: 14298
+# pulled missed: 56302
+# pulled users in window: 198
+# pulled requests in window: 200
+# pulled tweets in window: 2883
+# queried users: 70700
+# pulled users: 14301
+# pulled missed: 56399
+# pulled users in window: 201
+# pulled requests in window: 203
+# pulled tweets in window: 2911
+# queried users: 70800
+# pulled users: 14301
+# pulled missed: 56499
+# pulled users in window: 201
+# pulled requests in window: 203
+# pulled tweets in window: 2911
+# queried users: 70900
+# pulled users: 14302
+# pulled missed: 56598
+# pulled users in window: 202
+# pulled requests in window: 204
+# pulled tweets in window: 2941
+# queried users: 71000
+# pulled users: 14303
+# pulled missed: 56697
+# pulled users in window: 203
+# pulled requests in window: 205
+# pulled tweets in window: 2968
+# queried users: 71100
+# pulled users: 14306
+# pulled missed: 56794
+# pulled users in window: 206
+# pulled requests in window: 209
+# pulled tweets in window: 3265
+# queried users: 71200
+# pulled users: 14312
+# pulled missed: 56888
+# pulled users in window: 212
+# pulled requests in window: 215
+# pulled tweets in window: 3444
+# queried users: 71300
+# pulled users: 14313
+# pulled missed: 56987
+# pulled users in window: 213
+# pulled requests in window: 216
+# pulled tweets in window: 3448
+# queried users: 71400
+# pulled users: 14317
+# pulled missed: 57083
+# pulled users in window: 217
+# pulled requests in window: 220
+# pulled tweets in window: 3502
+# queried users: 71500
+# pulled users: 14324
+# pulled missed: 57176
+# pulled users in window: 224
+# pulled requests in window: 228
+# pulled tweets in window: 3798
+# queried users: 71600
+# pulled users: 14328
+# pulled missed: 57272
+# pulled users in window: 228
+# pulled requests in window: 232
+# pulled tweets in window: 3909
+# queried users: 71700
+# pulled users: 14336
+# pulled missed: 57364
+# pulled users in window: 236
+# pulled requests in window: 240
+# pulled tweets in window: 4030
+# queried users: 71800
+# pulled users: 14340
+# pulled missed: 57460
+# pulled users in window: 240
+# pulled requests in window: 244
+# pulled tweets in window: 4030
+# queried users: 71900
+# pulled users: 14343
+# pulled missed: 57557
+# pulled users in window: 243
+# pulled requests in window: 247
+# pulled tweets in window: 4140
+# queried users: 72000
+# pulled users: 14349
+# pulled missed: 57651
+# pulled users in window: 249
+# pulled requests in window: 253
+# pulled tweets in window: 4140
+# queried users: 72100
+# pulled users: 14356
+# pulled missed: 57744
+# pulled users in window: 256
+# pulled requests in window: 260
+# pulled tweets in window: 4271
+# queried users: 72200
+# pulled users: 14359
+# pulled missed: 57841
+# pulled users in window: 259
+# pulled requests in window: 263
+# pulled tweets in window: 4290
+# queried users: 72300
+# pulled users: 14360
+# pulled missed: 57940
+# pulled users in window: 260
+# pulled requests in window: 264
+# pulled tweets in window: 4332
+# queried users: 72400
+# pulled users: 14361
+# pulled missed: 58039
+# pulled users in window: 261
+# pulled requests in window: 265
+# pulled tweets in window: 4332
+# queried users: 72500
+# pulled users: 14364
+# pulled missed: 58136
+# pulled users in window: 264
+# pulled requests in window: 268
+# pulled tweets in window: 4332
+# queried users: 72600
+# pulled users: 14365
+# pulled missed: 58235
+# pulled users in window: 265
+# pulled requests in window: 269
+# pulled tweets in window: 4332
+# queried users: 72700
+# pulled users: 14367
+# pulled missed: 58333
+# pulled users in window: 267
+# pulled requests in window: 271
+# pulled tweets in window: 4332
+# queried users: 72800
+# pulled users: 14368
+# pulled missed: 58432
+# pulled users in window: 268
+# pulled requests in window: 272
+# pulled tweets in window: 4332
+# queried users: 72900
+# pulled users: 14369
+# pulled missed: 58531
+# pulled users in window: 269
+# pulled requests in window: 273
+# pulled tweets in window: 4332
+# queried users: 73000
+# pulled users: 14370
+# pulled missed: 58630
+# pulled users in window: 270
+# pulled requests in window: 274
+# pulled tweets in window: 4332
+# queried users: 73100
+# pulled users: 14372
+# pulled missed: 58728
+# pulled users in window: 272
+# pulled requests in window: 276
+# pulled tweets in window: 4332
+# queried users: 73200
+# pulled users: 14375
+# pulled missed: 58825
+# pulled users in window: 275
+# pulled requests in window: 279
+# pulled tweets in window: 4332
+# queried users: 73300
+# pulled users: 14377
+# pulled missed: 58923
+# pulled users in window: 277
+# pulled requests in window: 281
+# pulled tweets in window: 4333
+# queried users: 73400
+# pulled users: 14383
+# pulled missed: 59017
+# pulled users in window: 283
+# pulled requests in window: 287
+# pulled tweets in window: 4333
+# queried users: 73500
+# pulled users: 14384
+# pulled missed: 59116
+# pulled users in window: 284
+# pulled requests in window: 288
+# pulled tweets in window: 4333
+# queried users: 73600
+# pulled users: 14387
+# pulled missed: 59213
+# pulled users in window: 287
+# pulled requests in window: 291
+# pulled tweets in window: 4352
+# queried users: 73700
+# pulled users: 14388
+# pulled missed: 59312
+# pulled users in window: 288
+# pulled requests in window: 292
+# pulled tweets in window: 4352
+# queried users: 73800
+# pulled users: 14388
+# pulled missed: 59412
+# pulled users in window: 288
+# pulled requests in window: 292
+# pulled tweets in window: 4352
+# queried users: 73900
+# pulled users: 14393
+# pulled missed: 59507
+# pulled users in window: 293
+# pulled requests in window: 297
+# pulled tweets in window: 4355
+# queried users: 74000
+# pulled users: 14394
+# pulled missed: 59606
+# pulled users in window: 294
+# pulled requests in window: 298
+# pulled tweets in window: 4355
+# queried users: 74100
+# pulled users: 14397
+# pulled missed: 59703
+# pulled users in window: 297
+# pulled requests in window: 301
+# pulled tweets in window: 4369
+# queried users: 74200
+# pulled users: 14399
+# pulled missed: 59801
+# pulled users in window: 299
+# pulled requests in window: 303
+# pulled tweets in window: 4369
+# queried users: 74300
+# pulled users: 14399
+# pulled missed: 59901
+# pulled users in window: 299
+# pulled requests in window: 303
+# pulled tweets in window: 4369
+# queried users: 74400
+# pulled users: 14400
+# pulled missed: 60000
+# pulled users in window: 300
+# pulled requests in window: 304
+# pulled tweets in window: 4369
+# queried users: 74500
+# pulled users: 14400
+# pulled missed: 60100
+# pulled users in window: 300
+# pulled requests in window: 304
+# pulled tweets in window: 4369
+# queried users: 74600
+# pulled users: 14403
+# pulled missed: 60197
+# pulled users in window: 303
+# pulled requests in window: 307
+# pulled tweets in window: 4369
+# queried users: 74700
+# pulled users: 14405
+# pulled missed: 60295
+# pulled users in window: 305
+# pulled requests in window: 309
+# pulled tweets in window: 4369
+# queried users: 74800
+# pulled users: 14405
+# pulled missed: 60395
+# pulled users in window: 305
+# pulled requests in window: 309
+# pulled tweets in window: 4369
+# queried users: 74900
+# pulled users: 14408
+# pulled missed: 60492
+# pulled users in window: 308
+# pulled requests in window: 312
+# pulled tweets in window: 4369
+# queried users: 75000
+# pulled users: 14408
+# pulled missed: 60592
+# pulled users in window: 308
+# pulled requests in window: 312
+# pulled tweets in window: 4369
+# queried users: 75100
+# pulled users: 14412
+# pulled missed: 60688
+# pulled users in window: 312
+# pulled requests in window: 316
+# pulled tweets in window: 4369
+# queried users: 75200
+# pulled users: 14412
+# pulled missed: 60788
+# pulled users in window: 312
+# pulled requests in window: 316
+# pulled tweets in window: 4369
+# queried users: 75300
+# pulled users: 14415
+# pulled missed: 60885
+# pulled users in window: 315
+# pulled requests in window: 319
+# pulled tweets in window: 4378
+# queried users: 75400
+# pulled users: 14415
+# pulled missed: 60985
+# pulled users in window: 315
+# pulled requests in window: 319
+# pulled tweets in window: 4378
+# queried users: 75500
+# pulled users: 14417
+# pulled missed: 61083
+# pulled users in window: 317
+# pulled requests in window: 321
+# pulled tweets in window: 4380
+# queried users: 75600
+# pulled users: 14418
+# pulled missed: 61182
+# pulled users in window: 318
+# pulled requests in window: 322
+# pulled tweets in window: 4380
+# queried users: 75700
+# pulled users: 14420
+# pulled missed: 61280
+# pulled users in window: 320
+# pulled requests in window: 324
+# pulled tweets in window: 4381
+# queried users: 75800
+# pulled users: 14420
+# pulled missed: 61380
+# pulled users in window: 320
+# pulled requests in window: 324
+# pulled tweets in window: 4381
+# queried users: 75900
+# pulled users: 14424
+# pulled missed: 61476
+# pulled users in window: 324
+# pulled requests in window: 328
+# pulled tweets in window: 4397
+# queried users: 76000
+# pulled users: 14427
+# pulled missed: 61573
+# pulled users in window: 327
+# pulled requests in window: 331
+# pulled tweets in window: 4403
+# queried users: 76100
+# pulled users: 14429
+# pulled missed: 61671
+# pulled users in window: 329
+# pulled requests in window: 333
+# pulled tweets in window: 4443
+# queried users: 76200
+# pulled users: 14435
+# pulled missed: 61765
+# pulled users in window: 335
+# pulled requests in window: 339
+# pulled tweets in window: 4452
+# queried users: 76300
+# pulled users: 14442
+# pulled missed: 61858
+# pulled users in window: 342
+# pulled requests in window: 346
+# pulled tweets in window: 4469
+# queried users: 76400
+# pulled users: 14449
+# pulled missed: 61951
+# pulled users in window: 349
+# pulled requests in window: 353
+# pulled tweets in window: 4574
+# queried users: 76500
+# pulled users: 14450
+# pulled missed: 62050
+# pulled users in window: 350
+# pulled requests in window: 354
+# pulled tweets in window: 4622
+# queried users: 76600
+# pulled users: 14458
+# pulled missed: 62142
+# pulled users in window: 358
+# pulled requests in window: 362
+# pulled tweets in window: 4764
+# queried users: 76700
+# pulled users: 14458
+# pulled missed: 62242
+# pulled users in window: 358
+# pulled requests in window: 362
+# pulled tweets in window: 4764
+# queried users: 76800
+# pulled users: 14460
+# pulled missed: 62340
+# pulled users in window: 360
+# pulled requests in window: 364
+# pulled tweets in window: 4767
+# queried users: 76900
+# pulled users: 14465
+# pulled missed: 62435
+# pulled users in window: 365
+# pulled requests in window: 369
+# pulled tweets in window: 4832
+# queried users: 77000
+# pulled users: 14466
+# pulled missed: 62534
+# pulled users in window: 366
+# pulled requests in window: 370
+# pulled tweets in window: 4832
+# queried users: 77100
+# pulled users: 14467
+# pulled missed: 62633
+# pulled users in window: 367
+# pulled requests in window: 371
+# pulled tweets in window: 4832
+# queried users: 77200
+# pulled users: 14469
+# pulled missed: 62731
+# pulled users in window: 369
+# pulled requests in window: 373
+# pulled tweets in window: 4832
+# queried users: 77300
+# pulled users: 14470
+# pulled missed: 62830
+# pulled users in window: 370
+# pulled requests in window: 374
+# pulled tweets in window: 4860
+# queried users: 77400
+# pulled users: 14471
+# pulled missed: 62929
+# pulled users in window: 371
+# pulled requests in window: 375
+# pulled tweets in window: 4860
+# queried users: 77500
+# pulled users: 14475
+# pulled missed: 63025
+# pulled users in window: 375
+# pulled requests in window: 379
+# pulled tweets in window: 4869
+# queried users: 77600
+# pulled users: 14478
+# pulled missed: 63122
+# pulled users in window: 378
+# pulled requests in window: 382
+# pulled tweets in window: 4983
+# queried users: 77700
+# pulled users: 14479
+# pulled missed: 63221
+# pulled users in window: 379
+# pulled requests in window: 383
+# pulled tweets in window: 4983
+# queried users: 77800
+# pulled users: 14485
+# pulled missed: 63315
+# pulled users in window: 385
+# pulled requests in window: 390
+# pulled tweets in window: 5361
+# queried users: 77900
+# pulled users: 14490
+# pulled missed: 63410
+# pulled users in window: 390
+# pulled requests in window: 395
+# pulled tweets in window: 5570
+# queried users: 78000
+# pulled users: 14494
+# pulled missed: 63506
+# pulled users in window: 394
+# pulled requests in window: 399
+# pulled tweets in window: 5714
+# queried users: 78100
+# pulled users: 14497
+# pulled missed: 63603
+# pulled users in window: 397
+# pulled requests in window: 402
+# pulled tweets in window: 5714
+# queried users: 78200
+# pulled users: 14500
+# pulled missed: 63700
+# pulled users in window: 400
+# pulled requests in window: 405
+# pulled tweets in window: 5714
+# queried users: 78300
+# pulled users: 14502
+# pulled missed: 63798
+# pulled users in window: 402
+# pulled requests in window: 407
+# pulled tweets in window: 5714
+# queried users: 78400
+# pulled users: 14503
+# pulled missed: 63897
+# pulled users in window: 403
+# pulled requests in window: 408
+# pulled tweets in window: 5727
+# queried users: 78500
+# pulled users: 14505
+# pulled missed: 63995
+# pulled users in window: 405
+# pulled requests in window: 410
+# pulled tweets in window: 5727
+# queried users: 78600
+# pulled users: 14505
+# pulled missed: 64095
+# pulled users in window: 405
+# pulled requests in window: 410
+# pulled tweets in window: 5727
+# queried users: 78700
+# pulled users: 14505
+# pulled missed: 64195
+# pulled users in window: 405
+# pulled requests in window: 410
+# pulled tweets in window: 5727
+# queried users: 78800
+# pulled users: 14506
+# pulled missed: 64294
+# pulled users in window: 406
+# pulled requests in window: 411
+# pulled tweets in window: 5727
+# queried users: 78900
+# pulled users: 14509
+# pulled missed: 64391
+# pulled users in window: 409
+# pulled requests in window: 414
+# pulled tweets in window: 5728
+# queried users: 79000
+# pulled users: 14510
+# pulled missed: 64490
+# pulled users in window: 410
+# pulled requests in window: 415
+# pulled tweets in window: 5728
+# queried users: 79100
+# pulled users: 14512
+# pulled missed: 64588
+# pulled users in window: 412
+# pulled requests in window: 417
+# pulled tweets in window: 5810
+# queried users: 79200
+# pulled users: 14513
+# pulled missed: 64687
+# pulled users in window: 413
+# pulled requests in window: 418
+# pulled tweets in window: 5810
+# queried users: 79300
+# pulled users: 14514
+# pulled missed: 64786
+# pulled users in window: 414
+# pulled requests in window: 419
+# pulled tweets in window: 5810
+# queried users: 79400
+# pulled users: 14516
+# pulled missed: 64884
+# pulled users in window: 416
+# pulled requests in window: 421
+# pulled tweets in window: 5831
+# queried users: 79500
+# pulled users: 14518
+# pulled missed: 64982
+# pulled users in window: 418
+# pulled requests in window: 423
+# pulled tweets in window: 5871
+# queried users: 79600
+# pulled users: 14519
+# pulled missed: 65081
+# pulled users in window: 419
+# pulled requests in window: 424
+# pulled tweets in window: 5871
+# queried users: 79700
+# pulled users: 14520
+# pulled missed: 65180
+# pulled users in window: 420
+# pulled requests in window: 425
+# pulled tweets in window: 5871
+# queried users: 79800
+# pulled users: 14521
+# pulled missed: 65279
+# pulled users in window: 421
+# pulled requests in window: 426
+# pulled tweets in window: 5871
+# queried users: 79900
+# pulled users: 14521
+# pulled missed: 65379
+# pulled users in window: 421
+# pulled requests in window: 426
+# pulled tweets in window: 5871
+# queried users: 80000
+# pulled users: 14521
+# pulled missed: 65479
+# pulled users in window: 421
+# pulled requests in window: 426
+# pulled tweets in window: 5871
+# queried users: 80100
+# pulled users: 14521
+# pulled missed: 65579
+# pulled users in window: 421
+# pulled requests in window: 426
+# pulled tweets in window: 5871
+# queried users: 80200
+# pulled users: 14522
+# pulled missed: 65678
+# pulled users in window: 422
+# pulled requests in window: 427
+# pulled tweets in window: 5871
+# queried users: 80300
+# pulled users: 14524
+# pulled missed: 65776
+# pulled users in window: 424
+# pulled requests in window: 429
+# pulled tweets in window: 5871
+# queried users: 80400
+# pulled users: 14526
+# pulled missed: 65874
+# pulled users in window: 426
+# pulled requests in window: 431
+# pulled tweets in window: 5871
+# queried users: 80500
+# pulled users: 14527
+# pulled missed: 65973
+# pulled users in window: 427
+# pulled requests in window: 432
+# pulled tweets in window: 5871
+# queried users: 80600
+# pulled users: 14529
+# pulled missed: 66071
+# pulled users in window: 429
+# pulled requests in window: 434
+# pulled tweets in window: 5871
+# queried users: 80700
+# pulled users: 14533
+# pulled missed: 66167
+# pulled users in window: 433
+# pulled requests in window: 438
+# pulled tweets in window: 5876
+# queried users: 80800
+# pulled users: 14534
+# pulled missed: 66266
+# pulled users in window: 434
+# pulled requests in window: 439
+# pulled tweets in window: 5882
+# queried users: 80900
+# pulled users: 14535
+# pulled missed: 66365
+# pulled users in window: 435
+# pulled requests in window: 440
+# pulled tweets in window: 5956
+# queried users: 81000
+# pulled users: 14539
+# pulled missed: 66461
+# pulled users in window: 439
+# pulled requests in window: 444
+# pulled tweets in window: 5956
+# queried users: 81100
+# pulled users: 14542
+# pulled missed: 66558
+# pulled users in window: 442
+# pulled requests in window: 447
+# pulled tweets in window: 6002
+# queried users: 81200
+# pulled users: 14545
+# pulled missed: 66655
+# pulled users in window: 445
+# pulled requests in window: 450
+# pulled tweets in window: 6010
+# queried users: 81300
+# pulled users: 14545
+# pulled missed: 66755
+# pulled users in window: 445
+# pulled requests in window: 450
+# pulled tweets in window: 6010
+# queried users: 81400
+# pulled users: 14545
+# pulled missed: 66855
+# pulled users in window: 445
+# pulled requests in window: 450
+# pulled tweets in window: 6010
+# queried users: 81500
+# pulled users: 14545
+# pulled missed: 66955
+# pulled users in window: 445
+# pulled requests in window: 450
+# pulled tweets in window: 6010
+# queried users: 81600
+# pulled users: 14546
+# pulled missed: 67054
+# pulled users in window: 446
+# pulled requests in window: 451
+# pulled tweets in window: 6010
+# queried users: 81700
+# pulled users: 14547
+# pulled missed: 67153
+# pulled users in window: 447
+# pulled requests in window: 452
+# pulled tweets in window: 6010
+# queried users: 81800
+# pulled users: 14548
+# pulled missed: 67252
+# pulled users in window: 448
+# pulled requests in window: 453
+# pulled tweets in window: 6010
+# queried users: 81900
+# pulled users: 14549
+# pulled missed: 67351
+# pulled users in window: 449
+# pulled requests in window: 454
+# pulled tweets in window: 6010
+# queried users: 82000
+# pulled users: 14550
+# pulled missed: 67450
+# pulled users in window: 450
+# pulled requests in window: 455
+# pulled tweets in window: 6010
+# queried users: 82100
+# pulled users: 14551
+# pulled missed: 67549
+# pulled users in window: 451
+# pulled requests in window: 456
+# pulled tweets in window: 6010
+# queried users: 82200
+# pulled users: 14553
+# pulled missed: 67647
+# pulled users in window: 453
+# pulled requests in window: 458
+# pulled tweets in window: 6010
+# queried users: 82300
+# pulled users: 14556
+# pulled missed: 67744
+# pulled users in window: 456
+# pulled requests in window: 461
+# pulled tweets in window: 6023
+# queried users: 82400
+# pulled users: 14557
+# pulled missed: 67843
+# pulled users in window: 457
+# pulled requests in window: 462
+# pulled tweets in window: 6023
+# queried users: 82500
+# pulled users: 14559
+# pulled missed: 67941
+# pulled users in window: 459
+# pulled requests in window: 464
+# pulled tweets in window: 6026
+# queried users: 82600
+# pulled users: 14560
+# pulled missed: 68040
+# pulled users in window: 460
+# pulled requests in window: 465
+# pulled tweets in window: 6026
+# queried users: 82700
+# pulled users: 14561
+# pulled missed: 68139
+# pulled users in window: 461
+# pulled requests in window: 466
+# pulled tweets in window: 6026
+# queried users: 82800
+# pulled users: 14562
+# pulled missed: 68238
+# pulled users in window: 462
+# pulled requests in window: 467
+# pulled tweets in window: 6026
+# queried users: 82900
+# pulled users: 14562
+# pulled missed: 68338
+# pulled users in window: 462
+# pulled requests in window: 467
+# pulled tweets in window: 6026
+# queried users: 83000
+# pulled users: 14563
+# pulled missed: 68437
+# pulled users in window: 463
+# pulled requests in window: 468
+# pulled tweets in window: 6026
+# queried users: 83100
+# pulled users: 14565
+# pulled missed: 68535
+# pulled users in window: 465
+# pulled requests in window: 470
+# pulled tweets in window: 6026
+# queried users: 83200
+# pulled users: 14565
+# pulled missed: 68635
+# pulled users in window: 465
+# pulled requests in window: 470
+# pulled tweets in window: 6026
+# queried users: 83300
+# pulled users: 14567
+# pulled missed: 68733
+# pulled users in window: 467
+# pulled requests in window: 472
+# pulled tweets in window: 6026
+# queried users: 83400
+# pulled users: 14569
+# pulled missed: 68831
+# pulled users in window: 469
+# pulled requests in window: 474
+# pulled tweets in window: 6026
+# queried users: 83500
+# pulled users: 14570
+# pulled missed: 68930
+# pulled users in window: 470
+# pulled requests in window: 475
+# pulled tweets in window: 6026
+# queried users: 83600
+# pulled users: 14570
+# pulled missed: 69030
+# pulled users in window: 470
+# pulled requests in window: 475
+# pulled tweets in window: 6026
+# queried users: 83700
+# pulled users: 14572
+# pulled missed: 69128
+# pulled users in window: 472
+# pulled requests in window: 477
+# pulled tweets in window: 6026
+# queried users: 83800
+# pulled users: 14572
+# pulled missed: 69228
+# pulled users in window: 472
+# pulled requests in window: 477
+# pulled tweets in window: 6026
+# queried users: 83900
+# pulled users: 14573
+# pulled missed: 69327
+# pulled users in window: 473
+# pulled requests in window: 478
+# pulled tweets in window: 6026
+# queried users: 84000
+# pulled users: 14573
+# pulled missed: 69427
+# pulled users in window: 473
+# pulled requests in window: 478
+# pulled tweets in window: 6026
+# queried users: 84100
+# pulled users: 14576
+# pulled missed: 69524
+# pulled users in window: 476
+# pulled requests in window: 481
+# pulled tweets in window: 6026
+# queried users: 84200
+# pulled users: 14576
+# pulled missed: 69624
+# pulled users in window: 476
+# pulled requests in window: 481
+# pulled tweets in window: 6026
+# queried users: 84300
+# pulled users: 14576
+# pulled missed: 69724
+# pulled users in window: 476
+# pulled requests in window: 481
+# pulled tweets in window: 6026
+# queried users: 84400
+# pulled users: 14577
+# pulled missed: 69823
+# pulled users in window: 477
+# pulled requests in window: 482
+# pulled tweets in window: 6142
+# queried users: 84500
+# pulled users: 14578
+# pulled missed: 69922
+# pulled users in window: 478
+# pulled requests in window: 483
+# pulled tweets in window: 6142
+# queried users: 84600
+# pulled users: 14578
+# pulled missed: 70022
+# pulled users in window: 478
+# pulled requests in window: 483
+# pulled tweets in window: 6142
+# queried users: 84700
+# pulled users: 14580
+# pulled missed: 70120
+# pulled users in window: 480
+# pulled requests in window: 485
+# pulled tweets in window: 6204
+# queried users: 84800
+# pulled users: 14583
+# pulled missed: 70217
+# pulled users in window: 483
+# pulled requests in window: 488
+# pulled tweets in window: 6283
+# queried users: 84900
+# pulled users: 14586
+# pulled missed: 70314
+# pulled users in window: 486
+# pulled requests in window: 491
+# pulled tweets in window: 6297
+# queried users: 85000
+# pulled users: 14589
+# pulled missed: 70411
+# pulled users in window: 489
+# pulled requests in window: 494
+# pulled tweets in window: 6297
+# queried users: 85100
+# pulled users: 14593
+# pulled missed: 70507
+# pulled users in window: 493
+# pulled requests in window: 498
+# pulled tweets in window: 6357
+# queried users: 85200
+# pulled users: 14596
+# pulled missed: 70604
+# pulled users in window: 496
+# pulled requests in window: 501
+# pulled tweets in window: 6449
+# queried users: 85300
+# pulled users: 14600
+# pulled missed: 70700
+# pulled users in window: 500
+# pulled requests in window: 505
+# pulled tweets in window: 6478
+# queried users: 85400
+# pulled users: 14600
+# pulled missed: 70800
+# pulled users in window: 500
+# pulled requests in window: 505
+# pulled tweets in window: 6478
+# queried users: 85500
+# pulled users: 14600
+# pulled missed: 70900
+# pulled users in window: 500
+# pulled requests in window: 505
+# pulled tweets in window: 6478
+# queried users: 85600
+# pulled users: 14602
+# pulled missed: 70998
+# pulled users in window: 502
+# pulled requests in window: 507
+# pulled tweets in window: 6478
+# queried users: 85700
+# pulled users: 14603
+# pulled missed: 71097
+# pulled users in window: 503
+# pulled requests in window: 508
+# pulled tweets in window: 6478
+# queried users: 85800
+# pulled users: 14603
+# pulled missed: 71197
+# pulled users in window: 503
+# pulled requests in window: 508
+# pulled tweets in window: 6478
+# queried users: 85900
+# pulled users: 14604
+# pulled missed: 71296
+# pulled users in window: 504
+# pulled requests in window: 509
+# pulled tweets in window: 6478
+# queried users: 86000
+# pulled users: 14605
+# pulled missed: 71395
+# pulled users in window: 505
+# pulled requests in window: 510
+# pulled tweets in window: 6478
+# queried users: 86100
+# pulled users: 14606
+# pulled missed: 71494
+# pulled users in window: 506
+# pulled requests in window: 511
+# pulled tweets in window: 6478
+# queried users: 86200
+# pulled users: 14608
+# pulled missed: 71592
+# pulled users in window: 508
+# pulled requests in window: 513
+# pulled tweets in window: 6478
+# queried users: 86300
+# pulled users: 14610
+# pulled missed: 71690
+# pulled users in window: 510
+# pulled requests in window: 515
+# pulled tweets in window: 6478
+# queried users: 86400
+# pulled users: 14610
+# pulled missed: 71790
+# pulled users in window: 510
+# pulled requests in window: 515
+# pulled tweets in window: 6478
+# queried users: 86500
+# pulled users: 14611
+# pulled missed: 71889
+# pulled users in window: 511
+# pulled requests in window: 516
+# pulled tweets in window: 6478
+# queried users: 86600
+# pulled users: 14612
+# pulled missed: 71988
+# pulled users in window: 512
+# pulled requests in window: 517
+# pulled tweets in window: 6499
+# queried users: 86700
+# pulled users: 14614
+# pulled missed: 72086
+# pulled users in window: 514
+# pulled requests in window: 519
+# pulled tweets in window: 6512
+# queried users: 86800
+# pulled users: 14617
+# pulled missed: 72183
+# pulled users in window: 517
+# pulled requests in window: 522
+# pulled tweets in window: 6512
+# queried users: 86900
+# pulled users: 14617
+# pulled missed: 72283
+# pulled users in window: 517
+# pulled requests in window: 522
+# pulled tweets in window: 6512
+# queried users: 87000
+# pulled users: 14617
+# pulled missed: 72383
+# pulled users in window: 517
+# pulled requests in window: 522
+# pulled tweets in window: 6512
+# queried users: 87100
+# pulled users: 14617
+# pulled missed: 72483
+# pulled users in window: 517
+# pulled requests in window: 522
+# pulled tweets in window: 6512
+# queried users: 87200
+# pulled users: 14617
+# pulled missed: 72583
+# pulled users in window: 517
+# pulled requests in window: 522
+# pulled tweets in window: 6512
+# queried users: 87300
+# pulled users: 14620
+# pulled missed: 72680
+# pulled users in window: 520
+# pulled requests in window: 525
+# pulled tweets in window: 6540
+# queried users: 87400
+# pulled users: 14620
+# pulled missed: 72780
+# pulled users in window: 520
+# pulled requests in window: 525
+# pulled tweets in window: 6540
+# queried users: 87500
+# pulled users: 14624
+# pulled missed: 72876
+# pulled users in window: 524
+# pulled requests in window: 529
+# pulled tweets in window: 6540
+# queried users: 87600
+# pulled users: 14624
+# pulled missed: 72976
+# pulled users in window: 524
+# pulled requests in window: 529
+# pulled tweets in window: 6540
+# queried users: 87700
+# pulled users: 14624
+# pulled missed: 73076
+# pulled users in window: 524
+# pulled requests in window: 529
+# pulled tweets in window: 6540
+# queried users: 87800
+# pulled users: 14626
+# pulled missed: 73174
+# pulled users in window: 526
+# pulled requests in window: 531
+# pulled tweets in window: 6619
+# queried users: 87900
+# pulled users: 14628
+# pulled missed: 73272
+# pulled users in window: 528
+# pulled requests in window: 533
+# pulled tweets in window: 6619
+# queried users: 88000
+# pulled users: 14629
+# pulled missed: 73371
+# pulled users in window: 529
+# pulled requests in window: 534
+# pulled tweets in window: 6619
+# queried users: 88100
+# pulled users: 14630
+# pulled missed: 73470
+# pulled users in window: 530
+# pulled requests in window: 535
+# pulled tweets in window: 6619
+# queried users: 88200
+# pulled users: 14632
+# pulled missed: 73568
+# pulled users in window: 532
+# pulled requests in window: 537
+# pulled tweets in window: 6619
+# queried users: 88300
+# pulled users: 14632
+# pulled missed: 73668
+# pulled users in window: 532
+# pulled requests in window: 537
+# pulled tweets in window: 6619
+# queried users: 88400
+# pulled users: 14633
+# pulled missed: 73767
+# pulled users in window: 533
+# pulled requests in window: 538
+# pulled tweets in window: 6619
+# queried users: 88500
+# pulled users: 14635
+# pulled missed: 73865
+# pulled users in window: 535
+# pulled requests in window: 540
+# pulled tweets in window: 6619
+# queried users: 88600
+# pulled users: 14635
+# pulled missed: 73965
+# pulled users in window: 535
+# pulled requests in window: 540
+# pulled tweets in window: 6619
+# queried users: 88700
+# pulled users: 14635
+# pulled missed: 74065
+# pulled users in window: 535
+# pulled requests in window: 540
+# pulled tweets in window: 6619
+# queried users: 88800
+# pulled users: 14635
+# pulled missed: 74165
+# pulled users in window: 535
+# pulled requests in window: 540
+# pulled tweets in window: 6619
+# queried users: 88900
+# pulled users: 14635
+# pulled missed: 74265
+# pulled users in window: 535
+# pulled requests in window: 540
+# pulled tweets in window: 6619
+# queried users: 89000
+# pulled users: 14636
+# pulled missed: 74364
+# pulled users in window: 536
+# pulled requests in window: 541
+# pulled tweets in window: 6744
+# queried users: 89100
+# pulled users: 14637
+# pulled missed: 74463
+# pulled users in window: 537
+# pulled requests in window: 542
+# pulled tweets in window: 6744
+# queried users: 89200
+# pulled users: 14637
+# pulled missed: 74563
+# pulled users in window: 537
+# pulled requests in window: 542
+# pulled tweets in window: 6744
+# queried users: 89300
+# pulled users: 14638
+# pulled missed: 74662
+# pulled users in window: 538
+# pulled requests in window: 543
+# pulled tweets in window: 6744
+# queried users: 89400
+# pulled users: 14641
+# pulled missed: 74759
+# pulled users in window: 541
+# pulled requests in window: 546
+# pulled tweets in window: 6744
+# queried users: 89500
+# pulled users: 14643
+# pulled missed: 74857
+# pulled users in window: 543
+# pulled requests in window: 548
+# pulled tweets in window: 6744
+# queried users: 89600
+# pulled users: 14648
+# pulled missed: 74952
+# pulled users in window: 548
+# pulled requests in window: 553
+# pulled tweets in window: 6862
+# queried users: 89700
+# pulled users: 14650
+# pulled missed: 75050
+# pulled users in window: 550
+# pulled requests in window: 555
+# pulled tweets in window: 6862
+# queried users: 89800
+# pulled users: 14654
+# pulled missed: 75146
+# pulled users in window: 554
+# pulled requests in window: 559
+# pulled tweets in window: 7228
+# queried users: 89900
+# pulled users: 14658
+# pulled missed: 75242
+# pulled users in window: 558
+# pulled requests in window: 563
+# pulled tweets in window: 7228
+# queried users: 90000
+# pulled users: 14662
+# pulled missed: 75338
+# pulled users in window: 562
+# pulled requests in window: 567
+# pulled tweets in window: 7277
+# queried users: 90100
+# pulled users: 14667
+# pulled missed: 75433
+# pulled users in window: 567
+# pulled requests in window: 572
+# pulled tweets in window: 7292
+# queried users: 90200
+# pulled users: 14685
+# pulled missed: 75515
+# pulled users in window: 585
+# pulled requests in window: 591
+# pulled tweets in window: 8233
+# queried users: 90300
+# pulled users: 14709
+# pulled missed: 75591
+# pulled users in window: 609
+# pulled requests in window: 624
+# pulled tweets in window: 10564
+# queried users: 90400
+# pulled users: 14744
+# pulled missed: 75656
+# pulled users in window: 644
+# pulled requests in window: 669
+# pulled tweets in window: 13971
+# queried users: 90500
+# pulled users: 14774
+# pulled missed: 75726
+# pulled users in window: 674
+# pulled requests in window: 714
+# pulled tweets in window: 17905
+# queried users: 90600
+# pulled users: 14805
+# pulled missed: 75795
+# pulled users in window: 705
+# pulled requests in window: 749
+# pulled tweets in window: 20244
+# queried users: 90700
+# pulled users: 14829
+# pulled missed: 75871
+# pulled users in window: 729
+# pulled requests in window: 775
+# pulled tweets in window: 21336
+# queried users: 90800
+# pulled users: 14862
+# pulled missed: 75938
+# pulled users in window: 762
+# pulled requests in window: 816
+# pulled tweets in window: 24283
+Saved in user_timeline_797_users_881_requests_31986_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_86922837-92d7-41fd-a69f-d289805a5ca7.json.bz2
+Computing Time: 4753 sec
+
+# queried users: 90900
+# pulled users: 14908
+# pulled missed: 75992
+# pulled users in window: 11
+# pulled requests in window: 27
+# pulled tweets in window: 3345
+# queried users: 91000
+# pulled users: 14962
+# pulled missed: 76038
+# pulled users in window: 65
+# pulled requests in window: 133
+# pulled tweets in window: 15965
+# queried users: 91100
+# pulled users: 14997
+# pulled missed: 76103
+# pulled users in window: 100
+# pulled requests in window: 174
+# pulled tweets in window: 18222
+# queried users: 91200
+# pulled users: 15040
+# pulled missed: 76160
+# pulled users in window: 143
+# pulled requests in window: 248
+# pulled tweets in window: 26337
+# queried users: 91300
+# pulled users: 15094
+# pulled missed: 76206
+# pulled users in window: 197
+# pulled requests in window: 363
+# pulled tweets in window: 40948
+# queried users: 91400
+# pulled users: 15136
+# pulled missed: 76264
+# pulled users in window: 239
+# pulled requests in window: 422
+# pulled tweets in window: 46439
+# queried users: 91500
+# pulled users: 15182
+# pulled missed: 76318
+# pulled users in window: 285
+# pulled requests in window: 504
+# pulled tweets in window: 55658
+# queried users: 91600
+# pulled users: 15219
+# pulled missed: 76381
+# pulled users in window: 322
+# pulled requests in window: 564
+# pulled tweets in window: 61772
+# queried users: 91700
+# pulled users: 15260
+# pulled missed: 76440
+# pulled users in window: 363
+# pulled requests in window: 632
+# pulled tweets in window: 69800
+# queried users: 91800
+# pulled users: 15299
+# pulled missed: 76501
+# pulled users in window: 402
+# pulled requests in window: 686
+# pulled tweets in window: 74223
+# queried users: 91900
+# pulled users: 15342
+# pulled missed: 76558
+# pulled users in window: 445
+# pulled requests in window: 736
+# pulled tweets in window: 77361
+# queried users: 92000
+# pulled users: 15392
+# pulled missed: 76608
+# pulled users in window: 495
+# pulled requests in window: 811
+# pulled tweets in window: 84195
+Saved in user_timeline_521_users_881_requests_94325_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_7a9e1927-4326-4187-b19e-fc055f974ef8.json.bz2
+Computing Time: 728 sec
+
+# queried users: 92100
+# pulled users: 15455
+# pulled missed: 76645
+# pulled users in window: 37
+# pulled requests in window: 81
+# pulled tweets in window: 10508
+# queried users: 92200
+# pulled users: 15509
+# pulled missed: 76691
+# pulled users in window: 91
+# pulled requests in window: 245
+# pulled tweets in window: 34899
+# queried users: 92300
+# pulled users: 15561
+# pulled missed: 76739
+# pulled users in window: 143
+# pulled requests in window: 359
+# pulled tweets in window: 50339
+# queried users: 92400
+# pulled users: 15613
+# pulled missed: 76787
+# pulled users in window: 195
+# pulled requests in window: 437
+# pulled tweets in window: 57560
+# queried users: 92500
+# pulled users: 15667
+# pulled missed: 76833
+# pulled users in window: 249
+# pulled requests in window: 533
+# pulled tweets in window: 68872
+# queried users: 92600
+# pulled users: 15715
+# pulled missed: 76885
+# pulled users in window: 297
+# pulled requests in window: 637
+# pulled tweets in window: 81588
+# queried users: 92700
+# pulled users: 15760
+# pulled missed: 76940
+# pulled users in window: 342
+# pulled requests in window: 731
+# pulled tweets in window: 93653
+# queried users: 92800
+# pulled users: 15812
+# pulled missed: 76988
+# pulled users in window: 394
+# pulled requests in window: 820
+# pulled tweets in window: 102984
+Saved in user_timeline_422_users_881_requests_111128_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_f469a95b-3fd0-494e-b714-69f8294e4e61.json.bz2
+Computing Time: 587 sec
+
+# queried users: 92900
+# pulled users: 15861
+# pulled missed: 77039
+# pulled users in window: 21
+# pulled requests in window: 60
+# pulled tweets in window: 8801
+# queried users: 93000
+# pulled users: 15921
+# pulled missed: 77079
+# pulled users in window: 81
+# pulled requests in window: 178
+# pulled tweets in window: 23626
+# queried users: 93100
+# pulled users: 15982
+# pulled missed: 77118
+# pulled users in window: 142
+# pulled requests in window: 305
+# pulled tweets in window: 39522
+# queried users: 93200
+# pulled users: 16034
+# pulled missed: 77166
+# pulled users in window: 194
+# pulled requests in window: 458
+# pulled tweets in window: 62279
+# queried users: 93300
+# pulled users: 16093
+# pulled missed: 77207
+# pulled users in window: 253
+# pulled requests in window: 554
+# pulled tweets in window: 71822
+# queried users: 93400
+# pulled users: 16153
+# pulled missed: 77247
+# pulled users in window: 313
+# pulled requests in window: 680
+# pulled tweets in window: 87972
+# queried users: 93500
+# pulled users: 16208
+# pulled missed: 77292
+# pulled users in window: 368
+# pulled requests in window: 819
+# pulled tweets in window: 107661
+Saved in user_timeline_393_users_882_requests_116960_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_21826220-7fb7-4f83-80f7-d29d8f336569.json.bz2
+Computing Time: 564 sec
+
+# queried users: 93600
+# pulled users: 16259
+# pulled missed: 77341
+# pulled users in window: 26
+# pulled requests in window: 66
+# pulled tweets in window: 9087
+# queried users: 93700
+# pulled users: 16307
+# pulled missed: 77393
+# pulled users in window: 74
+# pulled requests in window: 166
+# pulled tweets in window: 21246
+# queried users: 93800
+# pulled users: 16356
+# pulled missed: 77444
+# pulled users in window: 123
+# pulled requests in window: 259
+# pulled tweets in window: 31912
+# queried users: 93900
+# pulled users: 16421
+# pulled missed: 77479
+# pulled users in window: 188
+# pulled requests in window: 397
+# pulled tweets in window: 49821
+# queried users: 94000
+# pulled users: 16485
+# pulled missed: 77515
+# pulled users in window: 252
+# pulled requests in window: 524
+# pulled tweets in window: 64639
+# queried users: 94100
+# pulled users: 16540
+# pulled missed: 77560
+# pulled users in window: 307
+# pulled requests in window: 608
+# pulled tweets in window: 72478
+# queried users: 94200
+# pulled users: 16593
+# pulled missed: 77607
+# pulled users in window: 360
+# pulled requests in window: 693
+# pulled tweets in window: 81431
+# queried users: 94300
+# pulled users: 16641
+# pulled missed: 77659
+# pulled users in window: 408
+# pulled requests in window: 777
+# pulled tweets in window: 90733
+# queried users: 94400
+# pulled users: 16692
+# pulled missed: 77708
+# pulled users in window: 459
+# pulled requests in window: 860
+# pulled tweets in window: 98861
+Saved in user_timeline_475_users_881_requests_100352_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_9ee1caf6-07de-4739-8220-4fdb2770638a.json.bz2
+Computing Time: 563 sec
+
+# queried users: 94500
+# pulled users: 16743
+# pulled missed: 77757
+# pulled users in window: 35
+# pulled requests in window: 60
+# pulled tweets in window: 6325
+# queried users: 94600
+# pulled users: 16807
+# pulled missed: 77793
+# pulled users in window: 99
+# pulled requests in window: 219
+# pulled tweets in window: 28136
+# queried users: 94700
+# pulled users: 16864
+# pulled missed: 77836
+# pulled users in window: 156
+# pulled requests in window: 375
+# pulled tweets in window: 50919
+# queried users: 94800
+# pulled users: 16917
+# pulled missed: 77883
+# pulled users in window: 209
+# pulled requests in window: 475
+# pulled tweets in window: 62740
+# queried users: 94900
+# pulled users: 16969
+# pulled missed: 77931
+# pulled users in window: 261
+# pulled requests in window: 626
+# pulled tweets in window: 85001
+# queried users: 95000
+# pulled users: 17020
+# pulled missed: 77980
+# pulled users in window: 312
+# pulled requests in window: 709
+# pulled tweets in window: 93361
+# queried users: 95100
+# pulled users: 17064
+# pulled missed: 78036
+# pulled users in window: 356
+# pulled requests in window: 782
+# pulled tweets in window: 100795
+# queried users: 95200
+# pulled users: 17115
+# pulled missed: 78085
+# pulled users in window: 407
+# pulled requests in window: 847
+# pulled tweets in window: 105934
+Saved in user_timeline_421_users_881_requests_110615_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_fb0807d4-17cf-4d34-8490-7c86274910aa.json.bz2
+Computing Time: 569 sec
+
+# queried users: 95300
+# pulled users: 17167
+# pulled missed: 78133
+# pulled users in window: 38
+# pulled requests in window: 75
+# pulled tweets in window: 9056
+# queried users: 95400
+# pulled users: 17231
+# pulled missed: 78169
+# pulled users in window: 102
+# pulled requests in window: 229
+# pulled tweets in window: 29880
+# queried users: 95500
+# pulled users: 17279
+# pulled missed: 78221
+# pulled users in window: 150
+# pulled requests in window: 361
+# pulled tweets in window: 48542
+# queried users: 95600
+# pulled users: 17342
+# pulled missed: 78258
+# pulled users in window: 213
+# pulled requests in window: 509
+# pulled tweets in window: 67564
+# queried users: 95700
+# pulled users: 17394
+# pulled missed: 78306
+# pulled users in window: 265
+# pulled requests in window: 679
+# pulled tweets in window: 94154
+# queried users: 95800
+# pulled users: 17460
+# pulled missed: 78340
+# pulled users in window: 331
+# pulled requests in window: 795
+# pulled tweets in window: 106356
+Saved in user_timeline_355_users_895_requests_123172_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_08cfaf62-bc5c-4606-8b12-9161975edad3.json.bz2
+Computing Time: 543 sec
+
+# queried users: 95900
+# pulled users: 17514
+# pulled missed: 78386
+# pulled users in window: 30
+# pulled requests in window: 61
+# pulled tweets in window: 7645
+# queried users: 96000
+# pulled users: 17570
+# pulled missed: 78430
+# pulled users in window: 86
+# pulled requests in window: 155
+# pulled tweets in window: 17585
+# queried users: 96100
+# pulled users: 17626
+# pulled missed: 78474
+# pulled users in window: 142
+# pulled requests in window: 300
+# pulled tweets in window: 37386
+# queried users: 96200
+# pulled users: 17674
+# pulled missed: 78526
+# pulled users in window: 190
+# pulled requests in window: 422
+# pulled tweets in window: 54860
+# queried users: 96300
+# pulled users: 17727
+# pulled missed: 78573
+# pulled users in window: 243
+# pulled requests in window: 513
+# pulled tweets in window: 65280
+# queried users: 96400
+# pulled users: 17793
+# pulled missed: 78607
+# pulled users in window: 309
+# pulled requests in window: 649
+# pulled tweets in window: 82079
+# queried users: 96500
+# pulled users: 17848
+# pulled missed: 78652
+# pulled users in window: 364
+# pulled requests in window: 806
+# pulled tweets in window: 105481
+Saved in user_timeline_402_users_881_requests_114163_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_f6c27738-f73d-403c-95f4-6e82f30c928c.json.bz2
+Computing Time: 777 sec
+
+# queried users: 96600
+# pulled users: 17910
+# pulled missed: 78690
+# pulled users in window: 24
+# pulled requests in window: 54
+# pulled tweets in window: 7159
+# queried users: 96700
+# pulled users: 17967
+# pulled missed: 78733
+# pulled users in window: 81
+# pulled requests in window: 191
+# pulled tweets in window: 25153
+# queried users: 96800
+# pulled users: 18033
+# pulled missed: 78767
+# pulled users in window: 147
+# pulled requests in window: 305
+# pulled tweets in window: 38010
+# queried users: 96900
+# pulled users: 18098
+# pulled missed: 78802
+# pulled users in window: 212
+# pulled requests in window: 425
+# pulled tweets in window: 51720
+# queried users: 97000
+# pulled users: 18156
+# pulled missed: 78844
+# pulled users in window: 270
+# pulled requests in window: 519
+# pulled tweets in window: 61254
+# queried users: 97100
+# pulled users: 18226
+# pulled missed: 78874
+# pulled users in window: 340
+# pulled requests in window: 675
+# pulled tweets in window: 81687
+# queried users: 97200
+# pulled users: 18287
+# pulled missed: 78913
+# pulled users in window: 401
+# pulled requests in window: 808
+# pulled tweets in window: 98861
+Saved in user_timeline_453_users_881_requests_105149_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_21d387cb-9a3a-42fd-88eb-0b230c1b5874.json.bz2
+Computing Time: 516 sec
+
+# queried users: 97300
+# pulled users: 18344
+# pulled missed: 78956
+# pulled users in window: 5
+# pulled requests in window: 8
+# pulled tweets in window: 879
+# queried users: 97400
+# pulled users: 18407
+# pulled missed: 78993
+# pulled users in window: 68
+# pulled requests in window: 187
+# pulled tweets in window: 26936
+# queried users: 97500
+# pulled users: 18471
+# pulled missed: 79029
+# pulled users in window: 132
+# pulled requests in window: 309
+# pulled tweets in window: 41426
+# queried users: 97600
+# pulled users: 18529
+# pulled missed: 79071
+# pulled users in window: 190
+# pulled requests in window: 469
+# pulled tweets in window: 64888
+# queried users: 97700
+# pulled users: 18584
+# pulled missed: 79116
+# pulled users in window: 245
+# pulled requests in window: 573
+# pulled tweets in window: 77103
+# queried users: 97800
+# pulled users: 18633
+# pulled missed: 79167
+# pulled users in window: 294
+# pulled requests in window: 732
+# pulled tweets in window: 101460
+# queried users: 97900
+# pulled users: 18687
+# pulled missed: 79213
+# pulled users in window: 348
+# pulled requests in window: 814
+# pulled tweets in window: 109686
+Saved in user_timeline_378_users_886_requests_119306_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_641bc0de-cbd3-4c3a-987f-c6a068a9617a.json.bz2
+Computing Time: 559 sec
+
+# queried users: 98000
+# pulled users: 18735
+# pulled missed: 79265
+# pulled users in window: 18
+# pulled requests in window: 56
+# pulled tweets in window: 8631
+# queried users: 98100
+# pulled users: 18784
+# pulled missed: 79316
+# pulled users in window: 67
+# pulled requests in window: 149
+# pulled tweets in window: 19392
+# queried users: 98200
+# pulled users: 18834
+# pulled missed: 79366
+# pulled users in window: 117
+# pulled requests in window: 308
+# pulled tweets in window: 44317
+# queried users: 98300
+# pulled users: 18899
+# pulled missed: 79401
+# pulled users in window: 182
+# pulled requests in window: 413
+# pulled tweets in window: 54727
+# queried users: 98400
+# pulled users: 18951
+# pulled missed: 79449
+# pulled users in window: 234
+# pulled requests in window: 523
+# pulled tweets in window: 69025
+# queried users: 98500
+# pulled users: 19007
+# pulled missed: 79493
+# pulled users in window: 290
+# pulled requests in window: 657
+# pulled tweets in window: 87625
+# queried users: 98600
+# pulled users: 19071
+# pulled missed: 79529
+# pulled users in window: 354
+# pulled requests in window: 821
+# pulled tweets in window: 110975
+Saved in user_timeline_382_users_895_requests_121343_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_7a77619a-8adf-4a72-bb51-3dd82b551f4a.json.bz2
+Computing Time: 537 sec
+
+# queried users: 98700
+# pulled users: 19128
+# pulled missed: 79572
+# pulled users in window: 29
+# pulled requests in window: 42
+# pulled tweets in window: 4123
+# queried users: 98800
+# pulled users: 19181
+# pulled missed: 79619
+# pulled users in window: 82
+# pulled requests in window: 245
+# pulled tweets in window: 36548
+# queried users: 98900
+# pulled users: 19234
+# pulled missed: 79666
+# pulled users in window: 135
+# pulled requests in window: 403
+# pulled tweets in window: 59720
+# queried users: 99000
+# pulled users: 19289
+# pulled missed: 79711
+# pulled users in window: 190
+# pulled requests in window: 498
+# pulled tweets in window: 69633
+# queried users: 99100
+# pulled users: 19353
+# pulled missed: 79747
+# pulled users in window: 254
+# pulled requests in window: 627
+# pulled tweets in window: 85292
+# queried users: 99200
+# pulled users: 19411
+# pulled missed: 79789
+# pulled users in window: 312
+# pulled requests in window: 730
+# pulled tweets in window: 96714
+# queried users: 99300
+# pulled users: 19470
+# pulled missed: 79830
+# pulled users in window: 371
+# pulled requests in window: 852
+# pulled tweets in window: 112129
+Saved in user_timeline_383_users_894_requests_118922_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_e83fd48b-38f7-4c80-989b-849d9181f04c.json.bz2
+Computing Time: 519 sec
+
+# queried users: 99400
+# pulled users: 19532
+# pulled missed: 79868
+# pulled users in window: 50
+# pulled requests in window: 117
+# pulled tweets in window: 15468
+# queried users: 99500
+# pulled users: 19596
+# pulled missed: 79904
+# pulled users in window: 114
+# pulled requests in window: 286
+# pulled tweets in window: 39322
+# queried users: 99600
+# pulled users: 19658
+# pulled missed: 79942
+# pulled users in window: 176
+# pulled requests in window: 460
+# pulled tweets in window: 64586
+# queried users: 99700
+# pulled users: 19714
+# pulled missed: 79986
+# pulled users in window: 232
+# pulled requests in window: 581
+# pulled tweets in window: 80022
+# queried users: 99800
+# pulled users: 19773
+# pulled missed: 80027
+# pulled users in window: 291
+# pulled requests in window: 707
+# pulled tweets in window: 97556
+# queried users: 99900
+# pulled users: 19833
+# pulled missed: 80067
+# pulled users in window: 351
+# pulled requests in window: 854
+# pulled tweets in window: 117295
+Saved in user_timeline_373_users_881_requests_119030_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_7f943f70-91a6-4bcc-b02c-da405e6830e4.json.bz2
+Computing Time: 514 sec
+
+# queried users: 100000
+# pulled users: 19893
+# pulled missed: 80107
+# pulled users in window: 38
+# pulled requests in window: 116
+# pulled tweets in window: 16618
+# queried users: 100100
+# pulled users: 19947
+# pulled missed: 80153
+# pulled users in window: 92
+# pulled requests in window: 269
+# pulled tweets in window: 38845
+# queried users: 100200
+# pulled users: 20003
+# pulled missed: 80197
+# pulled users in window: 148
+# pulled requests in window: 416
+# pulled tweets in window: 59431
+# queried users: 100300
+# pulled users: 20053
+# pulled missed: 80247
+# pulled users in window: 198
+# pulled requests in window: 539
+# pulled tweets in window: 76671
+# queried users: 100400
+# pulled users: 20108
+# pulled missed: 80292
+# pulled users in window: 253
+# pulled requests in window: 647
+# pulled tweets in window: 89198
+# queried users: 100500
+# pulled users: 20162
+# pulled missed: 80338
+# pulled users in window: 307
+# pulled requests in window: 823
+# pulled tweets in window: 116261
+Saved in user_timeline_329_users_891_requests_126443_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_256d0c3a-8886-4501-ad71-8cb1ec590a30.json.bz2
+Computing Time: 527 sec
+
+# queried users: 100600
+# pulled users: 20222
+# pulled missed: 80378
+# pulled users in window: 38
+# pulled requests in window: 106
+# pulled tweets in window: 15175
+# queried users: 100700
+# pulled users: 20274
+# pulled missed: 80426
+# pulled users in window: 90
+# pulled requests in window: 205
+# pulled tweets in window: 26984
+# queried users: 100800
+# pulled users: 20331
+# pulled missed: 80469
+# pulled users in window: 147
+# pulled requests in window: 288
+# pulled tweets in window: 34018
+# queried users: 100900
+# pulled users: 20387
+# pulled missed: 80513
+# pulled users in window: 203
+# pulled requests in window: 444
+# pulled tweets in window: 56741
+# queried users: 101000
+# pulled users: 20454
+# pulled missed: 80546
+# pulled users in window: 270
+# pulled requests in window: 598
+# pulled tweets in window: 77234
+# queried users: 101100
+# pulled users: 20499
+# pulled missed: 80601
+# pulled users in window: 315
+# pulled requests in window: 665
+# pulled tweets in window: 83803
+# queried users: 101200
+# pulled users: 20554
+# pulled missed: 80646
+# pulled users in window: 370
+# pulled requests in window: 785
+# pulled tweets in window: 99674
+# queried users: 101300
+# pulled users: 20604
+# pulled missed: 80696
+# pulled users in window: 420
+# pulled requests in window: 866
+# pulled tweets in window: 108896
+Saved in user_timeline_431_users_881_requests_109935_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_1a65f935-0ce0-4208-8663-81cecbadf899.json.bz2
+Computing Time: 522 sec
+
+# queried users: 101400
+# pulled users: 20657
+# pulled missed: 80743
+# pulled users in window: 42
+# pulled requests in window: 105
+# pulled tweets in window: 15109
+# queried users: 101500
+# pulled users: 20706
+# pulled missed: 80794
+# pulled users in window: 91
+# pulled requests in window: 242
+# pulled tweets in window: 35543
+# queried users: 101600
+# pulled users: 20766
+# pulled missed: 80834
+# pulled users in window: 151
+# pulled requests in window: 348
+# pulled tweets in window: 47563
+# queried users: 101700
+# pulled users: 20818
+# pulled missed: 80882
+# pulled users in window: 203
+# pulled requests in window: 520
+# pulled tweets in window: 73984
+# queried users: 101800
+# pulled users: 20875
+# pulled missed: 80925
+# pulled users in window: 260
+# pulled requests in window: 703
+# pulled tweets in window: 102569
+# queried users: 101900
+# pulled users: 20922
+# pulled missed: 80978
+# pulled users in window: 307
+# pulled requests in window: 836
+# pulled tweets in window: 122327
+Saved in user_timeline_325_users_881_requests_128868_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_2d73ce26-d5d2-42b4-baf2-5548f76dee76.json.bz2
+Computing Time: 537 sec
+
+# queried users: 102000
+# pulled users: 20976
+# pulled missed: 81024
+# pulled users in window: 36
+# pulled requests in window: 109
+# pulled tweets in window: 16323
+# queried users: 102100
+# pulled users: 21036
+# pulled missed: 81064
+# pulled users in window: 96
+# pulled requests in window: 273
+# pulled tweets in window: 40090
+# queried users: 102200
+# pulled users: 21095
+# pulled missed: 81105
+# pulled users in window: 155
+# pulled requests in window: 406
+# pulled tweets in window: 57798
+# queried users: 102300
+# pulled users: 21158
+# pulled missed: 81142
+# pulled users in window: 218
+# pulled requests in window: 617
+# pulled tweets in window: 90049
+# queried users: 102400
+# pulled users: 21221
+# pulled missed: 81179
+# pulled users in window: 281
+# pulled requests in window: 753
+# pulled tweets in window: 107744
+# queried users: 102500
+# pulled users: 21277
+# pulled missed: 81223
+# pulled users in window: 337
+# pulled requests in window: 870
+# pulled tweets in window: 122472
+Saved in user_timeline_346_users_887_requests_124527_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_12bff4d3-6c8f-4aaf-985a-41409fa15e0c.json.bz2
+Computing Time: 548 sec
+
+# queried users: 102600
+# pulled users: 21337
+# pulled missed: 81263
+# pulled users in window: 51
+# pulled requests in window: 115
+# pulled tweets in window: 14944
+# queried users: 102700
+# pulled users: 21399
+# pulled missed: 81301
+# pulled users in window: 113
+# pulled requests in window: 255
+# pulled tweets in window: 33311
+# queried users: 102800
+# pulled users: 21458
+# pulled missed: 81342
+# pulled users in window: 172
+# pulled requests in window: 358
+# pulled tweets in window: 44501
+# queried users: 102900
+# pulled users: 21518
+# pulled missed: 81382
+# pulled users in window: 232
+# pulled requests in window: 575
+# pulled tweets in window: 79791
+# queried users: 103000
+# pulled users: 21575
+# pulled missed: 81425
+# pulled users in window: 289
+# pulled requests in window: 725
+# pulled tweets in window: 100949
+# queried users: 103100
+# pulled users: 21632
+# pulled missed: 81468
+# pulled users in window: 346
+# pulled requests in window: 865
+# pulled tweets in window: 119512
+Saved in user_timeline_355_users_881_requests_121389_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_5ea2abdd-5cd8-4d64-a3ae-c734a2401b07.json.bz2
+Computing Time: 543 sec
+
+# queried users: 103200
+# pulled users: 21683
+# pulled missed: 81517
+# pulled users in window: 42
+# pulled requests in window: 70
+# pulled tweets in window: 7756
+# queried users: 103300
+# pulled users: 21748
+# pulled missed: 81552
+# pulled users in window: 107
+# pulled requests in window: 256
+# pulled tweets in window: 35102
+# queried users: 103400
+# pulled users: 21799
+# pulled missed: 81601
+# pulled users in window: 158
+# pulled requests in window: 379
+# pulled tweets in window: 51781
+# queried users: 103500
+# pulled users: 21863
+# pulled missed: 81637
+# pulled users in window: 222
+# pulled requests in window: 540
+# pulled tweets in window: 74303
+# queried users: 103600
+# pulled users: 21915
+# pulled missed: 81685
+# pulled users in window: 274
+# pulled requests in window: 627
+# pulled tweets in window: 83198
+# queried users: 103700
+# pulled users: 21971
+# pulled missed: 81729
+# pulled users in window: 330
+# pulled requests in window: 750
+# pulled tweets in window: 99250
+Saved in user_timeline_385_users_881_requests_116870_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_11dc8c78-c02e-43b3-a9c4-8d590ffd9cac.json.bz2
+Computing Time: 531 sec
+
+# queried users: 103800
+# pulled users: 22031
+# pulled missed: 81769
+# pulled users in window: 5
+# pulled requests in window: 5
+# pulled tweets in window: 107
+# queried users: 103900
+# pulled users: 22090
+# pulled missed: 81810
+# pulled users in window: 64
+# pulled requests in window: 194
+# pulled tweets in window: 29136
+# queried users: 104000
+# pulled users: 22142
+# pulled missed: 81858
+# pulled users in window: 116
+# pulled requests in window: 339
+# pulled tweets in window: 49807
+# queried users: 104100
+# pulled users: 22202
+# pulled missed: 81898
+# pulled users in window: 176
+# pulled requests in window: 484
+# pulled tweets in window: 69427
+# queried users: 104200
+# pulled users: 22263
+# pulled missed: 81937
+# pulled users in window: 237
+# pulled requests in window: 633
+# pulled tweets in window: 89650
+# queried users: 104300
+# pulled users: 22324
+# pulled missed: 81976
+# pulled users in window: 298
+# pulled requests in window: 778
+# pulled tweets in window: 109231
+Saved in user_timeline_342_users_885_requests_123457_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_f0879bea-71f2-4f0d-b77d-f1f0c74757d6.json.bz2
+Computing Time: 527 sec
+
+# queried users: 104400
+# pulled users: 22382
+# pulled missed: 82018
+# pulled users in window: 14
+# pulled requests in window: 33
+# pulled tweets in window: 4429
+# queried users: 104500
+# pulled users: 22438
+# pulled missed: 82062
+# pulled users in window: 70
+# pulled requests in window: 156
+# pulled tweets in window: 19768
+# queried users: 104600
+# pulled users: 22493
+# pulled missed: 82107
+# pulled users in window: 125
+# pulled requests in window: 310
+# pulled tweets in window: 42600
+# queried users: 104700
+# pulled users: 22556
+# pulled missed: 82144
+# pulled users in window: 188
+# pulled requests in window: 451
+# pulled tweets in window: 60440
+# queried users: 104800
+# pulled users: 22610
+# pulled missed: 82190
+# pulled users in window: 242
+# pulled requests in window: 600
+# pulled tweets in window: 81583
+# queried users: 104900
+# pulled users: 22667
+# pulled missed: 82233
+# pulled users in window: 299
+# pulled requests in window: 735
+# pulled tweets in window: 99031
+# queried users: 105000
+# pulled users: 22723
+# pulled missed: 82277
+# pulled users in window: 355
+# pulled requests in window: 856
+# pulled tweets in window: 114400
+Saved in user_timeline_368_users_881_requests_117597_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_017bac84-0b6a-4216-ac21-4c0677326807.json.bz2
+Computing Time: 525 sec
+
+# queried users: 105100
+# pulled users: 22784
+# pulled missed: 82316
+# pulled users in window: 48
+# pulled requests in window: 151
+# pulled tweets in window: 22995
+# queried users: 105200
+# pulled users: 22836
+# pulled missed: 82364
+# pulled users in window: 100
+# pulled requests in window: 209
+# pulled tweets in window: 26672
+# queried users: 105300
+# pulled users: 22898
+# pulled missed: 82402
+# pulled users in window: 162
+# pulled requests in window: 363
+# pulled tweets in window: 48659
+# queried users: 105400
+# pulled users: 22950
+# pulled missed: 82450
+# pulled users in window: 214
+# pulled requests in window: 448
+# pulled tweets in window: 57956
+# queried users: 105500
+# pulled users: 23001
+# pulled missed: 82499
+# pulled users in window: 265
+# pulled requests in window: 536
+# pulled tweets in window: 67777
+# queried users: 105600
+# pulled users: 23056
+# pulled missed: 82544
+# pulled users in window: 320
+# pulled requests in window: 688
+# pulled tweets in window: 90218
+# queried users: 105700
+# pulled users: 23115
+# pulled missed: 82585
+# pulled users in window: 379
+# pulled requests in window: 802
+# pulled tweets in window: 103347
+Saved in user_timeline_420_users_881_requests_112287_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_828762e2-f5b9-450f-89d4-917c9a4698e5.json.bz2
+Computing Time: 510 sec
+
+# queried users: 105800
+# pulled users: 23173
+# pulled missed: 82627
+# pulled users in window: 17
+# pulled requests in window: 25
+# pulled tweets in window: 2342
+# queried users: 105900
+# pulled users: 23231
+# pulled missed: 82669
+# pulled users in window: 75
+# pulled requests in window: 173
+# pulled tweets in window: 22742
+# queried users: 106000
+# pulled users: 23289
+# pulled missed: 82711
+# pulled users in window: 133
+# pulled requests in window: 294
+# pulled tweets in window: 38676
+Saved in user_timeline_152_users_333_requests_43846_tweets_US_01122022_full_min_timestamp=None_max_timestamp=None_27550335_12_0b33efb1-0c82-4019-b208-97999febdd9c.json.bz2
+Computing Time: 182 sec
+
+
+real	940m52.799s
+user	173m41.325s
+sys	3m23.636s

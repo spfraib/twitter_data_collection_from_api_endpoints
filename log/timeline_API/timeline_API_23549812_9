@@ -1,0 +1,56 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+Max auth of 15 users per app
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 23549812
+SLURM_ARRAY_TASK_ID : 9
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1394025
+Computing Time: 16 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1394025 entries, 0 to 1394024
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1394025 non-null  object
+ 1   country_short  1394025 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 31.9+ MB
+key files: 30
+# keys: 30
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-david.json
+Country: US
+Pull: full
+# users: 1227767
+
+# queried users: 100
+# pulled users: 77
+# pulled missed: 23
+# pulled users in window: 77
+# pulled requests in window: 250
+# pulled tweets in window: 40177
+# queried users: 200
+# pulled users: 155
+# pulled missed: 45
+# pulled users in window: 155
+# pulled requests in window: 462
+# pulled tweets in window: 72622
+# queried users: 300
+# pulled users: 239
+# pulled missed: 61
+# pulled users in window: 239
+# pulled requests in window: 894
+# pulled tweets in window: 147168
+Saved in user_timeline_239_users_894_requests_147168_tweets_US_14082022_no_updates_no_neighbors_full_23549812_9_b1d17556-13da-46f3-91f9-0395854aa7d9.json.bz2
+Computing Time: 549 sec
+

@@ -1,0 +1,53 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+Max auth of 20 users per app
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 23549611
+SLURM_ARRAY_TASK_ID : 8
+SLURM_ARRAY_TASK_COUNT : 40
+Load and select users:
+# users: 1042696
+Computing Time: 12 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1042696 entries, 0 to 1042695
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1042696 non-null  object
+ 1   country_short  1042696 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 23.9+ MB
+key files: 40
+# keys: 40
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-carolina2.json
+Country: US
+Pull: full
+# users: 918373
+
+# queried users: 100
+# pulled users: 70
+# pulled missed: 30
+# pulled users in window: 70
+# pulled requests in window: 154
+# pulled tweets in window: 21904
+# queried users: 200
+# pulled users: 123
+# pulled missed: 77
+# pulled users in window: 123
+# pulled requests in window: 271
+# pulled tweets in window: 37412
+# queried users: 300
+# pulled users: 182
+# pulled missed: 118
+# pulled users in window: 182
+# pulled requests in window: 407
+# pulled tweets in window: 56346

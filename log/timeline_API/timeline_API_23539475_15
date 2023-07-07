@@ -1,0 +1,40 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+Store after 100000 records
+Compression ratio: 18
+id_type: user_id
+app: spfraib_sentiments
+wait_in_sec: 600
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+13082022_no_updates_no_neighbors
+SLURM_JOB_ID : 23539475
+SLURM_ARRAY_TASK_ID : 15
+SLURM_ARRAY_TASK_COUNT : 73
+Load and select users:
+# users: 583756
+Computing Time: 9 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 583756 entries, 3236290 to 8172734
+Data columns (total 3 columns):
+ #   Column         Non-Null Count   Dtype 
+---  ------         --------------   ----- 
+ 0   user_id        583756 non-null  object
+ 1   country_short  583756 non-null  object
+ 2   tweet_id       0 non-null       object
+dtypes: object(3)
+memory usage: 17.8+ MB
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-bot_NG_HafsatA1903.json
+Traceback (most recent call last):
+  File "./code/timeline_API.py", line 130, in <module>
+    api = get_API_auth(key_file)
+  File "./code/timeline_API.py", line 118, in get_API_auth
+    api_auth = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+TypeError: __init__() got an unexpected keyword argument 'wait_on_rate_limit_notify'
+
+real	0m10.189s
+user	0m5.754s
+sys	0m2.189s

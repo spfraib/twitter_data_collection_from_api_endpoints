@@ -1,0 +1,44 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+Store after 100000 records
+Compression ratio: 18
+id_type: user_id
+app: spfraib_sentiments
+wait_in_sec: 10
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+13082022_no_updates_no_neighbors
+SLURM_JOB_ID : 23533973
+SLURM_ARRAY_TASK_ID : 39
+SLURM_ARRAY_TASK_COUNT : 73
+Load and select users:
+# users: 560850
+Computing Time: 6 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 560850 entries, 2402348 to 191074
+Data columns (total 3 columns):
+ #   Column         Non-Null Count   Dtype 
+---  ------         --------------   ----- 
+ 0   user_id        560850 non-null  object
+ 1   country_short  560850 non-null  object
+ 2   tweet_id       0 non-null       object
+dtypes: object(3)
+memory usage: 17.1+ MB
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-carolina2.json
+Country: US
+Pull: full
+# users: 494002
+
+Traceback (most recent call last):
+  File "./code/timeline_API.py", line 220, in <module>
+    pull_and_store(users_tmp)
+  File "./code/timeline_API.py", line 182, in pull_and_store
+    dirname = os.path.join(path_to_output,'user_timeline','API',country_code,name,pull_type)
+NameError: name 'country_code' is not defined
+
+real	27m9.994s
+user	3m23.649s
+sys	0m7.439s

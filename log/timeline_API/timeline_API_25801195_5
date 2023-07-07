@@ -1,0 +1,94 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['NG']
+pull_type: full
+neighbors: True
+max_timestamp: 9/1/2022
+min_timestamp: 1/1/2019
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 10102022
+id_type: user_id
+Max auth of 35 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+key files: 70
+SLURM_JOB_ID : 25801195
+SLURM_ARRAY_TASK_ID : 5
+SLURM_ARRAY_TASK_COUNT : 40
+Load and select users:
+# users: 425021
+keep full timelines...
+# users: 212273
+drop duplicates...
+# users: 212273
+Computing Time: 8 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 212273 entries, 0 to 212272
+Data columns (total 4 columns):
+ #   Column           Non-Null Count   Dtype         
+---  ------           --------------   -----         
+ 0   user_id          212273 non-null  object        
+ 1   country_short    212273 non-null  object        
+ 2   tweet_id         0 non-null       object        
+ 3   tweet_timestamp  0 non-null       datetime64[ns]
+dtypes: datetime64[ns](1), object(3)
+memory usage: 6.5+ MB
+# keys: 70
+CHECK JOBARRAY
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/WorldBankGroup6-anton1.json
+Country: NG
+# users: 212273
+
+# queried users: 100
+# pulled users: 67
+# pulled missed: 33
+# pulled users in window: 67
+# pulled requests in window: 442
+# pulled tweets in window: 79780
+Saved in user_timeline_135_users_892_requests_161392_tweets_NG_10102022_full_25801195_5_33fe2561-b431-4ae0-8eb9-3698dbb91f96.json.bz2
+Computing Time: 701 sec
+
+# queried users: 200
+# pulled users: 137
+# pulled missed: 63
+# pulled users in window: 2
+# pulled requests in window: 2
+# pulled tweets in window: 111
+# queried users: 300
+# pulled users: 201
+# pulled missed: 99
+# pulled users in window: 66
+# pulled requests in window: 330
+# pulled tweets in window: 57857
+# queried users: 400
+# pulled users: 263
+# pulled missed: 137
+# pulled users in window: 128
+# pulled requests in window: 775
+# pulled tweets in window: 138257
+Saved in user_timeline_147_users_884_requests_157363_tweets_NG_10102022_full_25801195_5_4540c3ba-8f3c-4767-8f6b-0a4c147abc78.json.bz2
+Computing Time: 691 sec
+
+# queried users: 500
+# pulled users: 328
+# pulled missed: 172
+# pulled users in window: 46
+# pulled requests in window: 379
+# pulled tweets in window: 70274
+Saved in user_timeline_116_users_881_requests_161878_tweets_NG_10102022_full_25801195_5_e54a1f84-5e0c-407d-8fa7-7ba9c420fdc7.json.bz2
+Computing Time: 688 sec
+
+# queried users: 600
+# pulled users: 402
+# pulled missed: 198
+# pulled users in window: 4
+# pulled requests in window: 51
+# pulled tweets in window: 9613
+# queried users: 700
+# pulled users: 476
+# pulled missed: 224
+# pulled users in window: 78
+# pulled requests in window: 512
+# pulled tweets in window: 92564

@@ -1,0 +1,56 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+14082022_no_updates_no_neighbors
+id_type: user_id
+Max auth of 15 users per app
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 23549826
+SLURM_ARRAY_TASK_ID : 23
+SLURM_ARRAY_TASK_COUNT : 30
+Load and select users:
+# users: 1373274
+Computing Time: 14 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1373274 entries, 0 to 1373273
+Data columns (total 3 columns):
+ #   Column         Non-Null Count    Dtype 
+---  ------         --------------    ----- 
+ 0   user_id        1373274 non-null  object
+ 1   country_short  1373274 non-null  object
+ 2   tweet_id       0 non-null        object
+dtypes: object(3)
+memory usage: 31.4+ MB
+key files: 30
+# keys: 30
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-manu.json
+Country: US
+Pull: full
+# users: 1208726
+
+# queried users: 100
+# pulled users: 79
+# pulled missed: 21
+# pulled users in window: 79
+# pulled requests in window: 269
+# pulled tweets in window: 43598
+# queried users: 200
+# pulled users: 157
+# pulled missed: 43
+# pulled users in window: 157
+# pulled requests in window: 544
+# pulled tweets in window: 87927
+# queried users: 300
+# pulled users: 229
+# pulled missed: 71
+# pulled users in window: 229
+# pulled requests in window: 817
+# pulled tweets in window: 133627
+Saved in user_timeline_251_users_886_requests_144250_tweets_US_14082022_no_updates_no_neighbors_full_23549826_23_3ce0763e-7758-40af-a3a8-30da30304d95.json.bz2
+Computing Time: 562 sec
+

@@ -1,0 +1,76 @@
+WARNING: Could not find any nv files on this host!
+Countries: ['US', 'MX']
+updates: False
+neighbors: False
+Store after 100000 records
+Compression ratio: 18
+id_type: user_id
+app: spfraib_sentiments
+wait_in_sec: 10
+/scratch/spf248/twitter_data_collection/data
+/scratch/spf248/twitter_labor_market_flows/data
+13082022_no_updates_no_neighbors
+SLURM_JOB_ID : 23535365
+SLURM_ARRAY_TASK_ID : 1
+SLURM_ARRAY_TASK_COUNT : 73
+Load and select users:
+# users: 584227
+Computing Time: 7 sec
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 584227 entries, 874126 to 4177893
+Data columns (total 3 columns):
+ #   Column         Non-Null Count   Dtype 
+---  ------         --------------   ----- 
+ 0   user_id        584227 non-null  object
+ 1   country_short  584227 non-null  object
+ 2   tweet_id       0 non-null       object
+dtypes: object(3)
+memory usage: 17.8+ MB
+# keys: 73
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-alex.json
+Country: US
+Pull: full
+# users: 514490
+
+# users queried: 2139
+# users pulled: 470
+# users pulled in current file: 470
+# records pulled in current file: 100891
+Saved in user_timeline_470_users_100891_tweets_US_13082022_no_updates_no_neighbors_full_23535365_1_c0c17e67-afb0-46c3-9474-b30b147121c8.json.bz2
+Computing Time: 1261 sec
+
+# users queried: 6348
+# users pulled: 945
+# users pulled in current file: 475
+# records pulled in current file: 100988
+Saved in user_timeline_475_users_100988_tweets_US_13082022_no_updates_no_neighbors_full_23535365_1_9cff3f39-db93-4b38-8084-d012ff853631.json.bz2
+Computing Time: 1559 sec
+
+# users queried: 8733
+# users pulled: 1372
+# users pulled in current file: 427
+# records pulled in current file: 100368
+Saved in user_timeline_427_users_100368_tweets_US_13082022_no_updates_no_neighbors_full_23535365_1_b1f3278a-793f-4c57-9f0e-efa8842d3296.json.bz2
+Computing Time: 1241 sec
+
+# users queried: 9834
+# users pulled: 1683
+# users pulled in current file: 311
+# records pulled in current file: 101543
+Saved in user_timeline_311_users_101543_tweets_US_13082022_no_updates_no_neighbors_full_23535365_1_417e946a-e999-4d6c-bdd7-6e8f1d8c6fa6.json.bz2
+Computing Time: 898 sec
+
+# users queried: 55913
+# users pulled: 2176
+# users pulled in current file: 493
+# records pulled in current file: 100259
+Saved in user_timeline_493_users_100259_tweets_US_13082022_no_updates_no_neighbors_full_23535365_1_ed4c9315-0b10-4c43-928c-a75b63260107.json.bz2
+Computing Time: 8520 sec
+
+# users queried: 65085
+# users pulled: 2862
+# users pulled in current file: 686
+# records pulled in current file: 100182
+Saved in user_timeline_686_users_100182_tweets_US_13082022_no_updates_no_neighbors_full_23535365_1_5b2feb87-94e5-45b7-a47d-aa0c0c2b11cf.json.bz2
+Computing Time: 2831 sec
+

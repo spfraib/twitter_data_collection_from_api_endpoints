@@ -1,0 +1,129 @@
+WARNING: Could not find any nv files on this host!
+countries_short: ['US', 'MX', 'NG']
+pull_types: ['update']
+neighbors: False
+max_timestamp: 07/01/2022
+min_timestamp: 07/01/2019
+path_to_data: /scratch/spf248/twitter_data_collection/data
+path_to_output: /scratch/spf248/twitter_data_collection/data
+start_pull: 26082022
+id_type: user_id
+Max auth of 10 users per app
+Apps: ['spfraib_sentiments', 'WorldBankGroup6']
+Store after 880 requests
+Window of 900 sec to replenish rate limits
+Wait 10 sec to replenish rate limits
+SLURM_JOB_ID : 24135296
+SLURM_ARRAY_TASK_ID : 11
+SLURM_ARRAY_TASK_COUNT : 20
+Load and select users:
+# users: 742801
+Computing Time: 22 sec
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 742801 entries, 0 to 742800
+Data columns (total 4 columns):
+ #   Column           Non-Null Count   Dtype         
+---  ------           --------------   -----         
+ 0   user_id          742801 non-null  object        
+ 1   country_short    742801 non-null  object        
+ 2   tweet_id         742801 non-null  object        
+ 3   tweet_timestamp  742801 non-null  datetime64[ns]
+dtypes: datetime64[ns](1), object(3)
+memory usage: 22.7+ MB
+key files: 20
+# keys: 20
+key file: /scratch/spf248/twitter_data_collection/data/../keys/v1/spfraib_sentiments-dhaval.json
+Country: US
+Pull: update
+# users: 589525
+
+# queried users: 100
+# pulled users: 92
+# pulled missed: 8
+# pulled users in window: 92
+# pulled requests in window: 134
+# pulled tweets in window: 9822
+# queried users: 200
+# pulled users: 182
+# pulled missed: 18
+# pulled users in window: 182
+# pulled requests in window: 239
+# pulled tweets in window: 13652
+# queried users: 300
+# pulled users: 268
+# pulled missed: 32
+# pulled users in window: 268
+# pulled requests in window: 356
+# pulled tweets in window: 20754
+# queried users: 400
+# pulled users: 351
+# pulled missed: 49
+# pulled users in window: 351
+# pulled requests in window: 479
+# pulled tweets in window: 29504
+# queried users: 500
+# pulled users: 437
+# pulled missed: 63
+# pulled users in window: 437
+# pulled requests in window: 588
+# pulled tweets in window: 34861
+# queried users: 600
+# pulled users: 520
+# pulled missed: 80
+# pulled users in window: 520
+# pulled requests in window: 701
+# pulled tweets in window: 41565
+# queried users: 700
+# pulled users: 611
+# pulled missed: 89
+# pulled users in window: 611
+# pulled requests in window: 823
+# pulled tweets in window: 48810
+Saved in user_timeline_662_users_881_requests_50340_tweets_US_26082022_update_24135296_11_f3e9a8b5-4476-453d-ae54-c6c9643c6808.json.bz2
+Computing Time: 440 sec
+
+# queried users: 800
+# pulled users: 697
+# pulled missed: 103
+# pulled users in window: 35
+# pulled requests in window: 50
+# pulled tweets in window: 3504
+# queried users: 900
+# pulled users: 790
+# pulled missed: 110
+# pulled users in window: 128
+# pulled requests in window: 188
+# pulled tweets in window: 13753
+# queried users: 1000
+# pulled users: 881
+# pulled missed: 119
+# pulled users in window: 219
+# pulled requests in window: 318
+# pulled tweets in window: 22809
+# queried users: 1100
+# pulled users: 967
+# pulled missed: 133
+# pulled users in window: 305
+# pulled requests in window: 419
+# pulled tweets in window: 26948
+# queried users: 1200
+# pulled users: 1056
+# pulled missed: 144
+# pulled users in window: 394
+# pulled requests in window: 555
+# pulled tweets in window: 37301
+# queried users: 1300
+# pulled users: 1142
+# pulled missed: 158
+# pulled users in window: 480
+# pulled requests in window: 648
+# pulled tweets in window: 39493
+# queried users: 1400
+# pulled users: 1229
+# pulled missed: 171
+# pulled users in window: 567
+# pulled requests in window: 782
+# pulled tweets in window: 50230
+Saved in user_timeline_642_users_882_requests_55753_tweets_US_26082022_update_24135296_11_457b1ea8-1b61-4ab7-9864-58c10abe768c.json.bz2
+Computing Time: 453 sec
+
